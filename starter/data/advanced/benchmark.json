@@ -1,0 +1,491 @@
+[
+  {
+    "id": "adv-dev-01",
+    "split": "dev",
+    "category": "table",
+    "question": "According to Table S1.1, how much memory is needed and where can a small AI model with up to 10 billion parameters operate?",
+    "expected_answer": "It needs 2–20 GB of memory, can operate on a phone or laptop computer, and requires no connectivity (None).",
+    "source": "Table S1.1",
+    "page": "PDF p.136 (printed p.102)",
+    "evidence": "Table S1.1: Up to 10 billion | 2–20 GB | Phone or laptop computer | None"
+  },
+  {
+    "id": "adv-dev-02",
+    "split": "dev",
+    "category": "table",
+    "question": "In Table S1.2, which two applications run on a small model on a phone offline, and what does each do?",
+    "expected_answer": "Nuru (Agriculture: diagnoses crop disease from a leaf photo) and Cough Against TB (Health: screens for tuberculosis from a cough).",
+    "source": "Table S1.2",
+    "page": "PDF p.137 (printed p.103)",
+    "evidence": "Table S1.2 lists Nuru and Cough Against TB as 'Small model on phone, offline'."
+  },
+  {
+    "id": "adv-dev-03",
+    "split": "dev",
+    "category": "table",
+    "question": "According to Table O.1, which two companies headquartered in China are listed as leading publicly listed AI-related companies?",
+    "expected_answer": "Alibaba and Tencent.",
+    "source": "Table O.1",
+    "page": "PDF p.43 (printed p.9)",
+    "evidence": "Table O.1 under 'Headquartered in China' lists Alibaba and Tencent."
+  },
+  {
+    "id": "adv-dev-04",
+    "split": "dev",
+    "category": "table",
+    "question": "In Table 4.1, what outcome measure and result did Peng et al. (2023) report for software developers using GitHub Copilot?",
+    "expected_answer": "Outcome measure: Percent time saved per task; Result: 56 percent.",
+    "source": "Table 4.1",
+    "page": "PDF p.156 (printed p.122)",
+    "evidence": "Table 4.1 row Peng et al. (2023): Software developers/programming | Percent time saved per task | 56 percent."
+  },
+  {
+    "id": "adv-dev-05",
+    "split": "dev",
+    "category": "diagram_map",
+    "question": "According to Figure O.1, what are the three pathways through which AI's capabilities, concentration, and complements determine its economic, social, and political impacts?",
+    "expected_answer": "Adopt (off-the-shelf AI), Adapt (AI to local contexts), and Advance (the AI frontier).",
+    "source": "Figure O.1",
+    "page": "PDF p.40 (printed p.6)",
+    "evidence": "Figure O.1 diagram shows the three pathways: ADOPT, ADAPT, and ADVANCE."
+  },
+  {
+    "id": "adv-dev-06",
+    "split": "dev",
+    "category": "diagram_map",
+    "question": "What are the five steps in Figure 8.1 ('A practical road map for AI in government')?",
+    "expected_answer": "1. Problem selection, 2. Institutional capacity, 3. AI-ready data, 4. Evaluation and monitoring, and 5. Procurement.",
+    "source": "Figure 8.1",
+    "page": "PDF p.309 (printed p.275)",
+    "evidence": "Figure 8.1 lists five steps: Problem selection, Institutional capacity, AI-ready data, Evaluation and monitoring, Procurement."
+  },
+  {
+    "id": "adv-dev-07",
+    "split": "dev",
+    "category": "diagram_map",
+    "question": "What does Map 7.1 measure and what pattern does it show?",
+    "expected_answer": "Map 7.1 measures the number of data centers per million population and shows that data centers are concentrated in developed countries compared to developing countries.",
+    "source": "Map 7.1",
+    "page": "PDF p.284 (printed p.250)",
+    "evidence": "Map 7.1 title: 'Data centers are concentrated in developed countries', units: Number of data centers per million population."
+  },
+  {
+    "id": "adv-dev-08",
+    "split": "dev",
+    "category": "chart",
+    "question": "In Figure 3.1, what share of (a) all AI models and (b) AI frontier models are developed in the United States?",
+    "expected_answer": "50.0% of all AI models and 71.3% of AI frontier models.",
+    "source": "Figure 3.1",
+    "page": "PDF p.119 (printed p.85)",
+    "evidence": "Figure 3.1a United States: 50.0%; Figure 3.1b United States: 71.3%."
+  },
+  {
+    "id": "adv-dev-09",
+    "split": "dev",
+    "category": "chart",
+    "question": "According to Figure 3.2 panel a, what percentage of global URLs in 2026 are in English?",
+    "expected_answer": "42.6%.",
+    "source": "Figure 3.2",
+    "page": "PDF p.120 (printed p.86)",
+    "evidence": "Figure 3.2a Global URLs, by language, 2026: English 42.6%."
+  },
+  {
+    "id": "adv-dev-10",
+    "split": "dev",
+    "category": "chart",
+    "question": "In Figure S4.1, what is the projected global data center electricity consumption in 2030 for the United States and for China?",
+    "expected_answer": "1,000 TWh for the United States and 1,000 TWh for China (each).",
+    "source": "Figure S4.1",
+    "page": "PDF p.262 (printed p.228)",
+    "evidence": "Figure S4.1 (2030): United States 1,000 TWh, China 1,000 TWh."
+  },
+  {
+    "id": "adv-dev-11",
+    "split": "dev",
+    "category": "chart",
+    "question": "In Figure 2.2, which country has the largest positive average net inflow of top AI authors and inventors (2011–24), and which country has the largest net outflow?",
+    "expected_answer": "The United States has the largest net inflow (+197), and India has the largest net outflow (-200).",
+    "source": "Figure 2.2",
+    "page": "PDF p.106 (printed p.72)",
+    "evidence": "Figure 2.2: United States +197, India -200."
+  },
+  {
+    "id": "adv-dev-12",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "Using Table S1.2 and Table S1.3, compare PROMPTS and Rori in terms of sector, model type/deployment, and how Small AI compares to Large AI on cost per use and connectivity needed.",
+    "expected_answer": "PROMPTS is in Health and runs a small model on its own server over text, whereas Rori is in Education and runs a large model in the cloud over text. According to Table S1.3, Small AI has lower cost per use and lower connectivity needed than Large AI.",
+    "source": "Table S1.2 & Table S1.3",
+    "page": "PDF p.137 (printed p.103)",
+    "evidence": "Table S1.2 compares PROMPTS and Rori; Table S1.3 shows Small AI is Lower on cost per use and connectivity needed vs Large AI Higher."
+  },
+  {
+    "id": "adv-dev-13",
+    "split": "dev",
+    "category": "multi_hop",
+    "question": "Compare the United States' share of all AI models in Figure 3.1 with its net AI talent flow in Figure 2.2—what do these two figures together illustrate about AI concentration?",
+    "expected_answer": "The US develops 50.0% of all AI models and 71.3% of frontier models (Figure 3.1) and is the dominant magnet for top AI talent with a net inflow of +197 authors/inventors in 2011–24 (Figure 2.2), showing high geographic concentration of AI capabilities.",
+    "source": "Figure 2.2 & Figure 3.1",
+    "page": "PDF p.106 & p.119",
+    "evidence": "Figure 2.2 (+197 US) and Figure 3.1 (50.0% all, 71.3% frontier)."
+  },
+  {
+    "id": "adv-dev-14",
+    "split": "dev",
+    "category": "text",
+    "question": "How many people living in low- and middle-income countries does WDR 2026 state this Report assesses AI for, and what prior World Development Report (2016) concept does it reference?",
+    "expected_answer": "6.8 billion people living in low- and middle-income countries; it references 'analog complements' from World Development Report 2016: Digital Dividends.",
+    "source": "Overview",
+    "page": "PDF p.35–36 (printed p.1–2)",
+    "evidence": "PDF p.35: '6.8 billion people living in low- and middle-income countries'; PDF p.36: 'World Development Report 2016: Digital Dividends called these prerequisites the analog complements'."
+  },
+  {
+    "id": "adv-dev-15",
+    "split": "dev",
+    "category": "text",
+    "question": "What example from Kenya's judiciary is cited in the Overview regarding back-office government AI use?",
+    "expected_answer": "In Kenya, the judiciary used a predictive AI algorithm to allocate more than 10,000 court cases.",
+    "source": "Overview",
+    "page": "PDF p.52 (printed p.18)",
+    "evidence": "PDF p.52: 'In Kenya, the judiciary used a predictive AI algorithm to allocate more than 10,000 court cases'."
+  },
+  {
+    "id": "adv-dev-16",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "What is the exact 2027 projected AI capital expenditure of ByteDance in Table O.1?",
+    "expected_answer": "Abstain: Table O.1 lists leading publicly listed AI-related companies and their supply chain presence, not 2027 projected capital expenditure for ByteDance.",
+    "expected_behavior": "Abstain and state that neither ByteDance's 2027 capex nor capex figures appear in Table O.1.",
+    "source": "N/A (out of scope)",
+    "page": "N/A",
+    "evidence": "Table O.1 (PDF p.43) has no ByteDance row and no 2027 capex numbers."
+  },
+  {
+    "id": "adv-dev-17",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "According to Figure 3.2 panel b, what percentage of Hugging Face training datasets in 2026 are in Vietnamese?",
+    "expected_answer": "Abstain: Figure 3.2 panel b does not list Vietnamese separately.",
+    "expected_behavior": "Abstain and state that Vietnamese is not broken out in Figure 3.2 panel b.",
+    "source": "N/A (missing breakdown)",
+    "page": "PDF p.120",
+    "evidence": "Figure 3.2b lists English, French, Chinese, Spanish, Russian, Japanese, German, Arabic, Portuguese, Korean—not Vietnamese."
+  },
+  {
+    "id": "adv-dev-18",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "How much did low-income countries spend on AI-specific military defense systems in 2025 according to WDR 2026?",
+    "expected_answer": "Abstain: WDR 2026 does not report low-income countries' 2025 spending on AI-specific military defense systems.",
+    "expected_behavior": "Abstain clearly because this metric is not in WDR 2026.",
+    "source": "N/A (not in document)",
+    "page": "N/A",
+    "evidence": "Not reported in WDR 2026."
+  },
+  {
+    "id": "adv-test-01",
+    "split": "test",
+    "category": "table",
+    "question": "According to Table 7.1, what percentage of teachers in lower-middle-income countries reported using AI in their teaching during the last 12 months, and what percentage reported that training for using AI for teaching is highly needed?",
+    "expected_answer": "51.0% used AI in their teaching during the last 12 months, and 77.2% reported that training for using AI for teaching is highly needed.",
+    "source": "Table 7.1",
+    "page": "PDF p.277 (printed p.243)",
+    "evidence": "Table 7.1 Lower-middle-income countries column: 51.0% used AI, 77.2% training highly needed."
+  },
+  {
+    "id": "adv-test-02",
+    "split": "test",
+    "category": "table",
+    "question": "In Table S1.1, what memory and connectivity are needed for a model with more than 100 billion parameters, and where can it operate?",
+    "expected_answer": "It needs more than 200 GB of memory, constant internet connectivity, and operates in a data center.",
+    "source": "Table S1.1",
+    "page": "PDF p.136 (printed p.102)",
+    "evidence": "Table S1.1 row 'More than 100 billion': More than 200 GB | Data center | Constant internet."
+  },
+  {
+    "id": "adv-test-03",
+    "split": "test",
+    "category": "table",
+    "question": "According to Table 4.1, which study found a 39 percent increase in output for individual contributor-level consultants, and what methodology did it use?",
+    "expected_answer": "Dell'Acqua et al. (2023), using randomized trials with access to GPT-4 AI or GPT-4 AI with a prompt engineering overview.",
+    "source": "Table 4.1",
+    "page": "PDF p.156 (printed p.122)",
+    "evidence": "Table 4.1 row Dell'Acqua et al. (2023): 39 percent increase in output."
+  },
+  {
+    "id": "adv-test-04",
+    "split": "test",
+    "category": "table",
+    "question": "In Table O.1, which company is headquartered in the Netherlands and which segment(s) of the AI stack does it market products/services in?",
+    "expected_answer": "ASML Holding NV, which markets products/services in Compute (marked ●) and not in Infrastructure, Data tools, Models, or Applications (marked ○).",
+    "source": "Table O.1",
+    "page": "PDF p.43 (printed p.9)",
+    "evidence": "Table O.1: Headquartered in the Netherlands -> ASML Holding NV (Compute: ●; others: ○)."
+  },
+  {
+    "id": "adv-test-05",
+    "split": "test",
+    "category": "table",
+    "question": "According to Table 7.2 ('The AI policy matrix'), what are the Compute priorities for the 'Adopt' stage versus the 'Advance' stage?",
+    "expected_answer": "For 'Adopt', Compute is 'Not applicable'. For 'Advance', Compute priorities are domestic data centers for frontier workloads and competition policy to deal with concentration.",
+    "source": "Table 7.2",
+    "page": "PDF p.292 (printed p.258)",
+    "evidence": "Table 7.2 Compute row: Adopt = Not applicable; Advance = Domestic data centers for frontier workloads, Competition policy to deal with concentration."
+  },
+  {
+    "id": "adv-test-06",
+    "split": "test",
+    "category": "table",
+    "question": "In Table S7.1, what are the two modules in the Horizontal Coordination Layer?",
+    "expected_answer": "The Center-of-government module and the Lead-agency module.",
+    "source": "Table S7.1",
+    "page": "PDF p.372 (printed p.338)",
+    "evidence": "Table S7.1 lists Center-of-government module and Lead-agency module."
+  },
+  {
+    "id": "adv-test-07",
+    "split": "test",
+    "category": "diagram_map",
+    "question": "According to Figure O.4, give the specific example shown for the 'ADAPT' pathway and for the 'ADVANCE' pathway.",
+    "expected_answer": "ADAPT example: adapting an AI-powered sowing application with local data on crop, soil, and seasonal conditions to provide tailored advice to farmers. ADVANCE example: training a large language model (LLM) from scratch to improve AI performance on local languages.",
+    "source": "Figure O.4",
+    "page": "PDF p.45 (printed p.11)",
+    "evidence": "Figure O.4 diagram lists concrete examples under ADOPT, ADAPT, ADVANCE."
+  },
+  {
+    "id": "adv-test-08",
+    "split": "test",
+    "category": "diagram_map",
+    "question": "List the six stages of 'The AI governance life cycle' shown in Figure 9.2.",
+    "expected_answer": "1. Assess landscape, 2. Identify gaps, 3. Extend and clarify or make instruments, 4. Build enforcement capacity, 5. Build compliance capacity, and 6. Monitor and adapt.",
+    "source": "Figure 9.2",
+    "page": "PDF p.348 (printed p.314)",
+    "evidence": "Figure 9.2 circular diagram lists steps 1 through 6."
+  },
+  {
+    "id": "adv-test-09",
+    "split": "test",
+    "category": "diagram_map",
+    "question": "In Figure S7.1 ('Applying a federated framework across government's three roles in the AI agenda'), which three ministries/agencies are listed in the Vertical Implementation Layer under the Regulator (Chapter 9) role?",
+    "expected_answer": "Consumer protection regulator (regulating AI credit scoring), Health regulator (regulating AI in medical devices), and Data protection agency (regulating personal data processing for AI training).",
+    "source": "Figure S7.1",
+    "page": "PDF p.374 (printed p.340)",
+    "evidence": "Figure S7.1 Vertical Implementation Layer lists those three regulators under Regulator (Chapter 9)."
+  },
+  {
+    "id": "adv-test-10",
+    "split": "test",
+    "category": "diagram_map",
+    "question": "What does Figure O.1 identify as the three salient characteristics of AI as a General-Purpose Technology?",
+    "expected_answer": "Capabilities (nonroutine cognitive capabilities), Concentration (global value chain concentrated in a few countries), and Complements (analog and digital complements).",
+    "source": "Figure O.1",
+    "page": "PDF p.40 (printed p.6)",
+    "evidence": "Figure O.1 top box: Capabilities, Concentration, Complements."
+  },
+  {
+    "id": "adv-test-11",
+    "split": "test",
+    "category": "diagram_map",
+    "question": "In Figure 8.1, what specific procurement rules are recommended in Step 5 ('Procurement')?",
+    "expected_answer": "Treat AI as an ongoing operational function rather than a capital project; require data portability, avoid exclusivity, build exit rights into contracts, and sustain a small internal team with real authority over vendors.",
+    "source": "Figure 8.1",
+    "page": "PDF p.309 (printed p.275)",
+    "evidence": "Figure 8.1 Step 5 Procurement details."
+  },
+  {
+    "id": "adv-test-12",
+    "split": "test",
+    "category": "chart",
+    "question": "According to Figure 3.2 panel b, what are the top three languages in Hugging Face training data sets in 2026 and their percentages?",
+    "expected_answer": "English (61.1%), French (13.9%), and Chinese (5.4%).",
+    "source": "Figure 3.2",
+    "page": "PDF p.120 (printed p.86)",
+    "evidence": "Figure 3.2b: English 61.1%, French 13.9%, Chinese 5.4%."
+  },
+  {
+    "id": "adv-test-13",
+    "split": "test",
+    "category": "chart",
+    "question": "In Figure 9.6, how many countries are parties to NONE of the 7 sampled non-UN AI governance initiatives, and how many countries in the African Group (AG) and Asia-Pacific Group (APG) are not involved?",
+    "expected_answer": "118 countries are parties to none of the initiatives; 48 of 54 countries in the African Group (AG) and 44 of 54 countries in the Asia-Pacific Group (APG) are not involved.",
+    "source": "Figure 9.6",
+    "page": "PDF p.359 (printed p.325)",
+    "evidence": "Figure 9.6: 118 countries parties to none; AG 48 of 54, APG 44 of 54."
+  },
+  {
+    "id": "adv-test-14",
+    "split": "test",
+    "category": "chart",
+    "question": "According to Figure 3.1 panel b, what percentage of AI frontier models are developed in China compared to the United States?",
+    "expected_answer": "China accounts for 4.7% of AI frontier models, compared to 71.3% for the United States.",
+    "source": "Figure 3.1",
+    "page": "PDF p.119 (printed p.85)",
+    "evidence": "Figure 3.1b: United States 71.3%, China 4.7%."
+  },
+  {
+    "id": "adv-test-15",
+    "split": "test",
+    "category": "chart",
+    "question": "In Figure S4.1, how does projected electricity consumption in global data centers change for Europe from 2024 to 2030?",
+    "expected_answer": "Europe's data center electricity consumption is projected to rise from 350 TWh in 2024 to 600 TWh in 2030.",
+    "source": "Figure S4.1",
+    "page": "PDF p.262 (printed p.228)",
+    "evidence": "Figure S4.1: Europe 2024 = 350 TWh, 2030 = 600 TWh."
+  },
+  {
+    "id": "adv-test-16",
+    "split": "test",
+    "category": "chart",
+    "question": "According to Figure 8.3, what share of Low-Income Countries (LICs) versus High-Income Countries (HICs) have adopted Tax MIS?",
+    "expected_answer": "22% of LICs have adopted Tax MIS compared to 67% of HICs.",
+    "source": "Figure 8.3",
+    "page": "PDF p.319 (printed p.285)",
+    "evidence": "Figure 8.3: Tax MIS is 22% in LICs and 67% in HICs."
+  },
+  {
+    "id": "adv-test-17",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Connecting Table 7.1 and Figure S7.1, which ministry in the Vertical Implementation Layer supports teachers with AI, and what gap between demand and supply of AI teacher training across all countries is shown in Table 7.1?",
+    "expected_answer": "The Education ministry ('AI for supporting teachers' in Figure S7.1). In Table 7.1 across all countries, 65.3% of teachers report high need for AI training while only 41.0% received AI training in the last 12 months.",
+    "source": "Table 7.1 & Figure S7.1",
+    "page": "PDF p.277 & p.374",
+    "evidence": "Figure S7.1 lists Education ministry; Table 7.1 All countries: 65.3% needed vs 41.0% received."
+  },
+  {
+    "id": "adv-test-18",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Combining Table O.1 and Table S1.1, which two companies in Table O.1 are headquartered in the Republic of Korea, and if an organization runs a small AI model of up to 10 billion parameters offline on a phone, what memory does Table S1.1 say it needs?",
+    "expected_answer": "Samsung and SK Hynix are headquartered in the Republic of Korea (Table O.1). A small AI model up to 10 billion parameters needs 2–20 GB of memory (Table S1.1).",
+    "source": "Table O.1 & Table S1.1",
+    "page": "PDF p.43 & p.136",
+    "evidence": "Table O.1 Republic of Korea: Samsung, SK Hynix; Table S1.1: 2–20 GB."
+  },
+  {
+    "id": "adv-test-19",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Using Figure 8.1 and Figure 9.2 together, what does Step 4 of Figure 8.1 recommend for government AI deployment, and how does Step 6 of Figure 9.2 mirror that in AI governance?",
+    "expected_answer": "Step 4 of Figure 8.1 ('Evaluation and monitoring') recommends setting benchmarks before deployment, validating outputs in context, monitoring for model degradation, and conducting impact evaluations. Step 6 of Figure 9.2 ('Monitor and adapt') tracks outcomes and feeds evidence back into the governance process.",
+    "source": "Figure 8.1 & Figure 9.2",
+    "page": "PDF p.309 & p.348",
+    "evidence": "Figure 8.1 Step 4 and Figure 9.2 Step 6."
+  },
+  {
+    "id": "adv-test-20",
+    "split": "test",
+    "category": "multi_hop",
+    "question": "Based on Table S1.2 and Figure 3.2 panel a, which health application in Table S1.2 operates in Swahili over text, and what does Figure 3.2a show about language dominance on global URLs?",
+    "expected_answer": "PROMPTS (Table S1.2) answers new and expectant mothers' questions in Swahili using a small model on its own server over text. Figure 3.2a shows English dominates global URLs at 42.6%, whereas non-major languages fall into 'Other languages' (22.7%).",
+    "source": "Table S1.2 & Figure 3.2",
+    "page": "PDF p.137 & p.120",
+    "evidence": "Table S1.2 PROMPTS row; Figure 3.2a English 42.6%."
+  },
+  {
+    "id": "adv-test-21",
+    "split": "test",
+    "category": "text",
+    "question": "In Chapter 7's introduction, what is the name of Jorge's six-employee software firm in San Salvador, and how does Jorge describe AI?",
+    "expected_answer": "JD Smart Code; Jorge describes AI as a 'capability enabler'.",
+    "source": "Chapter 7 Introduction",
+    "page": "PDF p.270 (printed p.236)",
+    "evidence": "PDF p.270: 'In San Salvador, Jorge runs JD Smart Code, a software firm with six employees... Jorge describes AI as a capability enabler'."
+  },
+  {
+    "id": "adv-test-22",
+    "split": "test",
+    "category": "text",
+    "question": "According to page 305 (printed p.271), what percentage of GDP do low-income countries spend on social protection benefits?",
+    "expected_answer": "1.6 percent of their GDP.",
+    "source": "Chapter 7 / Spotlight 5",
+    "page": "PDF p.305 (printed p.271)",
+    "evidence": "PDF p.305: 'Low-income countries spend 1.6 percent of their GDP on social protection benefits'."
+  },
+  {
+    "id": "adv-test-23",
+    "split": "test",
+    "category": "text",
+    "question": "In Chapter 1 (PDF p.82), how are fintech lenders in India and Latin American countries using AI?",
+    "expected_answer": "They are using AI-driven credit scoring to extend loans to small businesses and workers who lack formal banking histories.",
+    "source": "Chapter 1",
+    "page": "PDF p.82 (printed p.48)",
+    "evidence": "PDF p.82: 'fintech lenders in India and Latin American countries are using AI-driven credit scoring to extend loans to small businesses and workers who lack formal banking histories'."
+  },
+  {
+    "id": "adv-test-24",
+    "split": "test",
+    "category": "text",
+    "question": "According to the Overview (PDF p.36), what are the three ways developing countries can benefit from AI, and which path is described as by far the hardest and most expensive?",
+    "expected_answer": "Adopting existing AI tools, adapting AI to local needs, and advancing the technology (building frontier AI models and infrastructure). Advancing frontier AI models is by far the hardest and most expensive path.",
+    "source": "Overview",
+    "page": "PDF p.36 (printed p.2)",
+    "evidence": "PDF p.36: 'Developing countries can benefit from AI in three ways: by adopting..., adapting..., and advancing... Advancing frontier AI models is by far the hardest and most expensive path'."
+  },
+  {
+    "id": "adv-test-25",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "According to Table 7.1, what percentage of teachers in low-income countries used AI in their teaching during the last 12 months?",
+    "expected_answer": "Abstain: Table 7.1 explicitly excludes low-income countries from the sample.",
+    "expected_behavior": "Abstain and note that Table 7.1 excludes low-income countries.",
+    "source": "N/A (excluded in Table 7.1)",
+    "page": "PDF p.277",
+    "evidence": "Table 7.1 note: 'The study excludes low-income countries.'"
+  },
+  {
+    "id": "adv-test-26",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "In Table S1.1, what exact battery life in hours does a small AI model of up to 10 billion parameters achieve on a smartphone?",
+    "expected_answer": "Abstain: Table S1.1 specifies model size, memory needed, where it can operate, and connectivity needed, not battery life in hours.",
+    "expected_behavior": "Abstain because battery life in hours is not in Table S1.1.",
+    "source": "N/A (missing metric)",
+    "page": "PDF p.136",
+    "evidence": "Table S1.1 has no battery life column."
+  },
+  {
+    "id": "adv-test-27",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "What is the exact number of data centers per million population in Vietnam according to Map 7.1?",
+    "expected_answer": "Abstain: Map 7.1 is a choropleth color-gradient map without country-level exact numeric labels.",
+    "expected_behavior": "Abstain because Map 7.1 does not provide exact country-level numeric values.",
+    "source": "N/A (no numeric label on map)",
+    "page": "PDF p.284",
+    "evidence": "Map 7.1 shows color gradient only, no per-country numeric labels."
+  },
+  {
+    "id": "adv-test-28",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "According to Figure S4.1, what is the projected data center electricity consumption for Africa specifically in 2030?",
+    "expected_answer": "Abstain: Figure S4.1 groups Africa into 'Rest of world' and does not report Africa separately.",
+    "expected_behavior": "Abstain because Africa is not broken out separately in Figure S4.1.",
+    "source": "N/A (missing breakdown)",
+    "page": "PDF p.262",
+    "evidence": "Figure S4.1 regions are United States, China, Europe, Asia and Pacific (excluding China), and Rest of world."
+  },
+  {
+    "id": "adv-test-29",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "What was OpenAI's net profit in fiscal year 2025 according to WDR 2026?",
+    "expected_answer": "Abstain: WDR 2026 does not report OpenAI's 2025 net profit.",
+    "expected_behavior": "Abstain because OpenAI's net profit is not in WDR 2026.",
+    "source": "N/A (not in document)",
+    "page": "N/A",
+    "evidence": "Not reported in WDR 2026."
+  },
+  {
+    "id": "adv-test-30",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "In Table 4.1, what percentage productivity gain did surgeons achieve using AI-assisted robotic surgery?",
+    "expected_answer": "Abstain: Table 4.1 summarizes white-collar tasks (customer care, consultants, knowledge workers, writers, software engineers, taxi drivers, forecasters) and does not include robotic surgery.",
+    "expected_behavior": "Abstain because surgeons / robotic surgery are not in Table 4.1.",
+    "source": "N/A (not in Table 4.1)",
+    "page": "PDF p.156",
+    "evidence": "Table 4.1 has no study on surgeons or robotic surgery."
+  }
+]

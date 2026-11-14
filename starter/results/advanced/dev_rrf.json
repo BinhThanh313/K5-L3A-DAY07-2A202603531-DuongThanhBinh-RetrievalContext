@@ -1,0 +1,843 @@
+{
+  "run_name": "dev_rrf",
+  "split": "dev",
+  "mode": "hybrid_rrf",
+  "model": "gpt-4o-mini",
+  "max_searches": 3,
+  "top_k": 5,
+  "max_images": 3,
+  "total": 18,
+  "passed": 16,
+  "pass_rate": 0.8889,
+  "total_cost_usd": 0.14365,
+  "avg_latency_s": 4.589,
+  "by_category": {
+    "chart": {
+      "passed": 4,
+      "total": 4,
+      "pass_rate": 1.0
+    },
+    "diagram_map": {
+      "passed": 3,
+      "total": 3,
+      "pass_rate": 1.0
+    },
+    "multi_hop": {
+      "passed": 2,
+      "total": 2,
+      "pass_rate": 1.0
+    },
+    "table": {
+      "passed": 4,
+      "total": 4,
+      "pass_rate": 1.0
+    },
+    "text": {
+      "passed": 0,
+      "total": 2,
+      "pass_rate": 0.0
+    },
+    "unanswerable": {
+      "passed": 3,
+      "total": 3,
+      "pass_rate": 1.0
+    }
+  },
+  "results": [
+    {
+      "id": "adv-dev-01",
+      "category": "table",
+      "question": "According to Table S1.1, how much memory is needed and where can a small AI model with up to 10 billion parameters operate?",
+      "expected": "It needs 2–20 GB of memory, can operate on a phone or laptop computer, and requires no connectivity (None).",
+      "target_page": "PDF p.136 (printed p.102)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts, numbers, and relationships required by the expected answer without contradictions or fabrications.",
+      "answer": "A small AI model with up to 10 billion parameters needs 2–20 GB of memory and can operate on a phone or laptop computer. It does not require any connectivity.",
+      "abstained": false,
+      "citations": [
+        "p.136"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "According to Table S1.1, how much memory is needed and where can a small AI model with up to 10 billion parameters operate?",
+          "new_chunk_ids": [
+            "p136_vis",
+            "p135_t2",
+            "p136_t3",
+            "p137_vis",
+            "p135_t1"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        135,
+        136,
+        137
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_136.png",
+        "starter/data/advanced/pages/page_137.png"
+      ],
+      "latency_s": 4.123,
+      "prompt_tokens": 53758,
+      "completion_tokens": 63,
+      "cost_usd": 0.008101
+    },
+    {
+      "id": "adv-dev-02",
+      "category": "table",
+      "question": "In Table S1.2, which two applications run on a small model on a phone offline, and what does each do?",
+      "expected": "Nuru (Agriculture: diagnoses crop disease from a leaf photo) and Cough Against TB (Health: screens for tuberculosis from a cough).",
+      "target_page": "PDF p.137 (printed p.103)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts, numbers, and relationships required by the expected answer, matching the applications and their functions as stated in the ground-truth evidence.",
+      "answer": "The two applications that run on a small model on a phone offline are:\n\n1. **Nuru**: It diagnoses crop disease from a leaf photo.\n2. **Cough Against TB**: It screens for tuberculosis from a cough.",
+      "abstained": false,
+      "citations": [
+        "p.137"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "In Table S1.2, which two applications run on a small model on a phone offline, and what does each do?",
+          "new_chunk_ids": [
+            "p137_t1",
+            "p137_vis",
+            "p136_t2",
+            "p047_t1",
+            "p137_t2"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        47,
+        136,
+        137
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_137.png",
+        "starter/data/advanced/pages/page_136.png"
+      ],
+      "latency_s": 3.144,
+      "prompt_tokens": 53994,
+      "completion_tokens": 74,
+      "cost_usd": 0.008143
+    },
+    {
+      "id": "adv-dev-03",
+      "category": "table",
+      "question": "According to Table O.1, which two companies headquartered in China are listed as leading publicly listed AI-related companies?",
+      "expected": "Alibaba and Tencent.",
+      "target_page": "PDF p.43 (printed p.9)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts, numbers, and relationships required by the expected answer without contradicting the evidence or fabricating details.",
+      "answer": "The two companies headquartered in China listed as leading publicly listed AI-related companies are Alibaba and Tencent.",
+      "abstained": false,
+      "citations": [
+        "p.9"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "According to Table O.1, which two companies headquartered in China are listed as leading publicly listed AI-related companies?",
+          "new_chunk_ids": [
+            "p043_vis",
+            "p103_t1",
+            "p104_vis",
+            "p043_t1",
+            "p104_t2"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        43,
+        103,
+        104
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_043.png",
+        "starter/data/advanced/pages/page_104.png"
+      ],
+      "latency_s": 2.927,
+      "prompt_tokens": 52983,
+      "completion_tokens": 46,
+      "cost_usd": 0.007975
+    },
+    {
+      "id": "adv-dev-04",
+      "category": "table",
+      "question": "In Table 4.1, what outcome measure and result did Peng et al. (2023) report for software developers using GitHub Copilot?",
+      "expected": "Outcome measure: Percent time saved per task; Result: 56 percent.",
+      "target_page": "PDF p.156 (printed p.122)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes the key facts and numbers from the expected answer, stating the outcome measure and the result without contradictions.",
+      "answer": "Peng et al. (2023) reported a result of a 56 percent time saved per task for software developers using GitHub Copilot.",
+      "abstained": false,
+      "citations": [
+        "p.156"
+      ],
+      "searches_used": 3,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "In Table 4.1, what outcome measure and result did Peng et al. (2023) report for software developers using GitHub Copilot?",
+          "new_chunk_ids": [
+            "p156_t1",
+            "p156_vis",
+            "p156_t2",
+            "p178_t5",
+            "p177_t5"
+          ]
+        },
+        {
+          "step": 2,
+          "query": "Table 4.1 outcome measure result Peng et al. 2023 GitHub Copilot",
+          "new_chunk_ids": [
+            "p152_t1"
+          ]
+        },
+        {
+          "step": 3,
+          "query": "Table 4.1 outcome measure result Peng et al. 2023 GitHub Copilot",
+          "new_chunk_ids": []
+        }
+      ],
+      "retrieved_pages": [
+        152,
+        156,
+        177,
+        178
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_156.png",
+        "starter/data/advanced/pages/page_152.png"
+      ],
+      "latency_s": 4.712,
+      "prompt_tokens": 54489,
+      "completion_tokens": 106,
+      "cost_usd": 0.008237
+    },
+    {
+      "id": "adv-dev-05",
+      "category": "diagram_map",
+      "question": "According to Figure O.1, what are the three pathways through which AI's capabilities, concentration, and complements determine its economic, social, and political impacts?",
+      "expected": "Adopt (off-the-shelf AI), Adapt (AI to local contexts), and Advance (the AI frontier).",
+      "target_page": "PDF p.40 (printed p.6)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts, numbers, and relationships required by the expected answer, correctly identifying the three pathways as Adopt, Adapt, and Advance, along with their descriptions.",
+      "answer": "According to Figure O.1, AI's capabilities, concentration, and complements determine its economic, social, and political impacts through the pathways of **adoption**, **adaptation**, and **advancement**. These pathways involve: 1. **Adopt**: Utilizing off-the-shelf AI; 2. **Adapt**: Tailoring AI to local contexts; 3. **Advance**: Pushing the AI frontier further.",
+      "abstained": false,
+      "citations": [
+        "p.40"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "According to Figure O.1, what are the three pathways through which AI's capabilities, concentration, and complements determine its economic, social, and political impacts?",
+          "new_chunk_ids": [
+            "p040_t2",
+            "p040_vis",
+            "p142_t1",
+            "p078_t1",
+            "p142_vis"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        40,
+        78,
+        142
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_040.png",
+        "starter/data/advanced/pages/page_142.png",
+        "starter/data/advanced/pages/page_078.png"
+      ],
+      "latency_s": 4.558,
+      "prompt_tokens": 79436,
+      "completion_tokens": 112,
+      "cost_usd": 0.011983
+    },
+    {
+      "id": "adv-dev-06",
+      "category": "diagram_map",
+      "question": "What are the five steps in Figure 8.1 ('A practical road map for AI in government')?",
+      "expected": "1. Problem selection, 2. Institutional capacity, 3. AI-ready data, 4. Evaluation and monitoring, and 5. Procurement.",
+      "target_page": "PDF p.309 (printed p.275)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all five steps listed in the expected answer without contradictions or fabrications.",
+      "answer": "1. **PROBLEM SELECTION** - Find the right problem for AI—and the type of AI that matches what your agency can take on.\n\n2. **INSTITUTIONAL CAPACITY** - Build the people, skills, and ownership needed to adopt and sustain AI over time.\n\n3. **AI-READY DATA** - Prepare your data to build a reliable foundation for AI.\n\n4. **EVALUATION AND MONITORING** - Oversee and evaluate AI to improve outcomes and mitigate risks.\n\n5. **PROCUREMENT** - Procure only what you can govern, while preserving the ability to change course.",
+      "abstained": false,
+      "citations": [
+        "p.275"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "What are the five steps in Figure 8.1 ('A practical road map for AI in government')?",
+          "new_chunk_ids": [
+            "p309_vis",
+            "p309_t1",
+            "p016_t1",
+            "p310_t1",
+            "p310_t3"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        16,
+        309,
+        310
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_309.png"
+      ],
+      "latency_s": 4.839,
+      "prompt_tokens": 28263,
+      "completion_tokens": 155,
+      "cost_usd": 0.004332
+    },
+    {
+      "id": "adv-dev-07",
+      "category": "diagram_map",
+      "question": "What does Map 7.1 measure and what pattern does it show?",
+      "expected": "Map 7.1 measures the number of data centers per million population and shows that data centers are concentrated in developed countries compared to developing countries.",
+      "target_page": "PDF p.284 (printed p.250)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts from the expected answer, such as the measurement of data centers per million population and the concentration pattern in developed versus developing countries. It also provides additional details about the color gradient and representation on the map, which enhances the explanation without contradicting the evidence.",
+      "answer": "Map 7.1 measures the concentration of data centers per million population across different countries. It shows a clear pattern where developed countries exhibit a higher concentration of data centers compared to developing countries, as indicated by the color gradient on the map. Red areas represent the highest concentration, while dark blue areas indicate the lowest concentration. Gray is used for countries where data is not available. This trend highlights the disparity in data center infrastructure between developed and developing nations.",
+      "abstained": false,
+      "citations": [
+        "p.250"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "What does Map 7.1 measure and what pattern does it show?",
+          "new_chunk_ids": [
+            "p284_vis",
+            "p335_vis",
+            "p336_t1",
+            "p019_t1",
+            "p318_t4"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        19,
+        284,
+        318,
+        335,
+        336
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_284.png",
+        "starter/data/advanced/pages/page_335.png",
+        "starter/data/advanced/pages/page_336.png"
+      ],
+      "latency_s": 4.99,
+      "prompt_tokens": 78873,
+      "completion_tokens": 115,
+      "cost_usd": 0.0119
+    },
+    {
+      "id": "adv-dev-08",
+      "category": "chart",
+      "question": "In Figure 3.1, what share of (a) all AI models and (b) AI frontier models are developed in the United States?",
+      "expected": "50.0% of all AI models and 71.3% of AI frontier models.",
+      "target_page": "PDF p.119 (printed p.85)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts and numbers required by the expected answer without contradictions or fabrications.",
+      "answer": "(a) 50.0% of all AI models are developed in the United States. (b) 71.3% of AI frontier models are developed in the United States.",
+      "abstained": false,
+      "citations": [
+        "p.119"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "In Figure 3.1, what share of (a) all AI models and (b) AI frontier models are developed in the United States?",
+          "new_chunk_ids": [
+            "p119_t1",
+            "p119_vis",
+            "p103_t2",
+            "p103_t3",
+            "p135_t1"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        103,
+        119,
+        135
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_119.png"
+      ],
+      "latency_s": 5.072,
+      "prompt_tokens": 28597,
+      "completion_tokens": 64,
+      "cost_usd": 0.004328
+    },
+    {
+      "id": "adv-dev-09",
+      "category": "chart",
+      "question": "According to Figure 3.2 panel a, what percentage of global URLs in 2026 are in English?",
+      "expected": "42.6%.",
+      "target_page": "PDF p.120 (printed p.86)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes the key fact that 42.6% of global URLs in 2026 are in English, matching the expected answer without contradictions.",
+      "answer": "According to Figure 3.2 panel a, 42.6% of global URLs in 2026 are in English.",
+      "abstained": false,
+      "citations": [
+        "p.120"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "According to Figure 3.2 panel a, what percentage of global URLs in 2026 are in English?",
+          "new_chunk_ids": [
+            "p120_vis",
+            "p120_t2",
+            "p323_t1",
+            "p119_t2",
+            "p322_t2"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        119,
+        120,
+        322,
+        323
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_120.png",
+        "starter/data/advanced/pages/page_323.png",
+        "starter/data/advanced/pages/page_119.png"
+      ],
+      "latency_s": 3.62,
+      "prompt_tokens": 79799,
+      "completion_tokens": 53,
+      "cost_usd": 0.012002
+    },
+    {
+      "id": "adv-dev-10",
+      "category": "chart",
+      "question": "In Figure S4.1, what is the projected global data center electricity consumption in 2030 for the United States and for China?",
+      "expected": "1,000 TWh for the United States and 1,000 TWh for China (each).",
+      "target_page": "PDF p.262 (printed p.228)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts, numbers, and relationships required by the expected answer, stating that the projected electricity consumption is 1,000 TWh for both the United States and China.",
+      "answer": "The projected global data center electricity consumption in 2030 is 1,000 TWh for both the United States and China.",
+      "abstained": false,
+      "citations": [
+        "p.262"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "In Figure S4.1, what is the projected global data center electricity consumption in 2030 for the United States and for China?",
+          "new_chunk_ids": [
+            "p262_t1",
+            "p262_vis",
+            "p263_t1",
+            "p105_vis",
+            "p263_t2"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        105,
+        262,
+        263
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_262.png",
+        "starter/data/advanced/pages/page_105.png"
+      ],
+      "latency_s": 5.397,
+      "prompt_tokens": 54387,
+      "completion_tokens": 49,
+      "cost_usd": 0.008187
+    },
+    {
+      "id": "adv-dev-11",
+      "category": "chart",
+      "question": "In Figure 2.2, which country has the largest positive average net inflow of top AI authors and inventors (2011–24), and which country has the largest net outflow?",
+      "expected": "The United States has the largest net inflow (+197), and India has the largest net outflow (-200).",
+      "target_page": "PDF p.106 (printed p.72)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts, numbers, and relationships required by the expected answer, stating that the United States has the largest net inflow of +197 and India has the largest net outflow of -200.",
+      "answer": "The country with the largest positive average net inflow of top AI authors and inventors from 2011 to 2024 is the United States, with an inflow of 197 individuals. The country with the largest net outflow is India, with an outflow of 200 individuals.",
+      "abstained": false,
+      "citations": [
+        "p.106"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "In Figure 2.2, which country has the largest positive average net inflow of top AI authors and inventors (2011–24), and which country has the largest net outflow?",
+          "new_chunk_ids": [
+            "p106_t2",
+            "p106_vis",
+            "p106_t1",
+            "p106_t3",
+            "p107_t1"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        106,
+        107
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_106.png"
+      ],
+      "latency_s": 3.293,
+      "prompt_tokens": 28793,
+      "completion_tokens": 86,
+      "cost_usd": 0.004371
+    },
+    {
+      "id": "adv-dev-12",
+      "category": "multi_hop",
+      "question": "Using Table S1.2 and Table S1.3, compare PROMPTS and Rori in terms of sector, model type/deployment, and how Small AI compares to Large AI on cost per use and connectivity needed.",
+      "expected": "PROMPTS is in Health and runs a small model on its own server over text, whereas Rori is in Education and runs a large model in the cloud over text. According to Table S1.3, Small AI has lower cost per use and lower connectivity needed than Large AI.",
+      "target_page": "PDF p.137 (printed p.103)",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts, numbers, and relationships required by the expected answer without contradictions or fabrications.",
+      "answer": "PROMPTS and Rori differ in several key aspects:\n\n1. **Sector**:\n   - **PROMPTS** operates in the **Health** sector, focusing on answering questions from new and expectant mothers in Swahili.\n   - **Rori** is in the **Education** sector, providing mathematics tutoring through text.\n\n2. **Model Type/Deployment**:\n   - **PROMPTS** uses a **small model** deployed on its own server and operates over text.\n   - **Rori** employs a **large model** that runs in the cloud and also operates over text.\n\n3. **Cost per Use and Connectivity Needed**:\n   - According to Table S1.3, **Small AI** (like PROMPTS) has a **lower cost per use** and requires **lower connectivity** compared to **Large AI** (like Rori), which has a **higher cost per use** and requires **higher connectivity**.\n\nOverall, PROMPTS is designed for lower resource environments with less connectivity, while Rori leverages more advanced capabilities but at a higher operational cost and connectivity requirement.",
+      "abstained": false,
+      "citations": [
+        "p.103"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "Using Table S1.2 and Table S1.3, compare PROMPTS and Rori in terms of sector, model type/deployment, and how Small AI compares to Large AI on cost per use and connectivity needed.",
+          "new_chunk_ids": [
+            "p137_vis",
+            "p137_t2",
+            "p136_t3",
+            "p137_t1",
+            "p017_t1"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        17,
+        136,
+        137
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_137.png",
+        "starter/data/advanced/pages/page_136.png"
+      ],
+      "latency_s": 6.441,
+      "prompt_tokens": 53994,
+      "completion_tokens": 263,
+      "cost_usd": 0.008257
+    },
+    {
+      "id": "adv-dev-13",
+      "category": "multi_hop",
+      "question": "Compare the United States' share of all AI models in Figure 3.1 with its net AI talent flow in Figure 2.2—what do these two figures together illustrate about AI concentration?",
+      "expected": "The US develops 50.0% of all AI models and 71.3% of frontier models (Figure 3.1) and is the dominant magnet for top AI talent with a net inflow of +197 authors/inventors in 2011–24 (Figure 2.2), showing high geographic concentration of AI capabilities.",
+      "target_page": "PDF p.106 & p.119",
+      "passed": true,
+      "judge_reason": "The model's answer accurately includes all key facts and numbers from the expected answer, specifically mentioning the U.S. share of AI models (50.0% of all models and 71.3% of frontier models) and the net AI talent flow (+197 authors/inventors). It also correctly interprets the implications of these figures regarding AI concentration in the U.S.",
+      "answer": "The comparison of the United States' share of AI models in Figure 3.1 and its net AI talent flow in Figure 2.2 illustrates a significant concentration of AI capabilities and talent in the U.S. Specifically, the U.S. accounts for 50% of all AI models and an even larger share of 71.3% of frontier AI models, indicating its dominance in advanced AI development. Concurrently, Figure 2.2 shows that the U.S. has a net inflow of 197 top AI authors and inventors, far exceeding other countries. This combination highlights how the U.S. not only leads in the creation of AI technologies but also attracts and retains top talent, reinforcing its position as a global AI hub. The data suggests a self-reinforcing cycle where the concentration of talent fuels further advancements in AI, making it challenging for other countries to compete effectively. Thus, the figures together illustrate a strong agglomeration effect in the U.S. AI landscape, where both talent and innovation are heavily concentrated.",
+      "abstained": false,
+      "citations": [
+        "p.72",
+        "p.85"
+      ],
+      "searches_used": 3,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "Compare the United States' share of all AI models in Figure 3.1 with its net AI talent flow in Figure 2.2—what do these two figures together illustrate about AI concentration?",
+          "new_chunk_ids": [
+            "p106_vis",
+            "p106_t2",
+            "p106_t1",
+            "p119_vis",
+            "p107_t1"
+          ]
+        },
+        {
+          "step": 2,
+          "query": "Figure 3.1 United States share of AI models",
+          "new_chunk_ids": [
+            "p119_t1",
+            "p084_vis"
+          ]
+        },
+        {
+          "step": 3,
+          "query": "Figure 3.1 United States share of AI models",
+          "new_chunk_ids": []
+        }
+      ],
+      "retrieved_pages": [
+        84,
+        106,
+        107,
+        119
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_106.png",
+        "starter/data/advanced/pages/page_119.png",
+        "starter/data/advanced/pages/page_084.png"
+      ],
+      "latency_s": 8.448,
+      "prompt_tokens": 81657,
+      "completion_tokens": 279,
+      "cost_usd": 0.012416
+    },
+    {
+      "id": "adv-dev-14",
+      "category": "text",
+      "question": "How many people living in low- and middle-income countries does WDR 2026 state this Report assesses AI for, and what prior World Development Report (2016) concept does it reference?",
+      "expected": "6.8 billion people living in low- and middle-income countries; it references 'analog complements' from World Development Report 2016: Digital Dividends.",
+      "target_page": "PDF p.35–36 (printed p.1–2)",
+      "passed": false,
+      "judge_reason": "The model answer incorrectly states that the prior World Development Report 2016 concept referenced is 'Digital Dividends' instead of 'analog complements', which is a key fact required by the expected answer.",
+      "answer": "The World Development Report 2026 assesses AI for 6.8 billion people living in low- and middle-income countries. It references the concept of 'Digital Dividends' from the prior World Development Report 2016.",
+      "abstained": false,
+      "citations": [
+        "p.35",
+        "p.65"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "How many people living in low- and middle-income countries does WDR 2026 state this Report assesses AI for, and what prior World Development Report (2016) concept does it reference?",
+          "new_chunk_ids": [
+            "p020_t1",
+            "p035_t1",
+            "p065_t3",
+            "p169_t1",
+            "p308_t3"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        20,
+        35,
+        65,
+        169,
+        308
+      ],
+      "attached_images": [],
+      "latency_s": 3.482,
+      "prompt_tokens": 2571,
+      "completion_tokens": 78,
+      "cost_usd": 0.000432
+    },
+    {
+      "id": "adv-dev-15",
+      "category": "text",
+      "question": "What example from Kenya's judiciary is cited in the Overview regarding back-office government AI use?",
+      "expected": "In Kenya, the judiciary used a predictive AI algorithm to allocate more than 10,000 court cases.",
+      "target_page": "PDF p.52 (printed p.18)",
+      "passed": false,
+      "judge_reason": "The model's answer includes additional details about the allocation being per year and the involvement of mediators, which are not present in the expected answer. It also implies a focus on fairness and successful mediation, which are not part of the key facts required.",
+      "answer": "In Kenya, the judiciary used a predictive AI algorithm to allocate more than 10,000 court cases per year to over 1,500 mediators, which helped make case assignments fairer and increased the chances of successful mediation.",
+      "abstained": false,
+      "citations": [
+        "p.52",
+        "p.37"
+      ],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "What example from Kenya's judiciary is cited in the Overview regarding back-office government AI use?",
+          "new_chunk_ids": [
+            "p052_t1",
+            "p037_t2",
+            "p052_t2",
+            "p190_t2",
+            "p054_t1"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        37,
+        52,
+        54,
+        190
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_054.png"
+      ],
+      "latency_s": 3.555,
+      "prompt_tokens": 28124,
+      "completion_tokens": 78,
+      "cost_usd": 0.004265
+    },
+    {
+      "id": "adv-dev-16",
+      "category": "unanswerable",
+      "question": "What is the exact 2027 projected AI capital expenditure of ByteDance in Table O.1?",
+      "expected": "Abstain: Table O.1 lists leading publicly listed AI-related companies and their supply chain presence, not 2027 projected capital expenditure for ByteDance.",
+      "target_page": "N/A",
+      "passed": true,
+      "judge_reason": "Correctly abstained on unanswerable question.",
+      "answer": "The exact projected AI capital expenditure of ByteDance for 2027 is not provided in the retrieved context from WDR 2026.",
+      "abstained": true,
+      "citations": [],
+      "searches_used": 3,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "What is the exact 2027 projected AI capital expenditure of ByteDance in Table O.1?",
+          "new_chunk_ids": [
+            "p046_t2",
+            "p046_vis",
+            "p105_t3",
+            "p105_vis",
+            "p113_t5"
+          ]
+        },
+        {
+          "step": 2,
+          "query": "2027 projected AI capital expenditure of ByteDance",
+          "new_chunk_ids": [
+            "p046_t3"
+          ]
+        },
+        {
+          "step": 3,
+          "query": "2027 projected AI capital expenditure ByteDance Table O.1",
+          "new_chunk_ids": []
+        }
+      ],
+      "retrieved_pages": [
+        46,
+        105,
+        113
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_046.png",
+        "starter/data/advanced/pages/page_105.png"
+      ],
+      "latency_s": 5.072,
+      "prompt_tokens": 55756,
+      "completion_tokens": 87,
+      "cost_usd": 0.008416
+    },
+    {
+      "id": "adv-dev-17",
+      "category": "unanswerable",
+      "question": "According to Figure 3.2 panel b, what percentage of Hugging Face training datasets in 2026 are in Vietnamese?",
+      "expected": "Abstain: Figure 3.2 panel b does not list Vietnamese separately.",
+      "target_page": "PDF p.120",
+      "passed": true,
+      "judge_reason": "Correctly abstained on unanswerable question.",
+      "answer": "The retrieved context does not provide information about the percentage of Hugging Face training datasets in Vietnamese for 2026. Therefore, I abstain from answering.",
+      "abstained": true,
+      "citations": [],
+      "searches_used": 1,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "According to Figure 3.2 panel b, what percentage of Hugging Face training datasets in 2026 are in Vietnamese?",
+          "new_chunk_ids": [
+            "p120_t3",
+            "p120_vis",
+            "p120_t2",
+            "p119_t2",
+            "p129_t4"
+          ]
+        }
+      ],
+      "retrieved_pages": [
+        119,
+        120,
+        129
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_120.png",
+        "starter/data/advanced/pages/page_119.png"
+      ],
+      "latency_s": 2.877,
+      "prompt_tokens": 54250,
+      "completion_tokens": 54,
+      "cost_usd": 0.00817
+    },
+    {
+      "id": "adv-dev-18",
+      "category": "unanswerable",
+      "question": "How much did low-income countries spend on AI-specific military defense systems in 2025 according to WDR 2026?",
+      "expected": "Abstain: WDR 2026 does not report low-income countries' 2025 spending on AI-specific military defense systems.",
+      "target_page": "N/A",
+      "passed": true,
+      "judge_reason": "Correctly abstained on unanswerable question.",
+      "answer": "The retrieved context does not provide specific information on how much low-income countries spent on AI-specific military defense systems in 2025. Therefore, I cannot provide an answer to that question.",
+      "abstained": true,
+      "citations": [],
+      "searches_used": 3,
+      "search_trace": [
+        {
+          "step": 1,
+          "query": "How much did low-income countries spend on AI-specific military defense systems in 2025 according to WDR 2026?",
+          "new_chunk_ids": [
+            "p192_vis",
+            "p053_vis",
+            "p209_vis",
+            "p053_t1",
+            "p239_t3"
+          ]
+        },
+        {
+          "step": 2,
+          "query": "low-income countries AI military defense spending 2025",
+          "new_chunk_ids": [
+            "p164_t3",
+            "p058_vis",
+            "p375_vis"
+          ]
+        },
+        {
+          "step": 3,
+          "query": "low-income countries AI military defense spending 2025",
+          "new_chunk_ids": []
+        }
+      ],
+      "retrieved_pages": [
+        53,
+        58,
+        164,
+        192,
+        209,
+        239,
+        375
+      ],
+      "attached_images": [
+        "starter/data/advanced/pages/page_192.png",
+        "starter/data/advanced/pages/page_053.png",
+        "starter/data/advanced/pages/page_209.png"
+      ],
+      "latency_s": 6.044,
+      "prompt_tokens": 80508,
+      "completion_tokens": 96,
+      "cost_usd": 0.012134
+    }
+  ]
+}

@@ -1,9 +1,5 @@
 # Báo cáo Day 7 — Agentic RAG (Retrieval & Context Engineering)
 
-**Họ tên:** Dương Thành Bình · **MSSV:** `2A202603531` · **Lớp:** `K5-L3A`
-
----
-
 ## 1. Dữ liệu và benchmark
 
 - **Nguồn, quyền sử dụng, số trang và số chunk:**
@@ -79,7 +75,18 @@
 | `q17` | Có đáp án (Lỗi thiếu ý) | 1 lượt search, lấy được `p52_para_03` và `p53_para_02` | "Cần đầu tư 6–9 tỷ USD giai đoạn 2024–2030. Cộng dồn giai đoạn 2031–2050 là 101 tỷ USD theo kịch bản ADS." `[p52_para_03]` `[p53_para_02]` | **Grade 1**; citation `[true, true]`. Đúng giai đoạn 2024–2030 nhưng nhầm số tổng đầu tư cộng dồn ngành điện theo ADS (280 tỷ USD) sang con số khác trong chunk. |
 | `q23` | Thiếu bằng chứng | 4 lượt search thử nhiều từ khóa ("kim ngạch xuất khẩu sầu riêng...", "sầu riêng") đều không có thông tin | "Không đủ bằng chứng để trả lời." | **`abstention_correct = true`**. Agent tự thử lại truy vấn nhiều lượt rồi từ chối chính xác, không suy đoán. |
 
-### Đường dẫn trace, lệnh chạy, thời gian và chi phí
+### Đường dẫn trace, hướng dẫn cài đặt, lệnh chạy, thời gian và chi phí
+- **Cài đặt môi trường & kết nối:**
+  1. Cài thư viện (Python 3.11+):
+     ```bash
+     pip install openai numpy python-dotenv pypdf pypdfium2 pillow
+     ```
+  2. Tạo file `.env` từ `.env.example` và điền API key:
+     ```env
+     OPENAI_API_KEY=sk-...
+     OPENAI_EMBED_MODEL=text-embedding-3-small
+     OPENAI_CHAT_MODEL=gpt-4o-mini
+     ```
 - **Lệnh chạy kiểm tra code:** `python -m unittest discover -s tests -v` (15/15 PASS).
 - **Lệnh chạy retrieval benchmark:** `python -m src.benchmark_retrieval --split dev --budget 800` và `--split test --budget 3200`.
 - **Lệnh chạy Agent & tổng hợp metrics:**
@@ -95,3 +102,67 @@
 ### Đánh đổi và giới hạn
 - **Đánh đổi:** `rerank` kết hợp `budget=3200` tăng điểm trung bình Grounded Answer trên `test` từ **0.40** lên **1.40 / 2.0** (và giảm từ chối nhầm từ 60% xuống 0%), nhưng làm độ trễ mỗi lượt retrieval tăng từ ~208 ms (`dense`) lên ~1332 ms (`rerank`) do gọi thêm LLM xếp hạng.
 - **Giới hạn:** Tài liệu PDF gốc có một số bảng biểu phức tạp bị mất cấu trúc lưới khi trích text thuần từ Day 6, dẫn đến một số câu hỏi tổng hợp số liệu từ bảng (`q17`, `q19`) dễ bị trích thiếu vế khi thông tin nằm rải rác ở nhiều đoạn khác nhau.
+
+
+---
+
+## 6. Thử thách nâng cao (+15 điểm cộng) — Multimodal Agentic RAG trên WDR 2026
+
+### 6.1. Tài liệu đã chọn & Quyền truy cập
+- **Tài liệu:** *World Development Report 2026: The Promise of Artificial Intelligence* (World Bank Group, **380 trang PDF**).
+- **Nguồn chính thức:**
+  - Trang xuất bản: https://openknowledge.worldbank.org/entities/publication/8d048ad2-5cc3-4fc0-ba22-2e1f82f5d7de
+  - Link tải PDF trực tiếp (tự động tải khi chạy `python -m src.advanced.ingest`): https://openknowledge.worldbank.org/bitstreams/d563aa51-5111-4b9a-b664-552eb0c4ba86/download
+- **Giấy phép:** **CC BY 3.0 IGO** (Creative Commons Attribution 3.0 IGO — cho phép chia sẻ và tái tạo tự do với ghi nguồn).
+
+### 6.2. Những gì đã index & những gì bỏ qua (`src/advanced/ingest.py`)
+- **Tổng số trang PDF:** `380` trang.
+- **Đã index:** `367` trang nội dung thành **1.467 chunks** lưu tại `starter/data/advanced/chunks.json`:
+  - **1.363 text chunks** (`chunk_type="text"`): trích xuất text theo trang, tách đoạn có overlap (1.200 ký tự, overlap 150) kèm metadata `pdf_page`, `printed_page`, `section`.
+  - **104 visual chunks** (`chunk_type="visual"`): tự động phát hiện 104 trang có Table / Figure / Map / Diagram, render ảnh PNG (`starter/data/advanced/pages/page_XXX.png` qua `pypdfium2`) và dùng OpenAI Vision (`gpt-4o-mini`) trích xuất bảng Markdown chuẩn xác, trục biểu đồ, chú giải và số liệu.
+- **Đã bỏ qua (`13` trang):** ghi nhận chi tiết trong `starter/data/advanced/ingest_log.json` gồm 13 trang trắng / trang phân cách chương có 0 ký tự (`PDF pp. 2, 18, 22, 30, 34, 116, 134, 180, 188, 226, 234, 378, 379`).
+
+### 6.3. Kiến trúc Multimodal Agentic RAG (`src/advanced/agent.py`)
+- **Retrieval:** Tái sử dụng `OpenAIDenseRetriever` (`text-embedding-3-small`, cache `dense_cache.npz`) kết hợp `BM25Retriever` qua `HybridRRFRetriever` (`rrf_k=60, candidate_k=20`).
+- **Agentic Multi-step Planner:** Tối đa `3` vòng tìm kiếm (`gpt-4o-mini`), kiểm tra xem đã đủ bằng chứng cho mọi vế câu hỏi hay chưa; nếu thiếu (ví dụ câu hỏi `multi_hop` nối 2 bảng/biểu đồ ở các chương khác nhau) sẽ tự động sinh truy vấn tìm kiếm bổ sung.
+- **Multimodal Vision Synthesis:** Đính kèm tối đa `3` ảnh PNG trang tài liệu truy xuất được (ưu tiên trang có `chunk_type="visual"`) trực tiếp vào bước tổng hợp cuối (`gpt-4o`, `detail="high"`) để đối chiếu số liệu trực quan trên bảng biểu, biểu đồ, bản đồ và sơ đồ trước khi trả lời hoặc từ chối (`abstained: true`).
+
+### 6.4. Benchmark nâng cao (`starter/data/advanced/benchmark.json`)
+Tổng **48 câu hỏi** gắn `pdf_page`, `printed_page`, `source` và `evidence` kiểm chứng được từ PDF gốc:
+- **`dev` (18 câu):** 15 câu có bằng chứng (`4 table`, `3 diagram_map`, `4 chart`, `2 multi_hop`, `2 text`) + `3 unanswerable`.
+- **`test` (30 câu):** `6 table`, `5 diagram_map`, `5 chart`, `4 multi_hop`, `4 text`, `6 unanswerable`.
+
+### 6.5. Tuning trên `dev` & Kết quả trên tập `test` (`src/advanced/evaluate.py`)
+| Run | Split | Cấu hình | Pass / Total | Pass Rate | Chi phí (USD) | Latency TB |
+| :--- | :---: | :--- | :---: | :---: | :---: | :---: |
+| `dev_rrf` | `dev` | `hybrid_rrf`, `top_k=5`, `gpt-4o-mini` | 16 / 18 | 88.89% | \$0.14365 | 4.589s |
+| `dev_rerank` | `dev` | `hybrid_rerank`, `top_k=7`, `gpt-4o-mini` | 16 / 18 | 88.89% | \$0.16732 | 5.861s |
+| `dev_rrf_4o` (chọn) | `dev` | `hybrid_rrf`, `top_k=7`, `gpt-4o` Vision | **17 / 18** | **94.44%** | \$0.28519 | 3.298s |
+| **`test_final`** | **`test`** | **`hybrid_rrf`, `top_k=7`, `gpt-4o` Vision (locked)** | **27 / 30** | **90.00%** | **\$0.47257** | **3.663s** |
+
+**Chi tiết tập `test` (30 câu) theo từng nhóm (`starter/results/advanced/test_final.json`):**
+
+| Nhóm câu hỏi | Pass / Total | Pass Rate |
+| :--- | :---: | :---: |
+| `table` | 6 / 6 | 100.0% |
+| `chart` | 5 / 5 | 100.0% |
+| `text` | 4 / 4 | 100.0% |
+| `diagram_map` | 4 / 5 | 80.0% |
+| `multi_hop` | 3 / 4 | 75.0% |
+| `unanswerable` | 5 / 6 | 83.33% |
+| **Tổng cộng** | **27 / 30** | **90.0%** |
+
+**Phân tích 3 ca lỗi trên tập `test`:**
+1. **`adv-test-11` (`diagram_map` — Retrieval miss dẫn đến từ chối nhầm):** Truy vấn không kéo được `PDF p.309` (`Figure 8.1`) mà lấy nhầm các trang thảo luận về procurement phía sau (`pp. 327, 329, 330`), khiến agent chọn `abstained: true` thay vì trả lời.
+2. **`adv-test-20` (`multi_hop` — Thiếu chi tiết phụ):** Agent tìm đúng cả 2 trang (`p.120` và `p.137`), trả lời đúng `PROMPTS` (Swahili) và `English 42.6%`, nhưng bỏ qua 2 ý phụ (`small model on its own server` và `Other languages 22.7%`) nên bị chấm strict fail.
+3. **`adv-test-25` (`unanswerable` — Lỗi định dạng cờ `abstained`):** Agent trả lời đúng về mặt ngữ nghĩa (*"The study excludes low-income countries, so there is no data available..."*) nhưng đặt `abstained: false` trong JSON, bị rule kiểm tra tự động tính là fail.
+
+### 6.6. Hướng dẫn chạy tái tạo Thử thách Nâng cao
+```bash
+# 1. Tải (nếu chưa có), trích xuất text + render PNG + chạy Vision index (380 trang)
+python -m src.advanced.ingest --workers 8
+
+# 2. Chạy đánh giá trên tập dev hoặc test
+python -m src.advanced.evaluate --split dev --mode hybrid_rrf --model gpt-4o --top-k 7 --name dev_rrf_4o
+python -m src.advanced.evaluate --split test --mode hybrid_rrf --model gpt-4o --top-k 7 --name test_final
+```
