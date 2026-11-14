@@ -1,0 +1,1437 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt bao nhiêu phần trăm và đóng góp của tiêu dùng tư nhân vào tổng cầu chiếm bao nhiêu phần trăm GDP?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "rr": 0.5,
+    "elapsed_ms": 210.3,
+    "cost_usd": 2e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p20_para_04"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p20_para_04",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 20,
+        "text": "Hình 1.1. Việt Nam là nền kinh tế đạt tăng trưởng cao nhất trong các nước đang phát triển của khu vực Đông Á trong năm 2024\n\nHình 1.2. Tăng trưởng GDP có được nhờ xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh, tỷ lệ % Tăng trưởng các yếu tố cầu của GDP, tỷ lệ % 2 Nghị quyết số 103/2023/QH15 về kế hoạch phát triển kinh tế - xã hội năm 2024.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "10",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2341,
+          "normalized_chars": 2326,
+          "chunk_index": 4,
+          "char_length": 352,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7179732322692871,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p20_para_00",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 20,
+        "text": "10 I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\nKinh tế tăng tốc trong năm 2024 nhờ xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt 7,1%, nhờ xuất khẩu phục hồi mạnh, cao hơn so với các quốc gia trong khu vực. Tăng trưởng GDP trong năm 2024 đạt cao nhất trong số các quốc gia đang phát triển ở khu vực Đông Á, bao gồm các quốc gia ASEAN, cao hơn chỉ tiêu 6-6,5% được Chính phủ đề ra2 (Hình 1.1).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "10",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2341,
+          "normalized_chars": 2326,
+          "chunk_index": 0,
+          "char_length": 424,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7162062525749207,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p11_para_01",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 11,
+        "text": "Đầu tư và tiêu dùng cuối cùng cũng tăng mạnh đóng góp vào tăng trưởng, đạt lần lượt 6,6% và 7,2% trong năm 2024. Mặc dù vậy, tiêu dùng tư nhân chỉ đóng góp ở mức trung bình cho tổng cầu so với các nước trong khu vực (đạt 54% GDP so với mức trung vị bằng 61,7% của khu vực) do tiết kiệm của hộ gia đình tăng trong điều kiện bất định gia tăng trong những năm gần đây.",
+        "metadata": {
+          "section": "tom_luoc",
+          "section_title": "Tóm lược tổng quan",
+          "sub_section": "Diễn biến kinh tế gần đây",
+          "printed_page": "i",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2590,
+          "normalized_chars": 2532,
+          "chunk_index": 1,
+          "char_length": 365,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7118337750434875,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Trong năm 2024, khu vực dịch vụ và ngành du lịch, nhà hàng, khách sạn tăng trưởng bao nhiêu phần trăm và Việt Nam đón bao nhiêu lượt khách nước ngoài?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 720.0,
+    "cost_usd": 1e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p21_para_03"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p21_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 21,
+        "text": "Lĩnh vực du lịch, nhà hàng, khách sạn 4 cũng đạt kết quả tốt (tăng trưởng 9,8%) nhờ các hoạt động du lịch, đạt 17,6 triệu lượt khách nước ngoài trong năm 2024 (tăng 39,5% so với năm 2023). Trong khi đó, các dịch vụ bất động sản phục hồi chậm, chỉ nhích lên 3,3%, cao hơn so với 1,4% trong năm 2023, nhưng thấp hơn tốc độ tăng trưởng trước thời điểm khó khăn của thị trường bất động sản năm 2022 do sai phạm của Ngân hàng Thương mại Sài Gòn (SCB).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "11",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2524,
+          "normalized_chars": 2510,
+          "chunk_index": 3,
+          "char_length": 446,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7542235851287842,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p21_para_02",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 21,
+        "text": "Dịch vụ là khu vực đóng góp quan trọng cho nền kinh tế (tăng trưởng đạt 7,4%, đóng góp 45,9% cho tổng tăng trưởng GDP). Riêng xuất khẩu dịch vụ3 tăng trưởng 10,8%, cao nhất trong các hoạt động dịch vụ, đóng góp 8,7% cho tăng trưởng GDP. Lĩnh vực du lịch, nhà hàng, khách sạn 4 cũng đạt kết quả tốt (tăng trưởng 9,8%) nhờ các hoạt động du lịch, đạt 17,6 triệu lượt khách nước ngoài trong năm 2024 (tăng 39,5% so với năm 2023).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "11",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2524,
+          "normalized_chars": 2510,
+          "chunk_index": 2,
+          "char_length": 425,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6575026512145996,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p26_para_06",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 26,
+        "text": "Chính vì vậy, tiêu dùng tư nhân về hàng hóa vẫn tăng yếu hơn so với tiêu dùng về dịch vụ, như dịch vụ lưu trú và ăn uống (tăng 11,5% so cùng kỳ) hoặc du lịch (16% so cùng kỳ), nhờ số lượt du khách tăng mạnh. Nhu cầu trong nước chưa khởi sắc cũng được nêu là yếu tố chính gây ảnh hưởng đến các doanh nghiệp trong nước năm 2024 (Hình 1.15). Đồng thời, dấu hiệu các mặt hàng giá trị cao được mua nhiều hơn cho thấy tầng lớp trung lưu đang lớn mạnh.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "16",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2544,
+          "normalized_chars": 2528,
+          "chunk_index": 6,
+          "char_length": 445,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.5782603025436401,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Cán cân thương mại hàng hóa của Việt Nam năm 2024 đạt mức xuất siêu bao nhiêu tỷ USD và tương đương bao nhiêu phần trăm GDP?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 419.99,
+    "cost_usd": 1e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p22_para_02"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p22_para_02",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 22,
+        "text": "Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024. Do hàng xuất khẩu của Việt Nam có hàm lượng nhập khẩu cao, tăng trưởng nhập khẩu cũng đạt 16,5% vào tháng 12/2024. Kết quả là cán cân thương mại của Việt Nam đạt thặng dư ở mức 24 tỷ US$ (5,0% GDP) đối với thương mại hàng hóa, tuy vẫn thấp hơn so với năm 2023 (28,4 tỷ US$).\n\nHình 1.5.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "12",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 1532,
+          "normalized_chars": 1506,
+          "chunk_index": 2,
+          "char_length": 403,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7482055425643921,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p20_para_00",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 20,
+        "text": "10 I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\nKinh tế tăng tốc trong năm 2024 nhờ xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt 7,1%, nhờ xuất khẩu phục hồi mạnh, cao hơn so với các quốc gia trong khu vực. Tăng trưởng GDP trong năm 2024 đạt cao nhất trong số các quốc gia đang phát triển ở khu vực Đông Á, bao gồm các quốc gia ASEAN, cao hơn chỉ tiêu 6-6,5% được Chính phủ đề ra2 (Hình 1.1).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "10",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2341,
+          "normalized_chars": 2326,
+          "chunk_index": 0,
+          "char_length": 424,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6782253980636597,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p13_para_02",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 13,
+        "text": "Thương mại hàng hóa đạt thặng dư 10,6% GDP trong 9 tháng đầu năm 2024, tương đương mức 10,8% cùng kỳ năm 2023, sau khi xuất khẩu phục hồi. Thương mại dịch vụ bị thâm hụt lên đến 2,9% GDP trong 9 tháng đầu năm 2024, so với mức thâm hụt 2,1% cùng kỳ năm trước, do nhập khẩu dịch vụ gia tăng (ở mức 14,6 tỷ US$, tương đương 40% tổng kim ngạch nhập khẩu dịch vụ). Thu nhập ròng chuyển ra nước ngoài vẫn ổn định ở mức 2,3% GDP trong 9 tháng đầu năm 2024.",
+        "metadata": {
+          "section": "tom_luoc",
+          "section_title": "Tóm lược tổng quan",
+          "sub_section": "Diễn biến kinh tế gần đây",
+          "printed_page": "iii",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3305,
+          "normalized_chars": 3233,
+          "chunk_index": 2,
+          "char_length": 449,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.667589545249939,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Số lượng dự án bất động sản và căn hộ được cấp phép mới trong năm 2024 là bao nhiêu và số lượng giao dịch tăng trưởng ở mức nào?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 1326.37,
+    "cost_usd": 1e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p27_para_04",
+      "wb-taking-stock-2025-03_p27_para_05"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p27_para_04",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 27,
+        "text": "Q4/2024 Thị trường bất động sản cho thấy dấu hiệu phục hồi. Nguồn cung từ các dự án bất động sản được cấp phép mới và số lượng căn hộ trong năm 2024 cao hơn so với năm trước đó, đạt tổng cộng 79 dự án (+18% so cùng kỳ) và 38.315 căn hộ (+52% so cùng kỳ), nhưng vẫn thấp hơn so với năm 2022, là thời điểm trước khi diễn ra vi phạm của Ngân hàng Thương mại Sài Gòn gây xáo trộn trên thị trường bất động sản (Hình 1.16A).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "17",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2043,
+          "normalized_chars": 2024,
+          "chunk_index": 4,
+          "char_length": 418,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7732957601547241,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p27_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 27,
+        "text": "Lãi suất cho vay bất động sản hấp dẫn hơn khiến số lượng giao dịch tăng mạnh ở mức 24,2% (so cùng kỳ) trong năm 2024 trên nền xuất phát điểm thấp năm 2023 (Hình 1.16B).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "17",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2043,
+          "normalized_chars": 2024,
+          "chunk_index": 5,
+          "char_length": 168,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6599928736686707,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p27_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 27,
+        "text": "Hình 1.16. Thị trường bất động sản cho thấy dấu hiệu phục hồi A. Số dự án và căn hộ được cấp phép mới B. Số lượng giao dịch 0 20 40 60 80 100 120 0 50 100 150 200 250 300 2021 2022 2023 2024 Nghìn Dự án mới Số lượng căn 0 100 200 300 400 500 600 700 Nhà ở thương mại Đất nền Nghìn 2021 2022 2023 2024\n\nNguồn: Bộ Xây dựng\n\nGhi chú: RHS = trục tung bên phải\n\nNguồn: Bộ Xây dựng\n\nNguồn: TCTK - Khảo sát xu hướng kinh doanh quý cho",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "17",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2043,
+          "normalized_chars": 2024,
+          "chunk_index": 3,
+          "char_length": 427,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6435298919677734,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Theo phân tích chi tiết tại Chương 1 về chính sách tiền tệ, Ngân hàng Nhà nước đã bán bao nhiêu tỷ USD dự trữ ngoại hối năm 2024 và thu hút thanh khoản qua OMO, tín phiếu kho bạc với quy mô bao nhiêu?",
+    "strategy": "dense",
+    "filter": {
+      "section": "kinh_te_vi_mo"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "rr": 0.5,
+    "elapsed_ms": 192.33,
+    "cost_usd": 2e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p30_para_03"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p30_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 30,
+        "text": "Chính sách tiền tệ vẫn tạo thuận lợi, mặc dù phải can thiệp để kiềm chế áp lực tỷ giá Ngân hàng Nhà nước Việt Nam (NHNN) đã can thiệp để giảm sức ép lên đồng VND qua bán dự trữ ngoại hối và qua các nghiệp vụ thị trường mở (OMO). Đồng VND bị giảm giá 4,4% so với đồng US$ vào tháng 12/2024 (so cùng kỳ), với tỷ giá ở mức 25.333 VND. Áp lực mất giá đồng nội tệ đẩy tỷ giá lên sát biên độ +/- 5% do NHNN đề ra (Hình 1.22).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "20",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2171,
+          "normalized_chars": 2156,
+          "chunk_index": 3,
+          "char_length": 419,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6203802824020386,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p30_para_04",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 30,
+        "text": "Áp lực mất giá đồng nội tệ đẩy tỷ giá lên sát biên độ +/- 5% do NHNN đề ra (Hình 1.22). Để ứng phó, NHNN can thiệp bằng cách bán dự trữ ngoại hối trị giá 9,4 tỷ US$ trong năm 2024, làm giảm dự trữ ngoại hối hiện nay xuống còn khoảng 2,5 tháng nhập khẩu vào Q3/2024, so với 3,1 tháng của năm trước đó (Hình 1.23). NHNN cũng hút thanh khoản về qua các nghiệp vụ thị trường mở (OMO) và qua phát hành tín phiếu kho bạc (lần lượt trị giá 82,4 ngàn tỷ VND và 60,8 ngàn tỷ VND 13).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "20",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2171,
+          "normalized_chars": 2156,
+          "chunk_index": 4,
+          "char_length": 474,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.590459406375885,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p30_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 30,
+        "text": "NHNN cũng hút thanh khoản về qua các nghiệp vụ thị trường mở (OMO) và qua phát hành tín phiếu kho bạc (lần lượt trị giá 82,4 ngàn tỷ VND và 60,8 ngàn tỷ VND 13). Kết quả là lãi suất qua đêm liên ngân hàng tăng lên 4,04% vào tháng 12/2024 (so cùng kỳ) (Hình 1.24), làm giảm áp lực đối với đồng nội tệ.\n\n13 Nguồn: Fiingroup",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "20",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2171,
+          "normalized_chars": 2156,
+          "chunk_index": 5,
+          "char_length": 321,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.5605946779251099,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Trong năm 2024, NHNN cho phép một số ngân hàng mở rộng phạm vi cho vay ngoài chỉ tiêu trần tín dụng mà không phải xin phê duyệt trong điều kiện nào?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 723.72,
+    "cost_usd": 1e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p32_para_02",
+      "wb-taking-stock-2025-03_p40_para_11"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p32_para_02",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 32,
+        "text": "Những nỗ lực nhằm bám sát trần tín dụng có thể làm giảm hiệu suất kinh tế do do nguồn lực được phân bổ cho các hoạt động kém năng suất hoặc gây méo mó về giá cả tài sản. Nhưng đến năm 2024, NHNN bắt đầu triển khai cách tiếp cận linh hoạt hơn, cho phép một số ngân hàng có nền vốn vững được mở rộng phạm vi cho vay ngoài chỉ tiêu sau khi đã đạt 80% hạn mức vào tháng 8, mà không phải xin phê duyệt để nâng trần tín dụng.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "22",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2619,
+          "normalized_chars": 2603,
+          "chunk_index": 2,
+          "char_length": 419,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7601525187492371,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p14_para_02",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 14,
+        "text": "Những nỗ lực nhằm bám sát trần tín dụng có thể làm giảm hiệu suất kinh tế do nguồn lực được phân bổ cho các hoạt động kém năng suất hoặc gây méo mó về giá cả tài sản. Nhưng đến năm 2024, NHNN bắt đầu áp dụng trần tăng trưởng tín dụng theo cách linh hoạt hơn, cho phép một số ngân hàng có vốn vững được mở rộng phạm vi cho vay ngoài mức trần theo hướng dẫn được xác định trước đó sau khi đã đạt 80% hạn mức vào tháng 8 mà không phải xin phê duyệt để nâng trần tín dụng.",
+        "metadata": {
+          "section": "tom_luoc",
+          "section_title": "Tóm lược tổng quan",
+          "sub_section": "Diễn biến kinh tế gần đây",
+          "printed_page": "iv",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3107,
+          "normalized_chars": 3037,
+          "chunk_index": 2,
+          "char_length": 468,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7249656319618225,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p40_para_11",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 40,
+        "text": "Ví dụ, NHNN chưa có đủ thẩm quyền và công cụ để xử lý các ngân hàng không có khả năng tiếp tục tồn tại. Tăng cường nhiệm vụ của NHNN trong những nội",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.2 Triển vọng và hàm ý chính sách",
+          "printed_page": "30",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3455,
+          "normalized_chars": 3420,
+          "chunk_index": 11,
+          "char_length": 148,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6454383730888367,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Quy mô phát hành trái phiếu doanh nghiệp năm 2024 phục hồi đạt bao nhiêu ngàn tỷ VND và giá trị trái phiếu sắp đáo hạn trong năm 2025 là bao nhiêu?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 440.7,
+    "cost_usd": 1e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p33_para_03"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p33_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 33,
+        "text": "Khối lượng phát hành trái phiếu doanh nghiệp tăng trở lại sau khi chạm đáy trong năm 2023, do khu vực ngân hàng có nhu cầu tăng vốn. Tổng khối lượng phát hành đạt 443 ngàn tỷ VND (17,6 tỷ US$) trong năm 2024, tương đương tăng 37% (so cùng kỳ). Khu vực ngân hàng chiếm phần lớn khối lượng phát hành trong năm, ở mức 69%, tăng 103% (so cùng kỳ năm trước) (Hình 1.28). Khối lượng phát hành của lĩnh vực bất động sản, sau giai đoạn trầm lắng, bắt đầu phục hồi trong Q4/2024, tăng 26% (so cùng kỳ).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "23",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2580,
+          "normalized_chars": 2555,
+          "chunk_index": 3,
+          "char_length": 493,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7107571363449097,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p33_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 33,
+        "text": "Lãi suất phát hành bình quân đạt 7,5% trong Q4/2024, tăng nhẹ so với quý trước, do tỷ trọng lớn hơn của trái phiếu lĩnh vực bất động sản có lợi suất cao hơn. Giá trị trái phiếu đáo hạn trong năm 2025 là 217 ngàn tỷ VND (8,6 tỷ US$), trong đó khoảng một nửa do các doanh nghiệp bất động sản phát hành.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "23",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2580,
+          "normalized_chars": 2555,
+          "chunk_index": 5,
+          "char_length": 300,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6710553169250488,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p33_para_01",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 33,
+        "text": "Khối lượng phát hành trái phiếu doanh phục hồi, chủ yếu nhờ khu vực ngân hàng Tỷ lệ nợ xấu Khối lượng phát hành trái phiếu doanh nghiệp, ngàn tỷ VND 2019 2020 2021 2022 2023 Q3-2024Q2-2024 0% 20% 40% 60% 80% 100% 120% 140% 160% 0% 1% 2% 3% 4% 5% 6% 7% 8% Nợ xấu nội bằng toàn hệ thống (LHS) Nợ xấu gộp (LHS) Tỉ lệ bao phủ nợ xấu (26NH) (RHS) 0 100 200 300 400 500 600 700 800 2019 2020 2021 2022 2023 2024 Tổ chức tín dụng Chứng khoán Bất động sản Thương mại Xây dựng Sản xuất Năng lượng Khác",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "23",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2580,
+          "normalized_chars": 2555,
+          "chunk_index": 1,
+          "char_length": 492,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.659615159034729,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Trong Chương 1, đợt cải cách tiền lương từ ngày 01/07/2024 tăng lương cơ bản và lương hưu ở mức nào và tổng khối lượng phát hành trái phiếu Chính phủ đạt bao nhiêu ngàn tỷ VND?",
+    "strategy": "dense",
+    "filter": {
+      "section": "kinh_te_vi_mo"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "rr": 0.5,
+    "elapsed_ms": 335.55,
+    "cost_usd": 2e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p33_para_03"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p33_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 33,
+        "text": "Khối lượng phát hành trái phiếu doanh nghiệp tăng trở lại sau khi chạm đáy trong năm 2023, do khu vực ngân hàng có nhu cầu tăng vốn. Tổng khối lượng phát hành đạt 443 ngàn tỷ VND (17,6 tỷ US$) trong năm 2024, tương đương tăng 37% (so cùng kỳ). Khu vực ngân hàng chiếm phần lớn khối lượng phát hành trong năm, ở mức 69%, tăng 103% (so cùng kỳ năm trước) (Hình 1.28). Khối lượng phát hành của lĩnh vực bất động sản, sau giai đoạn trầm lắng, bắt đầu phục hồi trong Q4/2024, tăng 26% (so cùng kỳ).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "23",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2580,
+          "normalized_chars": 2555,
+          "chunk_index": 3,
+          "char_length": 493,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6184382438659668,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p34_para_06",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 34,
+        "text": "Ngoài ra, những rào cản về quy định và thủ tục phê duyệt kéo dài tiếp tục làm chậm tiến độ triển khai các dự án đầu tư công. Tổng khối lượng phát hành trái phiếu đạt 330,4 ngàn tỷ VND (13,2 tỷ US$), tương đương 82,6% kế hoạch năm, cao hơn so với 298,5 ngàn tỷ VND trong kế hoạch năm 2023.16\n\n15 Nghị định số 73/2024/NĐ-CP (ngày 30 tháng 6 năm 2024) quy định mức lương và chế độ thưởng theo luật định đối với cán bộ, công chức, viên chức, lực lượng vũ trang.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "24",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2642,
+          "normalized_chars": 2628,
+          "chunk_index": 6,
+          "char_length": 457,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.613202691078186,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p34_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 34,
+        "text": "Tiết kiệm chi thường xuyên trong năm theo dự toán được dành để đảm bảo cho chương trình cải cách lương công chức, bao gồm đợt tăng lương đáng kể từ ngày 01/07/2024 (lương cơ bản và lương hưu tăng bình quân lần lượt 30% và 15%).15 Giải ngân đầu tư công chậm chủ yếu do chậm trễ trong giải phóng mặt bằng và hỗ trợ đền bù trong các dự án lớn về đường quốc lộ, do thiếu hụt vật liệu san lấp (đá và cát), và do giá cả vật liệu thô biến động.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "24",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2642,
+          "normalized_chars": 2628,
+          "chunk_index": 5,
+          "char_length": 437,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.611483097076416,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Sản lượng điện tái tạo năm 2024 của Việt Nam ước đạt bao nhiêu tỷ kWh và những nguyên nhân nào làm chậm quá trình triển khai năng lượng tái tạo?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 1386.74,
+    "cost_usd": 1e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p36_para_07"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p36_para_07",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 36,
+        "text": "Những chậm trễ trong triển khai đang làm trì hoãn quá trình triển khai năng lượng tái tạo. Mặc dù là quốc gia có công suất năng lượng mặt trời lớn nhất Đông Nam Á 19 và là một trong những quốc gia có tài nguyên điện gió ngoài khơi thuộc dạng lớn nhất thế giới, nhưng sản lượng điện tái tạo mới chỉ ước đạt 128,4 tỷ kWh trong năm 2024 (bao gồm cả thủy điện), đạt tăng trưởng khoảng 8% so cùng kỳ (so với tốc độ tăng trưởng 10% so cùng kỳ về tổng sản lượng điện20).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "26",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3371,
+          "normalized_chars": 3343,
+          "chunk_index": 7,
+          "char_length": 463,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7196438312530518,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p36_para_09",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 36,
+        "text": "Nghị định về hợp đồng mua bán điện trực tiếp (DPPA) được ban hành gần đây vào năm 2024, nhằm đẩy mạnh triển khai năng lượng tái tạo bằng cách cho phép các đơn vị sản xuất điện tái tạo được bán trực tiếp cho đơn vị tiêu dùng điện lớn (có thể qua đường dẫn điện riêng hoặc điện lưới quốc gia). Năng lượng tái tạo cần được sử dụng nhiều hơn để thực hiện các kế hoạch về sản xuất điện trong quy hoạch.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "26",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3371,
+          "normalized_chars": 3343,
+          "chunk_index": 9,
+          "char_length": 397,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6549162864685059,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p52_para_04",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 52,
+        "text": "Theo lộ trình đẩy nhanh khử các-bon (ADS), trong giai đoạn 2031-2050, Chính phủ cần đầu tư cộng dồn 280 tỷ US$, trong đó riêng đầu tư phát sinh về công suất lưới điện phải lên đến 9 tỷ US$ do phải triển khai mạnh 29 Mô hình được xây dựng để xác định cơ cấu cung ứng điện tối ưu và sau đó là các khoản đầu tư cần thực hiện dựa trên nguyên tắc chi phí thấp nhất.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.4 Tác động đến nhu cầu điện",
+          "printed_page": "42",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2651,
+          "normalized_chars": 2632,
+          "chunk_index": 4,
+          "char_length": 360,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6339312791824341,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Theo dự báo ngân sách giai đoạn 2025-2026, mức bội chi ngân sách dự kiến chiếm bao nhiêu phần trăm GDP và chi ngân sách năm 2025 dự kiến tăng thêm bao nhiêu phần trăm?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 1118.16,
+    "cost_usd": 2e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p39_para_03"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p39_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 39,
+        "text": "Ngân sách dự kiến sẽ ghi nhận bội chi trong các năm 2025-2026 do tăng chi tiêu theo dự toán. Bội chi ngân sách dự kiến lên đến 1,4% GDP trong năm 2025 và sau đó giảm còn 1,0% trong năm 2026 khi Chính phủ có kế hoạch tiếp tục giảm dư nợ trong điều kiện tăng trưởng vẫn cao hơn lãi suất.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.2 Triển vọng và hàm ý chính sách",
+          "printed_page": "29",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2866,
+          "normalized_chars": 2806,
+          "chunk_index": 3,
+          "char_length": 285,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7371730804443359,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p39_para_04",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 39,
+        "text": "Bội chi ngân sách dự kiến lên đến 1,4% GDP trong năm 2025 và sau đó giảm còn 1,0% trong năm 2026 khi Chính phủ có kế hoạch tiếp tục giảm dư nợ trong điều kiện tăng trưởng vẫn cao hơn lãi suất. Chi ngân sách trong năm 2025 dự kiến sẽ tăng thêm 20% so với năm 2024 do kế hoạch đầu tư cho một số dự án hạ tầng của quốc gia cũng như tăng lương trong khu vực nhà nước và chi trả nghỉ việc trong quá trình tái cơ cấu bộ máy nhà nước.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.2 Triển vọng và hàm ý chính sách",
+          "printed_page": "29",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2866,
+          "normalized_chars": 2806,
+          "chunk_index": 4,
+          "char_length": 427,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6980255246162415,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p34_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 34,
+        "text": "lần hai, 2024: chi tiết dựa trên ước thực hiện lần một và tổng thu theo báo cáo của TCTK, cũng tham khảo báo cáo gần nhất của Bộ Tài chính 03/01/2025).\n\nSau khi giải ngân gói kích cầu tài khóa lớn năm 2023, tỷ lệ giải ngân đầu tư công không đạt chỉ tiêu dự toán kết hợp với tiết kiệm chi thường xuyên khiến cho cân đối ngân sách bội thu ở mức 1,8% GDP (Hình 1.30). Chi thường xuyên đạt 11,3% GDP, so với 12,4% trong năm 2023, tương đương 94,5% dự toán ngân sách.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "24",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2642,
+          "normalized_chars": 2628,
+          "chunk_index": 3,
+          "char_length": 462,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6913071870803833,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Theo phân tích tại Chương 2 về bối cảnh giao thông vận tải, lĩnh vực giao thông vận tải xả ra bao nhiêu triệu tấn khí thải năm 2021 và nếu không khử các-bon thì sẽ tăng lên mức nào vào năm 2050 theo kịch bản BAU?",
+    "strategy": "dense",
+    "filter": {
+      "section": "chuyen_doi_xe_dien"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "rr": 0.0,
+    "elapsed_ms": 495.3,
+    "cost_usd": 2e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p43_para_03"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p43_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 43,
+        "text": "Nếu không khử các-bon, tỷ lệ đóng góp trong lĩnh vực này sẽ còn tiếp tục tăng mạnh do tỷ lệ sử dụng xe hơi đang gia tăng nhanh chóng. Lĩnh vực giao thông vận tải xả ra 32,9 triệu tấn khí thải các-bon đi-ô-xít tương đương (MtCO2eq) trong năm 2021, tương đương 7,2% tổng lượng khí thải nhà kính trên toàn bộ nền kinh tế của Việt Nam, phần lớn trong đó là do giao thông đường bộ, trong đó phân khúc phương tiện đường bộ xả thải nhiều nhất là xe tải chở hàng (Hình 2.1).",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.1 Bối cảnh",
+          "printed_page": "33",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2206,
+          "normalized_chars": 2191,
+          "chunk_index": 3,
+          "char_length": 466,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7019962072372437,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p55_para_01",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 55,
+        "text": "Lượng khí thải khi chuyển đổi sang xe điện đến năm 2030, theo các kịch bản BAU, SPS, và ADS (MtCO2eq) -14 -12 -10 -8 -6 -4 -2 0 2 4 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 Lượng khí thải giảm được từ quá trình đốt nhiên liệu ICE - BAU Lượng khí thải giảm được từ quá trình đốt nhiên liệu ICE - SPS Lượng khí thải giảm được từ quá trình đốt nhiên liệu ICE - ADS Lượng phát thải tăng thêm từ điện G/D cho xe điện - BAU Lượng phát thải tăng thêm từ điện G/D cho xe điện - SPS Lượng phát",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.5 Tác động đến khí thải nhà kính",
+          "printed_page": "45",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 1274,
+          "normalized_chars": 1265,
+          "chunk_index": 1,
+          "char_length": 498,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6820859313011169,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p54_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 54,
+        "text": "Hình 2.5. Lượng phát thải từ giao thông đường bộ đến năm 2050 theo ba lộ trình chuyển đổi (Mt CO2eq) 0 50 100 150 200 250 300 350 400 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046 2047 2048 2049 2050 Phát thải - Không có xe điện Hấp thụ phát thải - Kịch bản cơ sở xe điện Hấp thụ phát thải - Kịch bản SPS xe điện Hấp thụ phát thải - Kịch bản ADS xe điện\n\nNguồn: Tính toán của Ngân hàng Thế giới",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.5 Tác động đến khí thải nhà kính",
+          "printed_page": "44",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2500,
+          "normalized_chars": 2486,
+          "chunk_index": 5,
+          "char_length": 483,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6742264032363892,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Theo Quyết định số 876/QĐ-TTg, Hà Nội và thành phố Hồ Chí Minh cần bổ sung thêm bao nhiêu xe buýt vào năm 2030 để đạt chỉ tiêu và đâu là những rào cản chính?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 520.36,
+    "cost_usd": 2e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p47_para_05"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p47_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 47,
+        "text": "Chuyển sang sử dụng giao thông công cộng đòi hỏi phải có những can thiệp chính sách mạnh mẽ nhằm xử lý những rào cản hiện nay. Hà Nội và thành phố Hồ Chí Minh cần bổ sung thêm lần lượt 6.000 và 4.500 nghìn xe buýt vào năm 2030, mới có thể hoàn thành được chỉ tiêu về tỷ lệ sử dụng phương thức này theo Quyết định số 876 tại hai thành phố.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.2 Chuyển đổi sang xe điện bao hàm điều gì?",
+          "printed_page": "37",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2690,
+          "normalized_chars": 2666,
+          "chunk_index": 5,
+          "char_length": 338,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.8177555799484253,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p18_para_01",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 18,
+        "text": "Quyết định số 876/QĐ-TTg về chuyển đổi xanh trong lĩnh vực giao thông đường bộ đề ra các chỉ tiêu về chuyển đổi sang sử dụng phương tiện giao thông chạy bằng điện (xe điện) – bao gồm phấn đấu đạt 50% phương tiện giao thông đô thị và 100% xe buýt và ta-xi nội đô sử dụng điện hoặc năng lượng xanh vào năm 2030, hướng tới áp dụng 100% cho các phương tiện giao thông đường bộ vào năm 2050. Các khuyến nghị bao gồm như sau:",
+        "metadata": {
+          "section": "tom_luoc",
+          "section_title": "Tóm lược tổng quan",
+          "sub_section": "Chuyên đề đặc biệt: Chuyển đổi sang xe điện",
+          "printed_page": "viii",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2115,
+          "normalized_chars": 2071,
+          "chunk_index": 1,
+          "char_length": 419,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6313931345939636,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p47_para_06",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 47,
+        "text": "Những trở ngại lớn khác để hoàn thành các chỉ tiêu tên bao gồm chi phí ban đầu để mua xe buýt điện vẫn cao hơn so với chi phí mua xe chạy dầu diesel hoặc khí tự nhiên, hiện chính quyền các thành phố chưa có hướng dẫn kỹ thuật và vận hành đối với xe buýt điện, chưa kể rủi ro về tỷ lệ sử dụng thấp do những bất cập về hạ tầng và chính sách.\n\n26 Quy hoạch phát triển ng ành điện lần thứ tám giai đoạn 2021-2030, tầm nhìn đến năm 2045.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.2 Chuyển đổi sang xe điện bao hàm điều gì?",
+          "printed_page": "37",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2690,
+          "normalized_chars": 2666,
+          "chunk_index": 6,
+          "char_length": 432,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6300303936004639,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Ba kịch bản chuyển đổi sang xe điện (BAU, SPS và ADS) khác nhau ở những tham số chính nào và thời điểm kích hoạt đòn bẩy chính sách giữa ADS và SPS chênh nhau ra sao?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "rr": 0.5,
+    "elapsed_ms": 287.11,
+    "cost_usd": 2e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p48_para_05"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p48_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 48,
+        "text": "• Sử dụng kịch bản BAU làm số liệu ban đầu, kịch bản SPS đưa ra ước tính định lượng nhằm hỗ trợ tìm hiểu quy mô nhu cầu xe điện trong toàn bộ các phân khúc xe, các yêu cầu tiếp theo về chính sách và đầu tư nhằm đảm bảo nguồn cung xe điện, cung cấp điện và mạng lưới sạc điện.\n\n• Giả định đẩy nhanh tỷ lệ sử dụng xe điện, vượt trên kịch bản SPS nhằm đem lại tác động khử các-bon tối đa qua chuyển sang sử dụng xe điện.\n\n• Giả định về tỷ lệ chuyển sang sử dụng xe điện mạnh mẽ hơn cho :",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.3 Các kịch bản về chuyển sang xe điện",
+          "printed_page": "38",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2882,
+          "normalized_chars": 2858,
+          "chunk_index": 5,
+          "char_length": 484,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7309616804122925,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p48_para_02",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 48,
+        "text": "Mỗi kịch bản bao gồm những phương án chính sách khác nhau nhằm hỗ trợ tỷ lệ chuyển sang sử dụng, sản xuất xe điện và mạng lưới sạc. Sự khác nhau giữa ba kịch bản được cụ thể hóa theo các tham số sau: (i) mức độ chuyển sang dùng xe điện, (ii) mức độ sản xuất và cung ứng xe điện và (iii) mức độ sẵn có về hạ tầng sạc xe điện (Bảng 2.3). Về khung thời gian, kịch bản ADS dựa trên những đòn bẩy chính sách được kích hoạt từ năm 2025, so với 2030 trong SPS .\n\n2.3 Các kịch bản về chuyển sang xe điện",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.3 Các kịch bản về chuyển sang xe điện",
+          "printed_page": "38",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2882,
+          "normalized_chars": 2858,
+          "chunk_index": 2,
+          "char_length": 495,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7075416445732117,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p50_para_01",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 50,
+        "text": "Ghi chú: Doanh số bán xe điện hai bánh (e-2W) được trình bày ở các dòng BAU, SPS, ADS\n\nLộ trình theo kịch bản đẩy nhanh khử các-bon (ADS) cho xe điện hai bánh giúp chuyển đổi sang xe điện và khử các-bon nhanh hơn so với kịch bản chính sách tuyên bố (SPS), với những can thiệp chính sách như nhau - nhưng được triển khai nhanh hơn theo lộ trình ADS.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.3 Các kịch bản về chuyển sang xe điện",
+          "printed_page": "40",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2061,
+          "normalized_chars": 1998,
+          "chunk_index": 1,
+          "char_length": 348,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6832900047302246,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Tại sao trong kịch bản BAU, xe điện hai bánh ở đô thị bị giới hạn ở mức 40% và chưa thể gia nhập đáng kể vào thị trường nông thôn?",
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 437.95,
+    "cost_usd": 1e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p50_para_05"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p50_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 50,
+        "text": "Theo kịch bản BAU, tỷ lệ chuyển sang sử dụng xe điện hai bánh sẽ tập trung ở các địa bàn đô thị, nhưng bị giới hạn ở mức 40% do vẫn còn chênh lệch giá so với xe hai bánh dùng động cơ đốt trong và do quan ngại về độ an toàn của pin điện. Do chưa có hạ tầng sạc công cộng, như được hỗ trợ trong các kịch bản ADS và SPS, xe điện hai bánh chưa thể gia nhập đáng kể ở các địa bàn nông thôn, vì thị trường ở đó chủ yếu sử dụng phương thức xe điện chạy pin chì, cho dù quãng đường và công suất bị hạn chế.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.3 Các kịch bản về chuyển sang xe điện",
+          "printed_page": "40",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2061,
+          "normalized_chars": 1998,
+          "chunk_index": 5,
+          "char_length": 498,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7731815576553345,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p49_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 49,
+        "text": "Góc nhìn so sánh về những yếu tố chính ảnh hưởng đến tình hình chuyển sang dùng xe điện (kịch bản BAU, SPS và ADS) Mặc dù không có chỉ tiêu cụ thể, nhưng tỷ lệ chuyển sang sử dụng xe điện hai bánh (e-2W) được cho là sẽ nâng cao mức độ sẵn sàng hiện nay trên thị trường và có dư địa lớn để khuyến khích bằng chính sách. Theo lộ trình của kịch bản BAU, do chưa có chính sách hỗ trợ, doanh số bán xe điện hai bánh sẽ đạt đỉnh vào năm 2030 ở mức 515.000 xe (21,7% tổng doanh số bán xe hai bánh),",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.3 Các kịch bản về chuyển sang xe điện",
+          "printed_page": "39",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2261,
+          "normalized_chars": 2219,
+          "chunk_index": 5,
+          "char_length": 491,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.60328209400177,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p48_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 48,
+        "text": "Bảng 2.2. Các khái niệm và nội dung chính của ba lộ trình chuyển đổi\n\n• Chính phủ không có các chương trình, chính sách hỗ trợ và đầu tư để nâng tỷ lệ sử dụng xe điện hoặc phát triển mạng lưới sạc công cộng .\n\n• Kịch bản BAU phản ánh tình hình giai đoạn 2014-2020 ở Việt Nam, khi đó tỷ lệ sử dụng xe điện hoàn toàn do thị trường quyết định do giảm chi đầu tư cho xe điện so với xe động cơ đốt trong.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.3 Các kịch bản về chuyển sang xe điện",
+          "printed_page": "38",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2882,
+          "normalized_chars": 2858,
+          "chunk_index": 3,
+          "char_length": 399,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.5963375568389893,
+        "strategy": "dense",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Trong phần Tóm lược tổng quan, tổng nhu cầu thị trường về xe điện các loại giai đoạn 2024-2030 và 2031-2050 cùng số lượng việc làm mới tạo ra cộng dồn đến năm 2050 được tóm tắt như thế nào?",
+    "strategy": "dense",
+    "filter": {
+      "section": "tom_luoc"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 235.26,
+    "cost_usd": 2e-06,
+    "meta": {
+      "model": "text-embedding-3-small"
+    },
+    "context_ids": [
+      "wb-taking-stock-2025-03_p17_para_06"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p17_para_06",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 17,
+        "text": "Cộng dồn lại, số liệu trên cho thấy nhu cầu thị trường về xe điện các loại lên đến trên 7 triệu xe trong giai đoạn 2024-2030, và 71 triệu xe trong giai đoạn 2031-2050. Sự phát triển của thị trường xe điện dự kiến sẽ góp phần vào sự phát triển của toàn bộ chuỗi giá trị xe điện, bao gồm sản xuất xe, pin điện và hạ tầng sạc.\n\nNhu cầu trong các lĩnh vực bảo trì và tái chế xe điện cũng sẽ tăng lên, mở ra thị trường cho lao động lành nghề. Chuyển đổi sang xe điện Chuyên đề đặc biệt:",
+        "metadata": {
+          "section": "tom_luoc",
+          "section_title": "Tóm lược tổng quan",
+          "sub_section": "Chuyên đề đặc biệt: Chuyển đổi sang xe điện",
+          "printed_page": "vii",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3078,
+          "normalized_chars": 3014,
+          "chunk_index": 6,
+          "char_length": 481,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.7106333374977112,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p17_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 17,
+        "text": "Quá trình chuyển sang sử dụng xe điện cũng cho thấy những cơ hội lớn cho phát triển kinh tế. Để đạt mục tiêu về tỷ lệ hấp thụ xe điện (EV), doanh số bán của Việt Nam cần tăng từ 500.000 xe trong năm 2022 lên khoảng 1,5 triệu xe vào năm 2030, và 7,3 triệu vào năm 2050. Cộng dồn lại, số liệu trên cho thấy nhu cầu thị trường về xe điện các loại lên đến trên 7 triệu xe trong giai đoạn 2024-2030, và 71 triệu xe trong giai đoạn 2031-2050.",
+        "metadata": {
+          "section": "tom_luoc",
+          "section_title": "Tóm lược tổng quan",
+          "sub_section": "Chuyên đề đặc biệt: Chuyển đổi sang xe điện",
+          "printed_page": "vii",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3078,
+          "normalized_chars": 3014,
+          "chunk_index": 5,
+          "char_length": 436,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6437464952468872,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p18_para_00",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 18,
+        "text": "viii I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\ndự kiến sẽ tạo thêm đến 6,5 triệu việc làm mới trong toàn bộ chuỗi giá trị xe điện, tính cộng dồn đến năm 2050, trong đó có 61% ở lĩnh vực hạ tầng sạc xe điện.\n\nMột gói các khuyến nghị được xây dựng để giúp Chính phủ Việt Nam hoàn thành các chỉ tiêu về chuyển đổi sang xe điện.",
+        "metadata": {
+          "section": "tom_luoc",
+          "section_title": "Tóm lược tổng quan",
+          "sub_section": "Chuyên đề đặc biệt: Chuyển đổi sang xe điện",
+          "printed_page": "viii",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2115,
+          "normalized_chars": 2071,
+          "chunk_index": 0,
+          "char_length": 315,
+          "chunking": "by_paragraph"
+        },
+        "score": 0.6166430711746216,
+        "strategy": "dense",
+        "hit": true
+      }
+    ]
+  }
+]

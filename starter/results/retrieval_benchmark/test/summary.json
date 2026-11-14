@@ -1,0 +1,62 @@
+[
+  {
+    "strategy": "tfidf",
+    "n": 5,
+    "hit1": "5/5 (100.0%)",
+    "hit3": "5/5 (100.0%)",
+    "context_hit": "5/5 (100.0%)",
+    "mrr": 1.0,
+    "median_ms": 2.28,
+    "query_cost_usd": 0.0
+  },
+  {
+    "strategy": "bm25",
+    "n": 5,
+    "hit1": "5/5 (100.0%)",
+    "hit3": "5/5 (100.0%)",
+    "context_hit": "5/5 (100.0%)",
+    "mrr": 1.0,
+    "median_ms": 2.57,
+    "query_cost_usd": 0.0
+  },
+  {
+    "strategy": "dense",
+    "n": 5,
+    "hit1": "3/5 (60.0%)",
+    "hit3": "5/5 (100.0%)",
+    "context_hit": "5/5 (100.0%)",
+    "mrr": 0.8,
+    "median_ms": 208.05,
+    "query_cost_usd": 1e-05
+  },
+  {
+    "strategy": "hybrid_rrf",
+    "n": 5,
+    "hit1": "5/5 (100.0%)",
+    "hit3": "5/5 (100.0%)",
+    "context_hit": "5/5 (100.0%)",
+    "mrr": 1.0,
+    "median_ms": 213.15,
+    "query_cost_usd": 1e-05
+  },
+  {
+    "strategy": "rerank",
+    "n": 5,
+    "hit1": "5/5 (100.0%)",
+    "hit3": "5/5 (100.0%)",
+    "context_hit": "5/5 (100.0%)",
+    "mrr": 1.0,
+    "median_ms": 1331.9,
+    "query_cost_usd": 0.001402
+  },
+  {
+    "strategy": "query_transform",
+    "n": 5,
+    "hit1": "4/5 (80.0%)",
+    "hit3": "5/5 (100.0%)",
+    "context_hit": "5/5 (100.0%)",
+    "mrr": 0.9,
+    "median_ms": 2280.21,
+    "query_cost_usd": 0.000337
+  }
+]

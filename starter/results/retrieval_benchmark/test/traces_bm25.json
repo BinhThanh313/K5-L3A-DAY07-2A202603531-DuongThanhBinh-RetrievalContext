@@ -1,0 +1,481 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Theo phân tích tại Chương 1 về tỷ lệ thâm dụng điện, cường độ tiêu thụ điện trên mỗi 1.000 USD GDP năm 2024 tăng lên bao nhiêu kWh (cao nhất từ năm nào) và các ngành kim loại cơ bản, kim loại màu, cao su - nhựa tăng trưởng bao nhiêu phần trăm?",
+    "strategy": "bm25",
+    "filter": {
+      "section": "kinh_te_vi_mo"
+    },
+    "top_k": 3,
+    "budget_chars": 3200,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 2.58,
+    "cost_usd": 0.0,
+    "meta": {},
+    "context_ids": [
+      "wb-taking-stock-2025-03_p36_para_04",
+      "wb-taking-stock-2025-03_p35_para_04",
+      "wb-taking-stock-2025-03_p37_para_01"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p36_para_04",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 36,
+        "text": "Các lĩnh vực thâm dụng năng lượng và tiêu thụ điện năng lớn như sản xuất kim loại cơ bản (bao gồm thép), quặng kim loại màu (bao gồm nhôm), cao su và nhựa tăng trưởng lần lượt ở mức 9,3%, 16,3% và 23,4% trong năm 2024, cao hơn nhiều so với năm 2023 và cao hơn so với tăng trưởng sản xuất công nghiệp hoặc toàn bộ nền kinh tế (7,8% và 7,1 % tương ứng).",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "26",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3371,
+          "normalized_chars": 3343,
+          "chunk_index": 4,
+          "char_length": 351,
+          "chunking": "by_paragraph"
+        },
+        "score": 64.82695886577562,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p35_para_04",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 35,
+        "text": "Tốc độ tăng trưởng doanh số bán điện và tăng trưởng GDP từ trước đến nay luôn tương quan ở mức cao, nhất là từ năm 2020 do các ngành kinh tế lớn đều thâm dụng điện, chẳng hạn các lĩnh vực sản xuất chế biến, chế tạo. Nhưng trong năm 2024, doanh số bán điện tăng cao hơn tốc độ tăng trưởng kinh tế, làm tăng tỷ lệ thâm dụng điện so GDP lên đến 590 kWh trên 1.000 US$ so với mức 579 kWh trên 1.000 US$ năm 2023, là tỷ lệ cao nhất kể từ năm 2013.",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "25",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2155,
+          "normalized_chars": 2139,
+          "chunk_index": 4,
+          "char_length": 442,
+          "chunking": "by_paragraph"
+        },
+        "score": 52.56899306610126,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p37_para_01",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 37,
+        "text": "Ngày càng có nhiều ngành công nghiệp thâm dụng năng lượng trở thành động lực tăng trưởng sản lượng công nghiệp trong năm 2024 Tốc độ tăng trưởng (%) Xe có động cơ Nội thất Giày dép May mặc Dệt Khoáng sản phi kim loại Thực phẩm Điện tử Đồ uống Gỗ Sản phẩm kim loại Kim loại cơ bản Sản phẩm từ cao su và plastic Giấy Thiết bị vận chuyển Thuốc lá Dầu mỏ In ấn Hóa chất Máy móc Thiết bị điện Dược liệu Khai thác thanKhai thác dầu thô Khai thác khí thiên nhiên Kim loại màu Hoạt động dịch vụ hỗ trợ khai",
+        "metadata": {
+          "section": "kinh_te_vi_mo",
+          "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+          "sub_section": "1.1 Diễn biến kinh tế gần đây",
+          "printed_page": "27",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 1120,
+          "normalized_chars": 1114,
+          "chunk_index": 1,
+          "char_length": 498,
+          "chunking": "by_paragraph"
+        },
+        "score": 52.11481270529946,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Để đáp ứng mục tiêu chuyển đổi xe điện, Việt Nam cần đầu tư bao nhiêu tỷ USD cho ngành điện trong giai đoạn 2024-2030 và cộng dồn bao nhiêu tỷ USD trong giai đoạn 2031-2050 theo kịch bản ADS?",
+    "strategy": "bm25",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3200,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 3.12,
+    "cost_usd": 0.0,
+    "meta": {},
+    "context_ids": [
+      "wb-taking-stock-2025-03_p52_para_03",
+      "wb-taking-stock-2025-03_p17_para_05",
+      "wb-taking-stock-2025-03_p53_para_02"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p52_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 52,
+        "text": "Đầu tư tăng thêm cho ngành điện để đáp ứng nhu cầu sạc xe điện cần tập trung vào tăng nguồn cung, bên cạnh tăng chi tiêu để nâng cao công suất lưới điện trong giai đoạn 2045–2050. 29 Để tạo điều kiện chuyển sang xe điện theo mục tiêu, trong giai đoạn 2024-2030, Việt Nam cần đầu tư 6-9 tỷ US$ cho ngành điện. Ngược lại, quốc gia đang chi tiêu 9 tỷ US$ để nhập các sản phẩm xăng dầu riêng cho năm 2022, trong đó 85% (7,65 tỷ US$) được dùng cho giao thông vận tải.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.4 Tác động đến nhu cầu điện",
+          "printed_page": "42",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2651,
+          "normalized_chars": 2632,
+          "chunk_index": 3,
+          "char_length": 462,
+          "chunking": "by_paragraph"
+        },
+        "score": 54.63385455869237,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p17_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 17,
+        "text": "Quá trình chuyển sang sử dụng xe điện cũng cho thấy những cơ hội lớn cho phát triển kinh tế. Để đạt mục tiêu về tỷ lệ hấp thụ xe điện (EV), doanh số bán của Việt Nam cần tăng từ 500.000 xe trong năm 2022 lên khoảng 1,5 triệu xe vào năm 2030, và 7,3 triệu vào năm 2050. Cộng dồn lại, số liệu trên cho thấy nhu cầu thị trường về xe điện các loại lên đến trên 7 triệu xe trong giai đoạn 2024-2030, và 71 triệu xe trong giai đoạn 2031-2050.",
+        "metadata": {
+          "section": "tom_luoc",
+          "section_title": "Tóm lược tổng quan",
+          "sub_section": "Chuyên đề đặc biệt: Chuyển đổi sang xe điện",
+          "printed_page": "vii",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3078,
+          "normalized_chars": 3014,
+          "chunk_index": 5,
+          "char_length": 436,
+          "chunking": "by_paragraph"
+        },
+        "score": 47.61229968902306,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p53_para_02",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 53,
+        "text": "Bảng 2.6. Nhu cầu đầu tư cộng dồn để đáp ứng nhu cầu sạc xe điện theo các kịch bản SPS và ADS (tỷ US$) SPS GENGiai đoạn GENTổng TổngTX+DX TX+DXLCOE $/MWh LCOE $/MWh ADS 2024-2030 2031-2040 2041-2050 6 59 200 8 63 209 0 0 0 1 0 9 101 90 81 79 77 71 6 59 200 9 63 218 Thúc đẩy chuyển đổi mô hình giao thông hành khách và hàng hóa là cách để giảm đáng kể tổng nhu cầu sạc xe điện.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.4 Tác động đến nhu cầu điện",
+          "printed_page": "43",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 1782,
+          "normalized_chars": 1769,
+          "chunk_index": 2,
+          "char_length": 377,
+          "chunking": "by_paragraph"
+        },
+        "score": 45.54076345472116,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Nếu cơ cấu nguồn điện lưới giữ nguyên ở mức năm 2022 so với trường hợp hoàn thành xanh hóa lưới điện theo QHĐ8, mức giảm phát thải ròng vào năm 2050 nhờ chuyển sang xe điện sẽ thay đổi như thế nào?",
+    "strategy": "bm25",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3200,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 2.06,
+    "cost_usd": 0.0,
+    "meta": {},
+    "context_ids": [
+      "wb-taking-stock-2025-03_p55_para_02",
+      "wb-taking-stock-2025-03_p55_para_03",
+      "wb-taking-stock-2025-03_p52_para_00"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p55_para_02",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 55,
+        "text": "thải tăng thêm từ điện G/D cho xe điện - ADS\n\nNguồn: Tính toán của Ngân hàng Thế giới\n\ncấu nguồn điện lưới vẫn không thay đổi so với mức năm 2022, riêng chuyển đổi sang xe điện có thể đem lại lượng giảm phát thải ròng ở mức 2,2 triệu tấn CO2eq vào năm 2050 do xe điện có hiệu suất năng lượng cao hơn. Ngoài ra, nếu có thể hoàn thành xanh hóa lưới điện theo QHĐ8, chuyển đổi có thể dẫn đến giảm khí thải ròng ở mức 5,3 triệu tấn CO2eq vào năm 2050 (Hình 2.6).",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.5 Tác động đến khí thải nhà kính",
+          "printed_page": "45",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 1274,
+          "normalized_chars": 1265,
+          "chunk_index": 2,
+          "char_length": 458,
+          "chunking": "by_paragraph"
+        },
+        "score": 71.57792680093988,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p55_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 55,
+        "text": "Ngoài ra, nếu có thể hoàn thành xanh hóa lưới điện theo QHĐ8, chuyển đổi có thể dẫn đến giảm khí thải ròng ở mức 5,3 triệu tấn CO2eq vào năm 2050 (Hình 2.6). Chính vì vậy, lượng khí thải liên quan đến sản xuất, truyền tải và phân phối điện trong hệ thống điện nhằm phục vụ sạc xe điện có thể dễ dàng được bù lại bằng cách bớt sử dụng nhiên liệu hóa thạch ở các loại xe dùng động cơ đốt trong.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.5 Tác động đến khí thải nhà kính",
+          "printed_page": "45",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 1274,
+          "normalized_chars": 1265,
+          "chunk_index": 3,
+          "char_length": 392,
+          "chunking": "by_paragraph"
+        },
+        "score": 50.63638069709479,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p52_para_00",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 52,
+        "text": "42 I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\nNhu cầu sạc xe điện phát sinh sẽ dẫn đến tăng trưởng nguồn cung vào lưới điện ở mức 4,9% (CAGR 2035–2050) so với 3,7% theo dự kiến hiện nay trong QHĐ8. Để đáp ứng nhu cầu ở mức đó, ngành điện cần nâng công suất mạng lưới bổ sung cao hơn so với QHĐ8 bình quân lần lượt ở mức 3-5% và 12-20% trong giai đoạn 2030-2045 và 2045-2050. Sau đó công suất truyền tải bổ sung phải tăng thêm 15% vào năm 2050 để điện khí hóa 100% cho giao thông đường bộ.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.4 Tác động đến nhu cầu điện",
+          "printed_page": "42",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2651,
+          "normalized_chars": 2632,
+          "chunk_index": 0,
+          "char_length": 478,
+          "chunking": "by_paragraph"
+        },
+        "score": 36.39714842999711,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Với giả định giá dầu thô quốc tế ở mức 80 USD/thùng, việc chuyển đổi sang xe điện đến năm 2050 giúp Việt Nam tiết kiệm cộng dồn bao nhiêu chi phí nhiên liệu theo kịch bản SPS và ADS?",
+    "strategy": "bm25",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 3200,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 2.57,
+    "cost_usd": 0.0,
+    "meta": {},
+    "context_ids": [
+      "wb-taking-stock-2025-03_p56_para_04",
+      "wb-taking-stock-2025-03_p56_para_01",
+      "wb-taking-stock-2025-03_p56_para_03"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p56_para_04",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 56,
+        "text": "Với giá dầu thô quốc tế quốc tế hiện nay ở mức 80 US$/thùng, con số chi tiêu cộng dồn tiết kiệm được sẽ là 360 tỷ US4 theo kịch bản SPS và 498 tỷ US$ theo kịch bản ADS, qua đó sẽ nâng cao khả năng chống chịu về kinh tế (Hình 2.7).",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.6 Tác động đến kinh tế",
+          "printed_page": "46",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2282,
+          "normalized_chars": 2264,
+          "chunk_index": 4,
+          "char_length": 230,
+          "chunking": "by_paragraph"
+        },
+        "score": 61.96634580126986,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p56_para_01",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 56,
+        "text": "Hình 2.7. Nhu cầu cộng dồn về xăng và dầu diesel được giảm bớt theo kịch bản SPS và ADS so với kịch bản BAU Lượng tiêu thụ xăng cộng dồn bớt được so với BAU (triệu lít) Lượng tiêu thụ dầu diesel cộng dồn bớt được so với BAU (triệu lít) Chuyển đổi sang xe điện có thể đem lại nhiều lợi ích kinh tế. Đó là tiết kiệm tiền nhập nhiên liệu và tạo việc làm trong các ngành nghề liên quan, đồng thời cải thiện an ninh năng lượng của Việt Nam cũng như khả năng chống chịu các cú sốc bên ngoài.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.6 Tác động đến kinh tế",
+          "printed_page": "46",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2282,
+          "normalized_chars": 2264,
+          "chunk_index": 1,
+          "char_length": 485,
+          "chunking": "by_paragraph"
+        },
+        "score": 46.41587357929227,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p56_para_03",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 56,
+        "text": "Riêng trong phân khúc xe hai bánh, mức độ thâm nhập của xe điện như hiện nay đã bớt được khoảng 390 triệu lít xăng trong năm 2022. Đến năm 2050, nếu tính tương đương số thùng dầu thô, dự kiến con số bớt được cộng dồn sẽ lên đến 4.502 hoặc 6.224 thùng dầu thô lần lượt theo các kịch bản SPS và ADS.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.6 Tác động đến kinh tế",
+          "printed_page": "46",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2282,
+          "normalized_chars": 2264,
+          "chunk_index": 3,
+          "char_length": 297,
+          "chunking": "by_paragraph"
+        },
+        "score": 44.95555484248538,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Theo khuyến nghị chính sách chi tiết ở Chương 2, lộ trình phát triển mạng lưới sạc công cộng giai đoạn 2025-2027 ưu tiên tại 5 thành phố nào và vì sao Chính phủ cần hỗ trợ tài chính cho hạ tầng sạc?",
+    "strategy": "bm25",
+    "filter": {
+      "section": "chuyen_doi_xe_dien"
+    },
+    "top_k": 3,
+    "budget_chars": 3200,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "rr": 1.0,
+    "elapsed_ms": 0.9,
+    "cost_usd": 0.0,
+    "meta": {},
+    "context_ids": [
+      "wb-taking-stock-2025-03_p60_para_05",
+      "wb-taking-stock-2025-03_p60_para_06",
+      "wb-taking-stock-2025-03_p49_para_01"
+    ],
+    "results": [
+      {
+        "id": "wb-taking-stock-2025-03_p60_para_05",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 60,
+        "text": "Sau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.7 Khuyến nghị chính sách",
+          "printed_page": "50",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3258,
+          "normalized_chars": 3227,
+          "chunk_index": 5,
+          "char_length": 435,
+          "chunking": "by_paragraph"
+        },
+        "score": 71.68435852766162,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p60_para_06",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 60,
+        "text": "Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ). Từ năm 2027-2030, trọng tâm là mở rộng mạng lưới sạc công cộng ra các địa bàn ngoài đô thị, và đẩy mạnh cường độ sau năm 2030 ở các địa bàn đô thị và ngoài đô thị để chuẩn bị cho một lượng lớn chuyển sang sử dụng xe hơi điện theo dự kiến sau năm 2035.",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.7 Khuyến nghị chính sách",
+          "printed_page": "50",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 3258,
+          "normalized_chars": 3227,
+          "chunk_index": 6,
+          "char_length": 419,
+          "chunking": "by_paragraph"
+        },
+        "score": 51.72327371855499,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "wb-taking-stock-2025-03_p49_para_01",
+        "source_id": "wb-taking-stock-2025-03",
+        "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+        "page": 49,
+        "text": "Các chỉ tiêu về chuyển sang sử dụng xe điện và phạm vi chỉ tiêu Chính phủ hỗ trợ và có cơ chế khuyến khích chuyển sang sử dụng xe điện Hỗ trợ có mục tiêu cho các phân khúc xe khó chuyển đổi Triển khai các tiêu chuẩn quốc ra về chế tạo và sạc xe điện Chương trình hỗ trợ của Chính phủ về phát triển mạng lưới sạc công cộng Cải cách giá điện sạc xe điện để khuyến khích sạc ngoài giờ cao điểm Triển khai các thiết bị sạc thông minh Triển khai điện mặt trời sau đồng hồ đo điện cho hạ tầng sạc công cộng",
+        "metadata": {
+          "section": "chuyen_doi_xe_dien",
+          "section_title": "Chương 2: Chuyển đổi sang xe điện",
+          "sub_section": "2.3 Các kịch bản về chuyển sang xe điện",
+          "printed_page": "39",
+          "year": 2025,
+          "language": "vi",
+          "document_type": "economic_report",
+          "raw_chars": 2261,
+          "normalized_chars": 2219,
+          "chunk_index": 1,
+          "char_length": 500,
+          "chunking": "by_paragraph"
+        },
+        "score": 49.620372851956056,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ]
+  }
+]

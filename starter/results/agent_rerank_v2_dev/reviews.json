@@ -1,0 +1,235 @@
+[
+  {
+    "query_id": "q01",
+    "expected_answer": "Tăng trưởng GDP năm 2024 đạt 7,1%; tiêu dùng tư nhân chiếm 54% GDP (so với mức trung vị 61,7% của khu vực).",
+    "agent_answer": "Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt 7,1%. Đóng góp của tiêu dùng tư nhân vào tổng cầu chiếm 54% GDP, thấp hơn mức trung vị 61,7% của khu vực do tiết kiệm của hộ gia đình tăng trong điều kiện bất định gia tăng. [wb-taking-stock-2025-03_p11_para_00] [wb-taking-stock-2025-03_p11_para_01]",
+    "citations": [
+      "wb-taking-stock-2025-03_p11_para_00",
+      "wb-taking-stock-2025-03_p11_para_01"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q02",
+    "expected_answer": "Khu vực dịch vụ tăng trưởng 7,4% (đóng góp 45,9% vào tăng trưởng GDP); lĩnh vực du lịch, nhà hàng, khách sạn tăng trưởng 9,8% với 17,6 triệu lượt khách nước ngoài (tăng 39,5% so với năm 2023).",
+    "agent_answer": "Trong năm 2024, lĩnh vực du lịch, nhà hàng, khách sạn tại Việt Nam đạt mức tăng trưởng 9,8% và đón 17,6 triệu lượt khách nước ngoài, tăng 39,5% so với năm 2023. [wb-taking-stock-2025-03_p21_para_02]",
+    "citations": [
+      "wb-taking-stock-2025-03_p21_para_02"
+    ],
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1,
+    "notes": "Đúng phần du lịch (9,8%, 17,6 triệu lượt, +39,5%) nhưng thiếu tốc độ tăng trưởng khu vực dịch vụ (7,4%)."
+  },
+  {
+    "query_id": "q03",
+    "expected_answer": "Cán cân thương mại hàng hóa năm 2024 đạt thặng dư 24 tỷ US$ (tương đương 5,0% GDP), thấp hơn mức 28,4 tỷ US$ của năm 2023.",
+    "agent_answer": "Cán cân thương mại hàng hóa của Việt Nam năm 2024 đạt mức xuất siêu 24 tỷ USD, tương đương 5,0% GDP. [wb-taking-stock-2025-03_p22_para_02]",
+    "citations": [
+      "wb-taking-stock-2025-03_p22_para_02"
+    ],
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q04",
+    "expected_answer": "Năm 2024 có 79 dự án (+18% so cùng kỳ) và 38.315 căn hộ (+52% so cùng kỳ) được cấp phép mới; số lượng giao dịch tăng 24,2% so cùng kỳ.",
+    "agent_answer": "Trong năm 2024, tổng số lượng dự án bất động sản được cấp phép mới là 79 dự án, tăng 18% so với cùng kỳ năm trước, và số lượng căn hộ được cấp phép là 38.315 căn hộ, tăng 52% so với cùng kỳ năm trước. Số lượng giao dịch bất động sản cũng tăng trưởng mạnh ở mức 24,2% so với cùng kỳ năm 2023. [wb-taking-stock-2025-03_p27_para_04] [wb-taking-stock-2025-03_p27_para_05]",
+    "citations": [
+      "wb-taking-stock-2025-03_p27_para_04",
+      "wb-taking-stock-2025-03_p27_para_05"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q05",
+    "expected_answer": "NHNN đã bán 9,4 tỷ US$ dự trữ ngoại hối (làm dự trữ giảm còn khoảng 2,5 tháng nhập khẩu vào Q3/2024) và hút thanh khoản qua OMO (82,4 ngàn tỷ VND) cùng tín phiếu kho bạc (60,8 ngàn tỷ VND).",
+    "agent_answer": "Ngân hàng Nhà nước đã bán dự trữ ngoại hối trị giá 9,4 tỷ USD trong năm 2024. Đồng thời, họ cũng đã hút thanh khoản qua các nghiệp vụ thị trường mở (OMO) trị giá 82,4 ngàn tỷ VND và qua phát hành tín phiếu kho bạc trị giá 60,8 ngàn tỷ VND [wb-taking-stock-2025-03_p30_para_04].",
+    "citations": [
+      "wb-taking-stock-2025-03_p30_para_04"
+    ],
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q06",
+    "expected_answer": "Các ngân hàng có nền vốn vững được phép mở rộng phạm vi cho vay ngoài chỉ tiêu sau khi đã đạt 80% hạn mức vào tháng 8 theo hướng dẫn xác định trước mà không phải xin phê duyệt nâng trần tín dụng.",
+    "agent_answer": "Trong năm 2024, NHNN cho phép một số ngân hàng có nền vốn vững mở rộng phạm vi cho vay ngoài chỉ tiêu trần tín dụng mà không phải xin phê duyệt sau khi đã đạt 80% hạn mức vào tháng 8. [wb-taking-stock-2025-03_p32_para_02] [wb-taking-stock-2025-03_p14_para_02]",
+    "citations": [
+      "wb-taking-stock-2025-03_p32_para_02",
+      "wb-taking-stock-2025-03_p14_para_02"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q07",
+    "expected_answer": "Tổng khối lượng phát hành năm 2024 đạt 443 ngàn tỷ VND (17,6 tỷ US$, tăng 37%), trong đó ngân hàng chiếm 69%; giá trị trái phiếu đáo hạn năm 2025 là 217 ngàn tỷ VND (8,6 tỷ US$).",
+    "agent_answer": "Quy mô phát hành trái phiếu doanh nghiệp năm 2024 đạt 443 ngàn tỷ VND (17,6 tỷ US$) và giá trị trái phiếu đáo hạn trong năm 2025 là 217 ngàn tỷ VND (8,6 tỷ US$) [wb-taking-stock-2025-03_p33_para_03] [wb-taking-stock-2025-03_p33_para_05].",
+    "citations": [
+      "wb-taking-stock-2025-03_p33_para_03",
+      "wb-taking-stock-2025-03_p33_para_05"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q08",
+    "expected_answer": "Từ 01/07/2024, lương cơ bản và lương hưu tăng bình quân lần lượt 30% và 15%; tổng khối lượng phát hành trái phiếu Chính phủ đạt 330,4 ngàn tỷ VND (13,2 tỷ US$, đạt 82,6% kế hoạch năm).",
+    "agent_answer": "Đợt cải cách tiền lương từ ngày 01/07/2024 sẽ tăng lương cơ bản và lương hưu ở mức bình quân lần lượt là 30% và 15%. Tổng khối lượng phát hành trái phiếu Chính phủ đạt 330,4 ngàn tỷ VND (13,2 tỷ US$) [wb-taking-stock-2025-03_p34_para_05] [wb-taking-stock-2025-03_p34_para_06].",
+    "citations": [
+      "wb-taking-stock-2025-03_p34_para_05",
+      "wb-taking-stock-2025-03_p34_para_06"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q09",
+    "expected_answer": "Sản lượng điện tái tạo năm 2024 ước đạt 128,4 tỷ kWh (bao gồm cả thủy điện, tăng khoảng 8%). Nguyên nhân chậm do thiếu cơ chế định giá và đấu thầu, chậm phê duyệt Quy hoạch Điện 8 và triển khai đầu tư liên quan.",
+    "agent_answer": "Sản lượng điện tái tạo của Việt Nam trong năm 2024 ước đạt 128,4 tỷ kWh, bao gồm cả thủy điện, với mức tăng trưởng khoảng 8% so với cùng kỳ năm trước. Nguyên nhân làm chậm quá trình triển khai năng lượng tái tạo bao gồm thiếu cơ chế định giá và đấu thầu, chậm trễ trong phê duyệt Quy hoạch Điện 8, và những bất định trong quá trình sửa đổi văn bản pháp lý, cùng với các yếu tố khác. [wb-taking-stock-2025-03_p36_para_07] [wb-taking-stock-2025-03_p36_para_08]",
+    "citations": [
+      "wb-taking-stock-2025-03_p36_para_07",
+      "wb-taking-stock-2025-03_p36_para_08"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q10",
+    "expected_answer": "Bội chi ngân sách dự kiến ở mức 1,4% GDP năm 2025 và giảm còn 1,0% GDP năm 2026; chi ngân sách năm 2025 dự kiến tăng thêm 20% so với năm 2024.",
+    "agent_answer": "Theo dự báo ngân sách giai đoạn 2025-2026, mức bội chi ngân sách dự kiến chiếm 1,4% GDP trong năm 2025 và sẽ giảm còn 1,0% trong năm 2026. Chi ngân sách năm 2025 dự kiến sẽ tăng thêm 20% so với năm 2024 do kế hoạch đầu tư cho một số dự án hạ tầng của quốc gia cũng như tăng lương trong khu vực nhà nước và chi trả nghỉ việc trong quá trình tái cơ cấu bộ máy nhà nước. [wb-taking-stock-2025-03_p39_para_04] [wb-taking-stock-2025-03_p39_para_05] ",
+    "citations": [
+      "wb-taking-stock-2025-03_p39_para_04",
+      "wb-taking-stock-2025-03_p39_para_05"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q11",
+    "expected_answer": "Năm 2021 giao thông vận tải xả ra 32,9 MtCO2eq (7,2% tổng khí thải nhà kính toàn nền kinh tế); nếu không khử các-bon sẽ tăng lên 334 MtCO2eq vào năm 2050 theo kịch bản BAU.",
+    "agent_answer": "Trong năm 2021, lĩnh vực giao thông vận tải xả ra 32,9 triệu tấn khí thải các-bon đi-ô-xít tương đương (MtCO2eq). Nếu không khử các-bon, theo kịch bản BAU, lượng khí thải này sẽ tăng lên mức 226 triệu tấn vào năm 2050, nếu giả sử toàn bộ các chỉ tiêu về chuyển sang sử dụng xe điện theo tuyên bố trong Quyết định số 876 trở thành hiện thực [wb-taking-stock-2025-03_p43_para_03] [wb-taking-stock-2025-03_p54_para_03].",
+    "citations": [
+      "wb-taking-stock-2025-03_p43_para_03",
+      "wb-taking-stock-2025-03_p54_para_03"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 1,
+    "notes": "Đúng năm 2021 (32,9 MtCO2eq), nhưng nhầm số liệu BAU 2050 thành 226 triệu tấn (mức QĐ 876) thay vì 334 MtCO2eq."
+  },
+  {
+    "query_id": "q12",
+    "expected_answer": "Hà Nội và TP.HCM cần bổ sung lần lượt 6.000 và 4.500 xe buýt vào năm 2030. Rào cản gồm chi phí mua xe buýt điện ban đầu cao hơn xe diesel/khí tự nhiên, thiếu hướng dẫn kỹ thuật và vận hành, cùng rủi ro tỷ lệ sử dụng thấp.",
+    "agent_answer": "Hà Nội cần bổ sung thêm 6.000 xe buýt và thành phố Hồ Chí Minh cần bổ sung 4.500 xe buýt vào năm 2030 để đạt chỉ tiêu theo Quyết định số 876/QĐ-TTg. Những rào cản chính bao gồm chi phí ban đầu để mua xe buýt điện cao hơn so với xe chạy dầu diesel hoặc khí tự nhiên, thiếu hướng dẫn kỹ thuật và vận hành cho xe buýt điện, và rủi ro về tỷ lệ sử dụng thấp do bất cập về hạ tầng và chính sách. [wb-taking-stock-2025-03_p47_para_05] [wb-taking-stock-2025-03_p47_para_06]",
+    "citations": [
+      "wb-taking-stock-2025-03_p47_para_05",
+      "wb-taking-stock-2025-03_p47_para_06"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q13",
+    "expected_answer": "Khác nhau theo 3 tham số: (i) mức độ chuyển sang dùng xe điện, (ii) mức độ sản xuất và cung ứng xe điện, và (iii) mức độ sẵn có về hạ tầng sạc. Kịch bản ADS kích hoạt đòn bẩy chính sách từ năm 2025, sớm hơn so với mốc năm 2030 trong kịch bản SPS.",
+    "agent_answer": "Ba kịch bản chuyển đổi sang xe điện (BAU, SPS và ADS) khác nhau ở các tham số chính như: (i) mức độ chuyển sang dùng xe điện, (ii) mức độ sản xuất và cung ứng xe điện, và (iii) mức độ sẵn có về hạ tầng sạc xe điện [wb-taking-stock-2025-03_p48_para_02]. Thời điểm kích hoạt đòn bẩy chính sách giữa ADS và SPS cũng khác nhau, với kịch bản ADS kích hoạt từ năm 2025, trong khi kịch bản SPS bắt đầu từ năm 2030 [wb-taking-stock-2025-03_p48_para_02]. [wb-taking-stock-2025-03_p48_para_01]",
+    "citations": [
+      "wb-taking-stock-2025-03_p48_para_02",
+      "wb-taking-stock-2025-03_p48_para_01"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q14",
+    "expected_answer": "Ở đô thị bị giới hạn ở mức 40% do chênh lệch giá so với xe động cơ đốt trong và quan ngại về độ an toàn của pin điện; ở nông thôn chưa gia nhập đáng kể vì chưa có hạ tầng sạc công cộng và chủ yếu dùng xe điện chạy pin chì có quãng đường, công suất hạn chế.",
+    "agent_answer": "Trong kịch bản BAU, xe điện hai bánh ở đô thị bị giới hạn ở mức 40% do hai lý do chính: thứ nhất, vẫn còn chênh lệch giá so với xe hai bánh dùng động cơ đốt trong; thứ hai, có quan ngại về độ an toàn của pin điện. Ngoài ra, xe điện hai bánh chưa thể gia nhập đáng kể vào thị trường nông thôn vì thiếu hạ tầng sạc công cộng và thị trường ở đó chủ yếu sử dụng xe điện chạy pin chì, mặc dù quãng đường và công suất bị hạn chế [wb-taking-stock-2025-03_p50_para_05].",
+    "citations": [
+      "wb-taking-stock-2025-03_p50_para_05"
+    ],
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q15",
+    "expected_answer": "Nhu cầu thị trường xe điện các loại đạt trên 7 triệu xe giai đoạn 2024-2030 và 71 triệu xe giai đoạn 2031-2050; dự kiến tạo thêm đến 6,5 triệu việc làm mới cộng dồn đến năm 2050 (61% ở lĩnh vực hạ tầng sạc).",
+    "agent_answer": "Tổng nhu cầu thị trường về xe điện các loại trong giai đoạn 2024-2030 ước tính lên đến trên 7 triệu xe, và trong giai đoạn 2031-2050 là 71 triệu xe. Ngoài ra, sự phát triển của thị trường xe điện dự kiến sẽ tạo thêm đến 6,5 triệu việc làm mới trong toàn bộ chuỗi giá trị xe điện, tính cộng dồn đến năm 2050, trong đó có 61% ở lĩnh vực hạ tầng sạc xe điện. [wb-taking-stock-2025-03_p17_para_05] [wb-taking-stock-2025-03_p18_para_00]",
+    "citations": [
+      "wb-taking-stock-2025-03_p17_para_05",
+      "wb-taking-stock-2025-03_p18_para_00"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Câu trả lời đầy đủ thông tin và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q21",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Đạt: Agent từ chối đúng do không có bằng chứng trong tài liệu."
+  },
+  {
+    "query_id": "q22",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Đạt: Agent từ chối đúng do không có bằng chứng trong tài liệu."
+  }
+]

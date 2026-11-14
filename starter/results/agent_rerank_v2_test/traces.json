@@ -1,0 +1,1848 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Theo phân tích tại Chương 1 về tỷ lệ thâm dụng điện, cường độ tiêu thụ điện trên mỗi 1.000 USD GDP năm 2024 tăng lên bao nhiêu kWh (cao nhất từ năm nào) và các ngành kim loại cơ bản, kim loại màu, cao su - nhựa tăng trưởng bao nhiêu phần trăm?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Theo phân tích tại Chương 1, cường độ tiêu thụ điện trên mỗi 1.000 USD GDP năm 2024 tăng lên 590 kWh so với mức 579 kWh năm 2023, đây là tỷ lệ cao nhất kể từ năm 2013 [wb-taking-stock-2025-03_p35_para_05]. Các ngành kim loại cơ bản, kim loại màu, cao su - nhựa có tốc độ tăng trưởng lần lượt là 9,3%, 16,3% và 23,4% trong năm 2024 [wb-taking-stock-2025-03_p36_para_04].",
+    "citations": [
+      "wb-taking-stock-2025-03_p35_para_05",
+      "wb-taking-stock-2025-03_p36_para_04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "tỷ lệ thâm dụng điện cường độ tiêu thụ điện 2024 kim loại cơ bản kim loại màu cao su nhựa",
+        "filter": {
+          "section": "kinh_te_vi_mo"
+        },
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p36_para_04",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 36,
+            "text": "Các lĩnh vực thâm dụng năng lượng và tiêu thụ điện năng lớn như sản xuất kim loại cơ bản (bao gồm thép), quặng kim loại màu (bao gồm nhôm), cao su và nhựa tăng trưởng lần lượt ở mức 9,3%, 16,3% và 23,4% trong năm 2024, cao hơn nhiều so với năm 2023 và cao hơn so với tăng trưởng sản xuất công nghiệp hoặc toàn bộ nền kinh tế (7,8% và 7,1 % tương ứng).",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "26",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3371,
+              "normalized_chars": 3343,
+              "chunk_index": 4,
+              "char_length": 351,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p35_para_05",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 35,
+            "text": "Nhưng trong năm 2024, doanh số bán điện tăng cao hơn tốc độ tăng trưởng kinh tế, làm tăng tỷ lệ thâm dụng điện so GDP lên đến 590 kWh trên 1.000 US$ so với mức 579 kWh trên 1.000 US$ năm 2023, là tỷ lệ cao nhất kể từ năm 2013. Điều này làm đảo ngược xu thế giảm tương quan gần đây giữa tăng trưởng tiêu thụ điện và tăng trưởng GDP trong các năm 2022 và 2023 là giai đoạn phục hồi sau đại dịch (Hình 1.31).",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "25",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2155,
+              "normalized_chars": 2139,
+              "chunk_index": 5,
+              "char_length": 405,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p35_para_03",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 35,
+            "text": "Tỷ lệ thâm dụng điện trên GDP gia tăng Tỷ lệ thâm dụng điện trên GDP tăng lên mức cao nhất do sản xuất và lượng bán điện đạt tốc độ tăng trưởng cao hơn tốc độ tăng trưởng GDP. Trong năm 2024, doanh số bán điện của Việt Nam tăng 9,2%, còn sản lượng điện tăng 10%. Tốc độ tăng trưởng doanh số bán điện và tăng trưởng GDP từ trước đến nay luôn tương quan ở mức cao, nhất là từ năm 2020 do các ngành kinh tế lớn đều thâm dụng điện, chẳng hạn các lĩnh vực sản xuất chế biến, chế tạo.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "25",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2155,
+              "normalized_chars": 2139,
+              "chunk_index": 3,
+              "char_length": 478,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p36_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 36,
+            "text": "Ước tính nhu cầu điện theo ngành, lĩnh vực, trong năm 2024 cho thấy ngay cả khi sử dụng những giả định thấp nhất, tỷ lệ thâm dụng điện tăng lên trong thời gian qua là do tăng nhu cầu sử dụng điện trong sản xuất công nghiệp, với mức tăng 10-16% trong năm 2024, dẫn đến hiệu suất sử dụng điện công nghiệp giảm 2-7%.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "26",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3371,
+              "normalized_chars": 3343,
+              "chunk_index": 2,
+              "char_length": 313,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p35_para_04",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 35,
+            "text": "Tốc độ tăng trưởng doanh số bán điện và tăng trưởng GDP từ trước đến nay luôn tương quan ở mức cao, nhất là từ năm 2020 do các ngành kinh tế lớn đều thâm dụng điện, chẳng hạn các lĩnh vực sản xuất chế biến, chế tạo. Nhưng trong năm 2024, doanh số bán điện tăng cao hơn tốc độ tăng trưởng kinh tế, làm tăng tỷ lệ thâm dụng điện so GDP lên đến 590 kWh trên 1.000 US$ so với mức 579 kWh trên 1.000 US$ năm 2023, là tỷ lệ cao nhất kể từ năm 2013.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "25",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2155,
+              "normalized_chars": 2139,
+              "chunk_index": 4,
+              "char_length": 442,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p36_para_04 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 36]\nCác lĩnh vực thâm dụng năng lượng và tiêu thụ điện năng lớn như sản xuất kim loại cơ bản (bao gồm thép), quặng kim loại màu (bao gồm nhôm), cao su và nhựa tăng trưởng lần lượt ở mức 9,3%, 16,3% và 23,4% trong năm 2024, cao hơn nhiều so với năm 2023 và cao hơn so với tăng trưởng sản xuất công nghiệp hoặc toàn bộ nền kinh tế (7,8% và 7,1 % tương ứng).\n\n[wb-taking-stock-2025-03_p35_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 35]\nNhưng trong năm 2024, doanh số bán điện tăng cao hơn tốc độ tăng trưởng kinh tế, làm tăng tỷ lệ thâm dụng điện so GDP lên đến 590 kWh trên 1.000 US$ so với mức 579 kWh trên 1.000 US$ năm 2023, là tỷ lệ cao nhất kể từ năm 2013. Điều này làm đảo ngược xu thế giảm tương quan gần đây giữa tăng trưởng tiêu thụ điện và tăng trưởng GDP trong các năm 2022 và 2023 là giai đoạn phục hồi sau đại dịch (Hình 1.31).\n\n[wb-taking-stock-2025-03_p35_para_03 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 35]\nTỷ lệ thâm dụng điện trên GDP gia tăng Tỷ lệ thâm dụng điện trên GDP tăng lên mức cao nhất do sản xuất và lượng bán điện đạt tốc độ tăng trưởng cao hơn tốc độ tăng trưởng GDP. Trong năm 2024, doanh số bán điện của Việt Nam tăng 9,2%, còn sản lượng điện tăng 10%. Tốc độ tăng trưởng doanh số bán điện và tăng trưởng GDP từ trước đến nay luôn tương quan ở mức cao, nhất là từ năm 2020 do các ngành kinh tế lớn đều thâm dụng điện, chẳng hạn các lĩnh vực sản xuất chế biến, chế tạo.\n\n[wb-taking-stock-2025-03_p36_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 36]\nƯớc tính nhu cầu điện theo ngành, lĩnh vực, trong năm 2024 cho thấy ngay cả khi sử dụng những giả định thấp nhất, tỷ lệ thâm dụng điện tăng lên trong thời gian qua là do tăng nhu cầu sử dụng điện trong sản xuất công nghiệp, với mức tăng 10-16% trong năm 2024, dẫn đến hiệu suất sử dụng điện công nghiệp giảm 2-7%.\n\n[wb-taking-stock-2025-03_p35_para_04 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 35]\nTốc độ tăng trưởng doanh số bán điện và tăng trưởng GDP từ trước đến nay luôn tương quan ở mức cao, nhất là từ năm 2020 do các ngành kinh tế lớn đều thâm dụng điện, chẳng hạn các lĩnh vực sản xuất chế biến, chế tạo. Nhưng trong năm 2024, doanh số bán điện tăng cao hơn tốc độ tăng trưởng kinh tế, làm tăng tỷ lệ thâm dụng điện so GDP lên đến 590 kWh trên 1.000 US$ so với mức 579 kWh trên 1.000 US$ năm 2023, là tỷ lệ cao nhất kể từ năm 2013.",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p36_para_04",
+          "wb-taking-stock-2025-03_p35_para_05",
+          "wb-taking-stock-2025-03_p35_para_03",
+          "wb-taking-stock-2025-03_p36_para_02",
+          "wb-taking-stock-2025-03_p35_para_04"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 7291.42,
+    "cost_usd": 0.000425,
+    "prompt_tokens": 1962,
+    "completion_tokens": 218
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Để đáp ứng mục tiêu chuyển đổi xe điện, Việt Nam cần đầu tư bao nhiêu tỷ USD cho ngành điện trong giai đoạn 2024-2030 và cộng dồn bao nhiêu tỷ USD trong giai đoạn 2031-2050 theo kịch bản ADS?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Để đáp ứng mục tiêu chuyển đổi xe điện, Việt Nam cần đầu tư từ 6 đến 9 tỷ USD cho ngành điện trong giai đoạn 2024-2030. Cộng dồn trong giai đoạn 2031-2050, tổng nhu cầu đầu tư là 101 tỷ USD theo kịch bản ADS. [wb-taking-stock-2025-03_p52_para_03] [wb-taking-stock-2025-03_p53_para_02]",
+    "citations": [
+      "wb-taking-stock-2025-03_p52_para_03",
+      "wb-taking-stock-2025-03_p53_para_02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Việt Nam đầu tư ngành điện chuyển đổi xe điện 2024-2030 2031-2050 kịch bản ADS",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p50_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 50,
+            "text": "Mặc dù lộ trình SPS giả định tỷ lệ chuyển sang sử dụng xe điện hai bánh đạt 50% ở địa bàn đô thị và 100% vào năm 2050, nhưng Việt Nam có nhiều tiềm năng để thực hiện lộ trình ADS, qua đó nhu cầu xe điện hai bánh tính theo năm vào năm 2025 cao hơn 1,5 lần so với kịch bản SPS và đạt đỉnh ở mức 1,6 triệu xe vào năm 2030.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.3 Các kịch bản về chuyển sang xe điện",
+              "printed_page": "40",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2061,
+              "normalized_chars": 1998,
+              "chunk_index": 2,
+              "char_length": 319,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p53_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 53,
+            "text": "Bảng 2.6. Nhu cầu đầu tư cộng dồn để đáp ứng nhu cầu sạc xe điện theo các kịch bản SPS và ADS (tỷ US$) SPS GENGiai đoạn GENTổng TổngTX+DX TX+DXLCOE $/MWh LCOE $/MWh ADS 2024-2030 2031-2040 2041-2050 6 59 200 8 63 209 0 0 0 1 0 9 101 90 81 79 77 71 6 59 200 9 63 218 Thúc đẩy chuyển đổi mô hình giao thông hành khách và hàng hóa là cách để giảm đáng kể tổng nhu cầu sạc xe điện.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.4 Tác động đến nhu cầu điện",
+              "printed_page": "43",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1782,
+              "normalized_chars": 1769,
+              "chunk_index": 2,
+              "char_length": 377,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p52_para_03",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 52,
+            "text": "Đầu tư tăng thêm cho ngành điện để đáp ứng nhu cầu sạc xe điện cần tập trung vào tăng nguồn cung, bên cạnh tăng chi tiêu để nâng cao công suất lưới điện trong giai đoạn 2045–2050. 29 Để tạo điều kiện chuyển sang xe điện theo mục tiêu, trong giai đoạn 2024-2030, Việt Nam cần đầu tư 6-9 tỷ US$ cho ngành điện. Ngược lại, quốc gia đang chi tiêu 9 tỷ US$ để nhập các sản phẩm xăng dầu riêng cho năm 2022, trong đó 85% (7,65 tỷ US$) được dùng cho giao thông vận tải.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.4 Tác động đến nhu cầu điện",
+              "printed_page": "42",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2651,
+              "normalized_chars": 2632,
+              "chunk_index": 3,
+              "char_length": 462,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p51_para_04",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 51,
+            "text": "Mặc dù sạc xe điện dự kiến sẽ không gây áp lực lớn cho ngành điện Việt Nam trước năm 2030, nhưng tác động của nó sẽ tăng lên về sau. Đến năm 2030, nhu cầu sạc xe điện thậm chí theo lộ trình tham vọng hơn của kịch bản ADS cũng chỉ đòi hỏi 2,1% điện cung ứng ngoài chỉ tiêu của QHĐ8, hoàn toàn có thể được đáp ứng qua tăng biên sản xuất điện thặng dư theo quy hoạch.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.4 Tác động đến nhu cầu điện",
+              "printed_page": "41",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2721,
+              "normalized_chars": 2688,
+              "chunk_index": 4,
+              "char_length": 364,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p61_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 61,
+            "text": "HÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I 51\n\nBảng 2.7. Các hành động chính sách khuyến nghị để ngành điện Việt Nam đảm bảo sẵn sàng 2024 - 2025 2030 - 20402025 - 2030 2040 - 2050 Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN và Bộ TC Đưa nhu cầu về xe điện vào quy hoạch hệ thống điện Đưa tác động dự báo về sạc xe điện vào hệ thống điện trong đợt cập nhật QHĐ tiếp theo.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "51",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2129,
+              "normalized_chars": 2106,
+              "chunk_index": 0,
+              "char_length": 430,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p50_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 50]\nMặc dù lộ trình SPS giả định tỷ lệ chuyển sang sử dụng xe điện hai bánh đạt 50% ở địa bàn đô thị và 100% vào năm 2050, nhưng Việt Nam có nhiều tiềm năng để thực hiện lộ trình ADS, qua đó nhu cầu xe điện hai bánh tính theo năm vào năm 2025 cao hơn 1,5 lần so với kịch bản SPS và đạt đỉnh ở mức 1,6 triệu xe vào năm 2030.\n\n[wb-taking-stock-2025-03_p53_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 53]\nBảng 2.6. Nhu cầu đầu tư cộng dồn để đáp ứng nhu cầu sạc xe điện theo các kịch bản SPS và ADS (tỷ US$) SPS GENGiai đoạn GENTổng TổngTX+DX TX+DXLCOE $/MWh LCOE $/MWh ADS 2024-2030 2031-2040 2041-2050 6 59 200 8 63 209 0 0 0 1 0 9 101 90 81 79 77 71 6 59 200 9 63 218 Thúc đẩy chuyển đổi mô hình giao thông hành khách và hàng hóa là cách để giảm đáng kể tổng nhu cầu sạc xe điện.\n\n[wb-taking-stock-2025-03_p52_para_03 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 52]\nĐầu tư tăng thêm cho ngành điện để đáp ứng nhu cầu sạc xe điện cần tập trung vào tăng nguồn cung, bên cạnh tăng chi tiêu để nâng cao công suất lưới điện trong giai đoạn 2045–2050. 29 Để tạo điều kiện chuyển sang xe điện theo mục tiêu, trong giai đoạn 2024-2030, Việt Nam cần đầu tư 6-9 tỷ US$ cho ngành điện. Ngược lại, quốc gia đang chi tiêu 9 tỷ US$ để nhập các sản phẩm xăng dầu riêng cho năm 2022, trong đó 85% (7,65 tỷ US$) được dùng cho giao thông vận tải.\n\n[wb-taking-stock-2025-03_p51_para_04 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 51]\nMặc dù sạc xe điện dự kiến sẽ không gây áp lực lớn cho ngành điện Việt Nam trước năm 2030, nhưng tác động của nó sẽ tăng lên về sau. Đến năm 2030, nhu cầu sạc xe điện thậm chí theo lộ trình tham vọng hơn của kịch bản ADS cũng chỉ đòi hỏi 2,1% điện cung ứng ngoài chỉ tiêu của QHĐ8, hoàn toàn có thể được đáp ứng qua tăng biên sản xuất điện thặng dư theo quy hoạch.\n\n[wb-taking-stock-2025-03_p61_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 61]\nHÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I 51\n\nBảng 2.7. Các hành động chính sách khuyến nghị để ngành điện Việt Nam đảm bảo sẵn sàng 2024 - 2025 2030 - 20402025 - 2030 2040 - 2050 Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN và Bộ TC Đưa nhu cầu về xe điện vào quy hoạch hệ thống điện Đưa tác động dự báo về sạc xe điện vào hệ thống điện trong đợt cập nhật QHĐ tiếp theo.",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p50_para_02",
+          "wb-taking-stock-2025-03_p53_para_02",
+          "wb-taking-stock-2025-03_p52_para_03",
+          "wb-taking-stock-2025-03_p51_para_04",
+          "wb-taking-stock-2025-03_p61_para_00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 5509.23,
+    "cost_usd": 0.000395,
+    "prompt_tokens": 2028,
+    "completion_tokens": 152
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Nếu cơ cấu nguồn điện lưới giữ nguyên ở mức năm 2022 so với trường hợp hoàn thành xanh hóa lưới điện theo QHĐ8, mức giảm phát thải ròng vào năm 2050 nhờ chuyển sang xe điện sẽ thay đổi như thế nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Nếu cơ cấu nguồn điện lưới giữ nguyên ở mức năm 2022, chuyển đổi sang xe điện có thể đem lại mức giảm phát thải ròng khoảng 2,2 triệu tấn CO2eq vào năm 2050. Ngược lại, nếu hoàn thành xanh hóa lưới điện theo QHĐ8, mức giảm phát thải ròng có thể đạt 5,3 triệu tấn CO2eq vào năm 2050. Điều này cho thấy rằng việc chuyển đổi sang xe điện có hiệu suất năng lượng cao hơn sẽ giúp giảm phát thải, nhưng mức giảm sẽ khác nhau tùy thuộc vào việc có hoàn thành xanh hóa lưới điện hay không [wb-taking-stock-2025-03_p55_para_02].",
+    "citations": [
+      "wb-taking-stock-2025-03_p55_para_02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "mức giảm phát thải ròng năm 2050 xe điện QHĐ8",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p55_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 55,
+            "text": "thải tăng thêm từ điện G/D cho xe điện - ADS\n\nNguồn: Tính toán của Ngân hàng Thế giới\n\ncấu nguồn điện lưới vẫn không thay đổi so với mức năm 2022, riêng chuyển đổi sang xe điện có thể đem lại lượng giảm phát thải ròng ở mức 2,2 triệu tấn CO2eq vào năm 2050 do xe điện có hiệu suất năng lượng cao hơn. Ngoài ra, nếu có thể hoàn thành xanh hóa lưới điện theo QHĐ8, chuyển đổi có thể dẫn đến giảm khí thải ròng ở mức 5,3 triệu tấn CO2eq vào năm 2050 (Hình 2.6).",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.5 Tác động đến khí thải nhà kính",
+              "printed_page": "45",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1274,
+              "normalized_chars": 1265,
+              "chunk_index": 2,
+              "char_length": 458,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p55_para_03",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 55,
+            "text": "Ngoài ra, nếu có thể hoàn thành xanh hóa lưới điện theo QHĐ8, chuyển đổi có thể dẫn đến giảm khí thải ròng ở mức 5,3 triệu tấn CO2eq vào năm 2050 (Hình 2.6). Chính vì vậy, lượng khí thải liên quan đến sản xuất, truyền tải và phân phối điện trong hệ thống điện nhằm phục vụ sạc xe điện có thể dễ dàng được bù lại bằng cách bớt sử dụng nhiên liệu hóa thạch ở các loại xe dùng động cơ đốt trong.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.5 Tác động đến khí thải nhà kính",
+              "printed_page": "45",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1274,
+              "normalized_chars": 1265,
+              "chunk_index": 3,
+              "char_length": 392,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p54_para_05",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 54,
+            "text": "Hình 2.5. Lượng phát thải từ giao thông đường bộ đến năm 2050 theo ba lộ trình chuyển đổi (Mt CO2eq) 0 50 100 150 200 250 300 350 400 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046 2047 2048 2049 2050 Phát thải - Không có xe điện Hấp thụ phát thải - Kịch bản cơ sở xe điện Hấp thụ phát thải - Kịch bản SPS xe điện Hấp thụ phát thải - Kịch bản ADS xe điện\n\nNguồn: Tính toán của Ngân hàng Thế giới",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.5 Tác động đến khí thải nhà kính",
+              "printed_page": "44",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2500,
+              "normalized_chars": 2486,
+              "chunk_index": 5,
+              "char_length": 483,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p54_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 54,
+            "text": "Mặc dù chuyển đổi sang xe điện có vai trò hết sức quan trọng nhằm đạt được mục tiêu phát thải ròng bằng không vào năm 2050, nhưng nó chỉ có vai trò hạn chế trong việc hoàn thành các mục tiêu Đóng góp do quốc gia tự quyết định (NDC) vào năm 2030.30 Mức giảm khí thải nhà kính qua sử dụng xe điện đến năm 2030 khiêm tốn nhất cũng phải bằng 5,3 MtCO2eq theo kịch bản SPS, đóng góp được khoảng 8 và 15% cho chỉ tiêu giảm khí thải cho Đóng góp do quốc gia tự quyết định (NDC) đặt ra cho tổng ngành liên",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.5 Tác động đến khí thải nhà kính",
+              "printed_page": "44",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2500,
+              "normalized_chars": 2486,
+              "chunk_index": 1,
+              "char_length": 497,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p51_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 51,
+            "text": "Được thông qua vào tháng 5/2023, nhưng QHĐ8 chưa tính đến phụ tải phát sinh trong quá trình chuyển sang sử dụng xe điện theo các kịch bản BAU về nhu cầu. Chính vì vậy, dự báo phụ tải đỉnh của hệ thống ở mức 90,5TW cho năm 2030 và thậm chí phụ tải đỉnh hệ thống trong “tình huống phụ tải cao” cho năm 2050 ở mức 209TW vẫn chưa bao gồm nhu cầu cho xe điện.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.4 Tác động đến nhu cầu điện",
+              "printed_page": "41",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2721,
+              "normalized_chars": 2688,
+              "chunk_index": 1,
+              "char_length": 354,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p55_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 55]\nthải tăng thêm từ điện G/D cho xe điện - ADS\n\nNguồn: Tính toán của Ngân hàng Thế giới\n\ncấu nguồn điện lưới vẫn không thay đổi so với mức năm 2022, riêng chuyển đổi sang xe điện có thể đem lại lượng giảm phát thải ròng ở mức 2,2 triệu tấn CO2eq vào năm 2050 do xe điện có hiệu suất năng lượng cao hơn. Ngoài ra, nếu có thể hoàn thành xanh hóa lưới điện theo QHĐ8, chuyển đổi có thể dẫn đến giảm khí thải ròng ở mức 5,3 triệu tấn CO2eq vào năm 2050 (Hình 2.6).\n\n[wb-taking-stock-2025-03_p55_para_03 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 55]\nNgoài ra, nếu có thể hoàn thành xanh hóa lưới điện theo QHĐ8, chuyển đổi có thể dẫn đến giảm khí thải ròng ở mức 5,3 triệu tấn CO2eq vào năm 2050 (Hình 2.6). Chính vì vậy, lượng khí thải liên quan đến sản xuất, truyền tải và phân phối điện trong hệ thống điện nhằm phục vụ sạc xe điện có thể dễ dàng được bù lại bằng cách bớt sử dụng nhiên liệu hóa thạch ở các loại xe dùng động cơ đốt trong.\n\n[wb-taking-stock-2025-03_p54_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 54]\nHình 2.5. Lượng phát thải từ giao thông đường bộ đến năm 2050 theo ba lộ trình chuyển đổi (Mt CO2eq) 0 50 100 150 200 250 300 350 400 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046 2047 2048 2049 2050 Phát thải - Không có xe điện Hấp thụ phát thải - Kịch bản cơ sở xe điện Hấp thụ phát thải - Kịch bản SPS xe điện Hấp thụ phát thải - Kịch bản ADS xe điện\n\nNguồn: Tính toán của Ngân hàng Thế giới\n\n[wb-taking-stock-2025-03_p54_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 54]\nMặc dù chuyển đổi sang xe điện có vai trò hết sức quan trọng nhằm đạt được mục tiêu phát thải ròng bằng không vào năm 2050, nhưng nó chỉ có vai trò hạn chế trong việc hoàn thành các mục tiêu Đóng góp do quốc gia tự quyết định (NDC) vào năm 2030.30 Mức giảm khí thải nhà kính qua sử dụng xe điện đến năm 2030 khiêm tốn nhất cũng phải bằng 5,3 MtCO2eq theo kịch bản SPS, đóng góp được khoảng 8 và 15% cho chỉ tiêu giảm khí thải cho Đóng góp do quốc gia tự quyết định (NDC) đặt ra cho tổng ngành liên\n\n[wb-taking-stock-2025-03_p51_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 51]\nĐược thông qua vào tháng 5/2023, nhưng QHĐ8 chưa tính đến phụ tải phát sinh trong quá trình chuyển sang sử dụng xe điện theo các kịch bản BAU về nhu cầu. Chính vì vậy, dự báo phụ tải đỉnh của hệ thống ở mức 90,5TW cho năm 2030 và thậm chí phụ tải đỉnh hệ thống trong “tình huống phụ tải cao” cho năm 2050 ở mức 209TW vẫn chưa bao gồm nhu cầu cho xe điện.",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p55_para_02",
+          "wb-taking-stock-2025-03_p55_para_03",
+          "wb-taking-stock-2025-03_p54_para_05",
+          "wb-taking-stock-2025-03_p54_para_01",
+          "wb-taking-stock-2025-03_p51_para_01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 7259.33,
+    "cost_usd": 0.000441,
+    "prompt_tokens": 2074,
+    "completion_tokens": 217
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Với giả định giá dầu thô quốc tế ở mức 80 USD/thùng, việc chuyển đổi sang xe điện đến năm 2050 giúp Việt Nam tiết kiệm cộng dồn bao nhiêu chi phí nhiên liệu theo kịch bản SPS và ADS?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Việc chuyển đổi sang xe điện đến năm 2050 giúp Việt Nam tiết kiệm cộng dồn khoảng 4.502 thùng dầu thô theo kịch bản SPS và 6.224 thùng dầu thô theo kịch bản ADS, nếu giả định giá dầu thô quốc tế ở mức 80 USD/thùng. [wb-taking-stock-2025-03_p56_para_03]",
+    "citations": [
+      "wb-taking-stock-2025-03_p56_para_03"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Việt Nam tiết kiệm chi phí nhiên liệu xe điện 2050 kịch bản SPS ADS",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p56_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 56,
+            "text": "Đó là tiết kiệm tiền nhập nhiên liệu và tạo việc làm trong các ngành nghề liên quan, đồng thời cải thiện an ninh năng lượng của Việt Nam cũng như khả năng chống chịu các cú sốc bên ngoài. Bên cạnh bảo tồn môi trường, chuyển đổi sang xe điện sẽ đương nhiên giảm tiêu thụ xăng và dầu diesel - phần lớn phải nhập khẩu vào Việt Nam. Riêng trong phân khúc xe hai bánh, mức độ thâm nhập của xe điện như hiện nay đã bớt được khoảng 390 triệu lít xăng trong năm 2022.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.6 Tác động đến kinh tế",
+              "printed_page": "46",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2282,
+              "normalized_chars": 2264,
+              "chunk_index": 2,
+              "char_length": 459,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p56_para_03",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 56,
+            "text": "Riêng trong phân khúc xe hai bánh, mức độ thâm nhập của xe điện như hiện nay đã bớt được khoảng 390 triệu lít xăng trong năm 2022. Đến năm 2050, nếu tính tương đương số thùng dầu thô, dự kiến con số bớt được cộng dồn sẽ lên đến 4.502 hoặc 6.224 thùng dầu thô lần lượt theo các kịch bản SPS và ADS.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.6 Tác động đến kinh tế",
+              "printed_page": "46",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2282,
+              "normalized_chars": 2264,
+              "chunk_index": 3,
+              "char_length": 297,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p50_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 50,
+            "text": "Mặc dù lộ trình SPS giả định tỷ lệ chuyển sang sử dụng xe điện hai bánh đạt 50% ở địa bàn đô thị và 100% vào năm 2050, nhưng Việt Nam có nhiều tiềm năng để thực hiện lộ trình ADS, qua đó nhu cầu xe điện hai bánh tính theo năm vào năm 2025 cao hơn 1,5 lần so với kịch bản SPS và đạt đỉnh ở mức 1,6 triệu xe vào năm 2030.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.3 Các kịch bản về chuyển sang xe điện",
+              "printed_page": "40",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2061,
+              "normalized_chars": 1998,
+              "chunk_index": 2,
+              "char_length": 319,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p56_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 56,
+            "text": "Hình 2.7. Nhu cầu cộng dồn về xăng và dầu diesel được giảm bớt theo kịch bản SPS và ADS so với kịch bản BAU Lượng tiêu thụ xăng cộng dồn bớt được so với BAU (triệu lít) Lượng tiêu thụ dầu diesel cộng dồn bớt được so với BAU (triệu lít) Chuyển đổi sang xe điện có thể đem lại nhiều lợi ích kinh tế. Đó là tiết kiệm tiền nhập nhiên liệu và tạo việc làm trong các ngành nghề liên quan, đồng thời cải thiện an ninh năng lượng của Việt Nam cũng như khả năng chống chịu các cú sốc bên ngoài.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.6 Tác động đến kinh tế",
+              "printed_page": "46",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2282,
+              "normalized_chars": 2264,
+              "chunk_index": 1,
+              "char_length": 485,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p55_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 55,
+            "text": "Lượng khí thải khi chuyển đổi sang xe điện đến năm 2030, theo các kịch bản BAU, SPS, và ADS (MtCO2eq) -14 -12 -10 -8 -6 -4 -2 0 2 4 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 Lượng khí thải giảm được từ quá trình đốt nhiên liệu ICE - BAU Lượng khí thải giảm được từ quá trình đốt nhiên liệu ICE - SPS Lượng khí thải giảm được từ quá trình đốt nhiên liệu ICE - ADS Lượng phát thải tăng thêm từ điện G/D cho xe điện - BAU Lượng phát thải tăng thêm từ điện G/D cho xe điện - SPS Lượng phát",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.5 Tác động đến khí thải nhà kính",
+              "printed_page": "45",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1274,
+              "normalized_chars": 1265,
+              "chunk_index": 1,
+              "char_length": 498,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p56_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 56]\nĐó là tiết kiệm tiền nhập nhiên liệu và tạo việc làm trong các ngành nghề liên quan, đồng thời cải thiện an ninh năng lượng của Việt Nam cũng như khả năng chống chịu các cú sốc bên ngoài. Bên cạnh bảo tồn môi trường, chuyển đổi sang xe điện sẽ đương nhiên giảm tiêu thụ xăng và dầu diesel - phần lớn phải nhập khẩu vào Việt Nam. Riêng trong phân khúc xe hai bánh, mức độ thâm nhập của xe điện như hiện nay đã bớt được khoảng 390 triệu lít xăng trong năm 2022.\n\n[wb-taking-stock-2025-03_p56_para_03 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 56]\nRiêng trong phân khúc xe hai bánh, mức độ thâm nhập của xe điện như hiện nay đã bớt được khoảng 390 triệu lít xăng trong năm 2022. Đến năm 2050, nếu tính tương đương số thùng dầu thô, dự kiến con số bớt được cộng dồn sẽ lên đến 4.502 hoặc 6.224 thùng dầu thô lần lượt theo các kịch bản SPS và ADS.\n\n[wb-taking-stock-2025-03_p50_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 50]\nMặc dù lộ trình SPS giả định tỷ lệ chuyển sang sử dụng xe điện hai bánh đạt 50% ở địa bàn đô thị và 100% vào năm 2050, nhưng Việt Nam có nhiều tiềm năng để thực hiện lộ trình ADS, qua đó nhu cầu xe điện hai bánh tính theo năm vào năm 2025 cao hơn 1,5 lần so với kịch bản SPS và đạt đỉnh ở mức 1,6 triệu xe vào năm 2030.\n\n[wb-taking-stock-2025-03_p56_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 56]\nHình 2.7. Nhu cầu cộng dồn về xăng và dầu diesel được giảm bớt theo kịch bản SPS và ADS so với kịch bản BAU Lượng tiêu thụ xăng cộng dồn bớt được so với BAU (triệu lít) Lượng tiêu thụ dầu diesel cộng dồn bớt được so với BAU (triệu lít) Chuyển đổi sang xe điện có thể đem lại nhiều lợi ích kinh tế. Đó là tiết kiệm tiền nhập nhiên liệu và tạo việc làm trong các ngành nghề liên quan, đồng thời cải thiện an ninh năng lượng của Việt Nam cũng như khả năng chống chịu các cú sốc bên ngoài.\n\n[wb-taking-stock-2025-03_p55_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 55]\nLượng khí thải khi chuyển đổi sang xe điện đến năm 2030, theo các kịch bản BAU, SPS, và ADS (MtCO2eq) -14 -12 -10 -8 -6 -4 -2 0 2 4 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 Lượng khí thải giảm được từ quá trình đốt nhiên liệu ICE - BAU Lượng khí thải giảm được từ quá trình đốt nhiên liệu ICE - SPS Lượng khí thải giảm được từ quá trình đốt nhiên liệu ICE - ADS Lượng phát thải tăng thêm từ điện G/D cho xe điện - BAU Lượng phát thải tăng thêm từ điện G/D cho xe điện - SPS Lượng phát",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p56_para_02",
+          "wb-taking-stock-2025-03_p56_para_03",
+          "wb-taking-stock-2025-03_p50_para_02",
+          "wb-taking-stock-2025-03_p56_para_01",
+          "wb-taking-stock-2025-03_p55_para_01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 4973.14,
+    "cost_usd": 0.000374,
+    "prompt_tokens": 1971,
+    "completion_tokens": 130
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Theo khuyến nghị chính sách chi tiết ở Chương 2, lộ trình phát triển mạng lưới sạc công cộng giai đoạn 2025-2027 ưu tiên tại 5 thành phố nào và vì sao Chính phủ cần hỗ trợ tài chính cho hạ tầng sạc?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Theo khuyến nghị chính sách ở Chương 2, lộ trình phát triển mạng lưới sạc công cộng giai đoạn 2025-2027 ưu tiên tại 5 thành phố loại đặc biệt là Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ. Chính phủ cần hỗ trợ tài chính cho hạ tầng sạc vì đây vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện, và việc đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí là thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện [wb-taking-stock-2025-03_p60_para_05] [wb-taking-stock-2025-03_p46_para_03].",
+    "citations": [
+      "wb-taking-stock-2025-03_p60_para_05",
+      "wb-taking-stock-2025-03_p46_para_03"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Chương 2 khuyến nghị chính sách lộ trình phát triển mạng lưới sạc công cộng 2025-2027 5 thành phố ưu tiên",
+        "filter": {
+          "section": "chuyen_doi_xe_dien"
+        },
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p60_para_05",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 60,
+            "text": "Sau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "50",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3258,
+              "normalized_chars": 3227,
+              "chunk_index": 5,
+              "char_length": 435,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p60_para_06",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 60,
+            "text": "Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ). Từ năm 2027-2030, trọng tâm là mở rộng mạng lưới sạc công cộng ra các địa bàn ngoài đô thị, và đẩy mạnh cường độ sau năm 2030 ở các địa bàn đô thị và ngoài đô thị để chuẩn bị cho một lượng lớn chuyển sang sử dụng xe hơi điện theo dự kiến sau năm 2035.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "50",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3258,
+              "normalized_chars": 3227,
+              "chunk_index": 6,
+              "char_length": 419,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p46_para_03",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 46,
+            "text": "Xây dựng mạng lưới sạc xe điện và khử các-bon cho điện lưới Trong giai đoạn 2025–2035, Chính phủ có thể đẩy nhanh phát triển mạng lưới sạc công cộng -hiện vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện. Thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện vẫn là đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí, trong điều kiện tỷ lệ cơ giới hóa đối với xe ô tô hiện vẫn đang còn thấp.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.2 Chuyển đổi sang xe điện bao hàm điều gì?",
+              "printed_page": "36",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2360,
+              "normalized_chars": 2342,
+              "chunk_index": 3,
+              "char_length": 435,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p61_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 61,
+            "text": "Triển khai các chính sách tạo điều kiện sử dụng sạc thông minh Ban hành giá điện chênh lệch để khuyến khích sạc tại mạng lưới sạc công cộng và sạc ngoài giờ cao điểm.\n\nTriển khai chính sách ưu đãi để khuyến khích lắp đặt sạc thông minh và tạo điều kiện sạc ngoài giờ cao điểm / sạc sau.\n\nBan hành các chính sách hỗ trợ để khuyến khích phát triển điện mặt trời sau đồng hồ đo điện tại các trạm sạc công cộng nhằm hỗ trợ cung ứng điện cho sạc xe điện.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "51",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2129,
+              "normalized_chars": 2106,
+              "chunk_index": 1,
+              "char_length": 449,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p60_para_04",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 60,
+            "text": "• Xe thương mại liên tỉnh: Trong giai đoạn 2025–2030, thiết lập các tiêu chí đặc tả kỹ thuật về xe buýt, xe khách, xe tải chạy điện, đánh giá nhu cầu vận tải hành khách và hàng hóa đối với các dịch vụ xe buýt, xe khách và xe tải liên tỉnh nhằm xác định các tuyến và hành lang ưu tiên để phát triển mạng lưới sạc, thí điểm vận hành xe tải nhỏ chạy điện trong các dịch vụ vận tải hàng hóa thuộc sở hữu của Chính phủ.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "50",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3258,
+              "normalized_chars": 3227,
+              "chunk_index": 4,
+              "char_length": 414,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p60_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nSau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).\n\n[wb-taking-stock-2025-03_p60_para_06 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nTrong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ). Từ năm 2027-2030, trọng tâm là mở rộng mạng lưới sạc công cộng ra các địa bàn ngoài đô thị, và đẩy mạnh cường độ sau năm 2030 ở các địa bàn đô thị và ngoài đô thị để chuẩn bị cho một lượng lớn chuyển sang sử dụng xe hơi điện theo dự kiến sau năm 2035.\n\n[wb-taking-stock-2025-03_p46_para_03 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 46]\nXây dựng mạng lưới sạc xe điện và khử các-bon cho điện lưới Trong giai đoạn 2025–2035, Chính phủ có thể đẩy nhanh phát triển mạng lưới sạc công cộng -hiện vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện. Thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện vẫn là đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí, trong điều kiện tỷ lệ cơ giới hóa đối với xe ô tô hiện vẫn đang còn thấp.\n\n[wb-taking-stock-2025-03_p61_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 61]\nTriển khai các chính sách tạo điều kiện sử dụng sạc thông minh Ban hành giá điện chênh lệch để khuyến khích sạc tại mạng lưới sạc công cộng và sạc ngoài giờ cao điểm.\n\nTriển khai chính sách ưu đãi để khuyến khích lắp đặt sạc thông minh và tạo điều kiện sạc ngoài giờ cao điểm / sạc sau.\n\nBan hành các chính sách hỗ trợ để khuyến khích phát triển điện mặt trời sau đồng hồ đo điện tại các trạm sạc công cộng nhằm hỗ trợ cung ứng điện cho sạc xe điện.\n\n[wb-taking-stock-2025-03_p60_para_04 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\n• Xe thương mại liên tỉnh: Trong giai đoạn 2025–2030, thiết lập các tiêu chí đặc tả kỹ thuật về xe buýt, xe khách, xe tải chạy điện, đánh giá nhu cầu vận tải hành khách và hàng hóa đối với các dịch vụ xe buýt, xe khách và xe tải liên tỉnh nhằm xác định các tuyến và hành lang ưu tiên để phát triển mạng lưới sạc, thí điểm vận hành xe tải nhỏ chạy điện trong các dịch vụ vận tải hàng hóa thuộc sở hữu của Chính phủ.",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p60_para_05",
+          "wb-taking-stock-2025-03_p60_para_06",
+          "wb-taking-stock-2025-03_p46_para_03",
+          "wb-taking-stock-2025-03_p61_para_01",
+          "wb-taking-stock-2025-03_p60_para_04"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 7025.13,
+    "cost_usd": 0.000457,
+    "prompt_tokens": 1994,
+    "completion_tokens": 263
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "question": "Tổng kim ngạch xuất khẩu sầu riêng của Việt Nam sang Trung Quốc trong năm 2024 đạt bao nhiêu tỷ USD?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "tổng kim ngạch xuất khẩu sầu riêng Việt Nam Trung Quốc 2024",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p11_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 11,
+            "text": "Thương mại phục hồi mạnh mẽ trong năm 2024, do chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu năm 2024 tăng 15,5%, trái ngược hoàn toàn với mức giảm -2,5% trong năm 2023. Kim ngạch xuất khẩu hàng hóa đạt tăng trưởng 14% vào cuối năm 2024, nhờ xuất khẩu các mặt hàng điện tử tăng mạnh - nhất là máy tính. Xuất khẩu hàng hóa tăng cao trong các tháng từ tháng 1 đến tháng 8, sau đó ổn định lại trong các tháng từ tháng 9 đến tháng 12 của năm 2024.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Diễn biến kinh tế gần đây",
+              "printed_page": "i",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2590,
+              "normalized_chars": 2532,
+              "chunk_index": 2,
+              "char_length": 465,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p22_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 22,
+            "text": "Thương mại phục hồi mạnh trong năm 2024, nhờ chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu tăng 15,5% trong năm 2024, so với mức suy giảm -2,5 trong năm 2023 do thương mại toàn cầu giảm (Hình 1.6). Tăng trưởng xuất khẩu hàng hóa đạt 14% vào cuối năm 2024, do xuất khẩu hàng điện tử tăng mạnh - đặc biệt là máy tính (Hình 1.17). Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "12",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1532,
+              "normalized_chars": 1506,
+              "chunk_index": 1,
+              "char_length": 467,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p22_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 22,
+            "text": "Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024. Do hàng xuất khẩu của Việt Nam có hàm lượng nhập khẩu cao, tăng trưởng nhập khẩu cũng đạt 16,5% vào tháng 12/2024. Kết quả là cán cân thương mại của Việt Nam đạt thặng dư ở mức 24 tỷ US$ (5,0% GDP) đối với thương mại hàng hóa, tuy vẫn thấp hơn so với năm 2023 (28,4 tỷ US$).\n\nHình 1.5.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "12",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1532,
+              "normalized_chars": 1506,
+              "chunk_index": 2,
+              "char_length": 403,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p38_para_05",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 38,
+            "text": "Các hoạt động xuất khẩu phục hồi trong năm 2024 dự kiến sẽ chậm lại trong năm 2025 và tiếp tục giảm trong năm 2026 do dự báo tăng trưởng kinh tế chậm lại trong ngắn hạn ở Trung Quốc và Hoa Kỳ - là các đối tác thương mại lớn nhất của Việt Nam - cũng như viễn cảnh bất định về thương mại toàn cầu trong điều kiện dự kiến có sự chuyển dịch về chính sách thương mại.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.2 Triển vọng và hàm ý chính sách",
+              "printed_page": "28",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1986,
+              "normalized_chars": 1975,
+              "chunk_index": 5,
+              "char_length": 362,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p11_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 11,
+            "text": "HÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I i\n\nTÓM LƯỢC TỔNG QUAN Kinh tế tăng tốc trong năm 2024 nhờ động lực xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam đạt 7,1% trong năm 2024, nhờ xuất khẩu phục hồi mạnh, cao hơn so với hầu hết các quốc gia trong khu vực. Nhu cầu bên ngoài tăng mạnh trở lại trong năm 2024 sau khi giảm sút trong năm 2023. Đầu tư và tiêu dùng cuối cùng cũng tăng mạnh đóng góp vào tăng trưởng, đạt lần lượt 6,6% và 7,2% trong năm 2024.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Diễn biến kinh tế gần đây",
+              "printed_page": "i",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2590,
+              "normalized_chars": 2532,
+              "chunk_index": 0,
+              "char_length": 497,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p11_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 11]\nThương mại phục hồi mạnh mẽ trong năm 2024, do chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu năm 2024 tăng 15,5%, trái ngược hoàn toàn với mức giảm -2,5% trong năm 2023. Kim ngạch xuất khẩu hàng hóa đạt tăng trưởng 14% vào cuối năm 2024, nhờ xuất khẩu các mặt hàng điện tử tăng mạnh - nhất là máy tính. Xuất khẩu hàng hóa tăng cao trong các tháng từ tháng 1 đến tháng 8, sau đó ổn định lại trong các tháng từ tháng 9 đến tháng 12 của năm 2024.\n\n[wb-taking-stock-2025-03_p22_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 22]\nThương mại phục hồi mạnh trong năm 2024, nhờ chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu tăng 15,5% trong năm 2024, so với mức suy giảm -2,5 trong năm 2023 do thương mại toàn cầu giảm (Hình 1.6). Tăng trưởng xuất khẩu hàng hóa đạt 14% vào cuối năm 2024, do xuất khẩu hàng điện tử tăng mạnh - đặc biệt là máy tính (Hình 1.17). Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024.\n\n[wb-taking-stock-2025-03_p22_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 22]\nXuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024. Do hàng xuất khẩu của Việt Nam có hàm lượng nhập khẩu cao, tăng trưởng nhập khẩu cũng đạt 16,5% vào tháng 12/2024. Kết quả là cán cân thương mại của Việt Nam đạt thặng dư ở mức 24 tỷ US$ (5,0% GDP) đối với thương mại hàng hóa, tuy vẫn thấp hơn so với năm 2023 (28,4 tỷ US$).\n\nHình 1.5.\n\n[wb-taking-stock-2025-03_p38_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 38]\nCác hoạt động xuất khẩu phục hồi trong năm 2024 dự kiến sẽ chậm lại trong năm 2025 và tiếp tục giảm trong năm 2026 do dự báo tăng trưởng kinh tế chậm lại trong ngắn hạn ở Trung Quốc và Hoa Kỳ - là các đối tác thương mại lớn nhất của Việt Nam - cũng như viễn cảnh bất định về thương mại toàn cầu trong điều kiện dự kiến có sự chuyển dịch về chính sách thương mại.\n\n[wb-taking-stock-2025-03_p11_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 11]\nHÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I i\n\nTÓM LƯỢC TỔNG QUAN Kinh tế tăng tốc trong năm 2024 nhờ động lực xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam đạt 7,1% trong năm 2024, nhờ xuất khẩu phục hồi mạnh, cao hơn so với hầu hết các quốc gia trong khu vực. Nhu cầu bên ngoài tăng mạnh trở lại trong năm 2024 sau khi giảm sút trong năm 2023. Đầu tư và tiêu dùng cuối cùng cũng tăng mạnh đóng góp vào tăng trưởng, đạt lần lượt 6,6% và 7,2% trong năm 2024.",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p11_para_02",
+          "wb-taking-stock-2025-03_p22_para_01",
+          "wb-taking-stock-2025-03_p22_para_02",
+          "wb-taking-stock-2025-03_p38_para_05",
+          "wb-taking-stock-2025-03_p11_para_00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "kim ngạch xuất khẩu sầu riêng Việt Nam Trung Quốc 2024",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p11_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 11,
+            "text": "Thương mại phục hồi mạnh mẽ trong năm 2024, do chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu năm 2024 tăng 15,5%, trái ngược hoàn toàn với mức giảm -2,5% trong năm 2023. Kim ngạch xuất khẩu hàng hóa đạt tăng trưởng 14% vào cuối năm 2024, nhờ xuất khẩu các mặt hàng điện tử tăng mạnh - nhất là máy tính. Xuất khẩu hàng hóa tăng cao trong các tháng từ tháng 1 đến tháng 8, sau đó ổn định lại trong các tháng từ tháng 9 đến tháng 12 của năm 2024.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Diễn biến kinh tế gần đây",
+              "printed_page": "i",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2590,
+              "normalized_chars": 2532,
+              "chunk_index": 2,
+              "char_length": 465,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p22_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 22,
+            "text": "Thương mại phục hồi mạnh trong năm 2024, nhờ chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu tăng 15,5% trong năm 2024, so với mức suy giảm -2,5 trong năm 2023 do thương mại toàn cầu giảm (Hình 1.6). Tăng trưởng xuất khẩu hàng hóa đạt 14% vào cuối năm 2024, do xuất khẩu hàng điện tử tăng mạnh - đặc biệt là máy tính (Hình 1.17). Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "12",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1532,
+              "normalized_chars": 1506,
+              "chunk_index": 1,
+              "char_length": 467,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p22_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 22,
+            "text": "Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024. Do hàng xuất khẩu của Việt Nam có hàm lượng nhập khẩu cao, tăng trưởng nhập khẩu cũng đạt 16,5% vào tháng 12/2024. Kết quả là cán cân thương mại của Việt Nam đạt thặng dư ở mức 24 tỷ US$ (5,0% GDP) đối với thương mại hàng hóa, tuy vẫn thấp hơn so với năm 2023 (28,4 tỷ US$).\n\nHình 1.5.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "12",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1532,
+              "normalized_chars": 1506,
+              "chunk_index": 2,
+              "char_length": 403,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p20_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 20,
+            "text": "10 I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\nKinh tế tăng tốc trong năm 2024 nhờ xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt 7,1%, nhờ xuất khẩu phục hồi mạnh, cao hơn so với các quốc gia trong khu vực. Tăng trưởng GDP trong năm 2024 đạt cao nhất trong số các quốc gia đang phát triển ở khu vực Đông Á, bao gồm các quốc gia ASEAN, cao hơn chỉ tiêu 6-6,5% được Chính phủ đề ra2 (Hình 1.1).",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "10",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2341,
+              "normalized_chars": 2326,
+              "chunk_index": 0,
+              "char_length": 424,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p13_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 13,
+            "text": "Thương mại hàng hóa đạt thặng dư 10,6% GDP trong 9 tháng đầu năm 2024, tương đương mức 10,8% cùng kỳ năm 2023, sau khi xuất khẩu phục hồi. Thương mại dịch vụ bị thâm hụt lên đến 2,9% GDP trong 9 tháng đầu năm 2024, so với mức thâm hụt 2,1% cùng kỳ năm trước, do nhập khẩu dịch vụ gia tăng (ở mức 14,6 tỷ US$, tương đương 40% tổng kim ngạch nhập khẩu dịch vụ). Thu nhập ròng chuyển ra nước ngoài vẫn ổn định ở mức 2,3% GDP trong 9 tháng đầu năm 2024.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Diễn biến kinh tế gần đây",
+              "printed_page": "iii",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3305,
+              "normalized_chars": 3233,
+              "chunk_index": 2,
+              "char_length": 449,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p11_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 11]\nThương mại phục hồi mạnh mẽ trong năm 2024, do chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu năm 2024 tăng 15,5%, trái ngược hoàn toàn với mức giảm -2,5% trong năm 2023. Kim ngạch xuất khẩu hàng hóa đạt tăng trưởng 14% vào cuối năm 2024, nhờ xuất khẩu các mặt hàng điện tử tăng mạnh - nhất là máy tính. Xuất khẩu hàng hóa tăng cao trong các tháng từ tháng 1 đến tháng 8, sau đó ổn định lại trong các tháng từ tháng 9 đến tháng 12 của năm 2024.\n\n[wb-taking-stock-2025-03_p22_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 22]\nThương mại phục hồi mạnh trong năm 2024, nhờ chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu tăng 15,5% trong năm 2024, so với mức suy giảm -2,5 trong năm 2023 do thương mại toàn cầu giảm (Hình 1.6). Tăng trưởng xuất khẩu hàng hóa đạt 14% vào cuối năm 2024, do xuất khẩu hàng điện tử tăng mạnh - đặc biệt là máy tính (Hình 1.17). Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024.\n\n[wb-taking-stock-2025-03_p22_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 22]\nXuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024. Do hàng xuất khẩu của Việt Nam có hàm lượng nhập khẩu cao, tăng trưởng nhập khẩu cũng đạt 16,5% vào tháng 12/2024. Kết quả là cán cân thương mại của Việt Nam đạt thặng dư ở mức 24 tỷ US$ (5,0% GDP) đối với thương mại hàng hóa, tuy vẫn thấp hơn so với năm 2023 (28,4 tỷ US$).\n\nHình 1.5.\n\n[wb-taking-stock-2025-03_p38_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 38]\nCác hoạt động xuất khẩu phục hồi trong năm 2024 dự kiến sẽ chậm lại trong năm 2025 và tiếp tục giảm trong năm 2026 do dự báo tăng trưởng kinh tế chậm lại trong ngắn hạn ở Trung Quốc và Hoa Kỳ - là các đối tác thương mại lớn nhất của Việt Nam - cũng như viễn cảnh bất định về thương mại toàn cầu trong điều kiện dự kiến có sự chuyển dịch về chính sách thương mại.\n\n[wb-taking-stock-2025-03_p11_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 11]\nHÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I i\n\nTÓM LƯỢC TỔNG QUAN Kinh tế tăng tốc trong năm 2024 nhờ động lực xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam đạt 7,1% trong năm 2024, nhờ xuất khẩu phục hồi mạnh, cao hơn so với hầu hết các quốc gia trong khu vực. Nhu cầu bên ngoài tăng mạnh trở lại trong năm 2024 sau khi giảm sút trong năm 2023. Đầu tư và tiêu dùng cuối cùng cũng tăng mạnh đóng góp vào tăng trưởng, đạt lần lượt 6,6% và 7,2% trong năm 2024.\n\n[wb-taking-stock-2025-03_p20_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 20]\n10 I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\nKinh tế tăng tốc trong năm 2024 nhờ xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt 7,1%, nhờ xuất khẩu phục hồi mạnh, cao hơn so với các quốc gia trong khu vực. Tăng trưởng GDP trong năm 2024 đạt cao nhất trong số các quốc gia đang phát triển ở khu vực Đông Á, bao gồm các quốc gia ASEAN, cao hơn chỉ tiêu 6-6,5% được Chính phủ đề ra2 (Hình 1.1).",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p11_para_02",
+          "wb-taking-stock-2025-03_p22_para_01",
+          "wb-taking-stock-2025-03_p22_para_02",
+          "wb-taking-stock-2025-03_p38_para_05",
+          "wb-taking-stock-2025-03_p11_para_00",
+          "wb-taking-stock-2025-03_p20_para_00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "kim ngạch xuất khẩu sầu riêng Việt Nam Trung Quốc 2024",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p11_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 11,
+            "text": "Thương mại phục hồi mạnh mẽ trong năm 2024, do chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu năm 2024 tăng 15,5%, trái ngược hoàn toàn với mức giảm -2,5% trong năm 2023. Kim ngạch xuất khẩu hàng hóa đạt tăng trưởng 14% vào cuối năm 2024, nhờ xuất khẩu các mặt hàng điện tử tăng mạnh - nhất là máy tính. Xuất khẩu hàng hóa tăng cao trong các tháng từ tháng 1 đến tháng 8, sau đó ổn định lại trong các tháng từ tháng 9 đến tháng 12 của năm 2024.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Diễn biến kinh tế gần đây",
+              "printed_page": "i",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2590,
+              "normalized_chars": 2532,
+              "chunk_index": 2,
+              "char_length": 465,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p22_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 22,
+            "text": "Thương mại phục hồi mạnh trong năm 2024, nhờ chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu tăng 15,5% trong năm 2024, so với mức suy giảm -2,5 trong năm 2023 do thương mại toàn cầu giảm (Hình 1.6). Tăng trưởng xuất khẩu hàng hóa đạt 14% vào cuối năm 2024, do xuất khẩu hàng điện tử tăng mạnh - đặc biệt là máy tính (Hình 1.17). Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "12",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1532,
+              "normalized_chars": 1506,
+              "chunk_index": 1,
+              "char_length": 467,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p22_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 22,
+            "text": "Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024. Do hàng xuất khẩu của Việt Nam có hàm lượng nhập khẩu cao, tăng trưởng nhập khẩu cũng đạt 16,5% vào tháng 12/2024. Kết quả là cán cân thương mại của Việt Nam đạt thặng dư ở mức 24 tỷ US$ (5,0% GDP) đối với thương mại hàng hóa, tuy vẫn thấp hơn so với năm 2023 (28,4 tỷ US$).\n\nHình 1.5.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "12",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1532,
+              "normalized_chars": 1506,
+              "chunk_index": 2,
+              "char_length": 403,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p20_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 20,
+            "text": "10 I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\nKinh tế tăng tốc trong năm 2024 nhờ xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt 7,1%, nhờ xuất khẩu phục hồi mạnh, cao hơn so với các quốc gia trong khu vực. Tăng trưởng GDP trong năm 2024 đạt cao nhất trong số các quốc gia đang phát triển ở khu vực Đông Á, bao gồm các quốc gia ASEAN, cao hơn chỉ tiêu 6-6,5% được Chính phủ đề ra2 (Hình 1.1).",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "10",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2341,
+              "normalized_chars": 2326,
+              "chunk_index": 0,
+              "char_length": 424,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p13_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 13,
+            "text": "Thương mại hàng hóa đạt thặng dư 10,6% GDP trong 9 tháng đầu năm 2024, tương đương mức 10,8% cùng kỳ năm 2023, sau khi xuất khẩu phục hồi. Thương mại dịch vụ bị thâm hụt lên đến 2,9% GDP trong 9 tháng đầu năm 2024, so với mức thâm hụt 2,1% cùng kỳ năm trước, do nhập khẩu dịch vụ gia tăng (ở mức 14,6 tỷ US$, tương đương 40% tổng kim ngạch nhập khẩu dịch vụ). Thu nhập ròng chuyển ra nước ngoài vẫn ổn định ở mức 2,3% GDP trong 9 tháng đầu năm 2024.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Diễn biến kinh tế gần đây",
+              "printed_page": "iii",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3305,
+              "normalized_chars": 3233,
+              "chunk_index": 2,
+              "char_length": 449,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p11_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 11]\nThương mại phục hồi mạnh mẽ trong năm 2024, do chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu năm 2024 tăng 15,5%, trái ngược hoàn toàn với mức giảm -2,5% trong năm 2023. Kim ngạch xuất khẩu hàng hóa đạt tăng trưởng 14% vào cuối năm 2024, nhờ xuất khẩu các mặt hàng điện tử tăng mạnh - nhất là máy tính. Xuất khẩu hàng hóa tăng cao trong các tháng từ tháng 1 đến tháng 8, sau đó ổn định lại trong các tháng từ tháng 9 đến tháng 12 của năm 2024.\n\n[wb-taking-stock-2025-03_p22_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 22]\nThương mại phục hồi mạnh trong năm 2024, nhờ chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu tăng 15,5% trong năm 2024, so với mức suy giảm -2,5 trong năm 2023 do thương mại toàn cầu giảm (Hình 1.6). Tăng trưởng xuất khẩu hàng hóa đạt 14% vào cuối năm 2024, do xuất khẩu hàng điện tử tăng mạnh - đặc biệt là máy tính (Hình 1.17). Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024.\n\n[wb-taking-stock-2025-03_p22_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 22]\nXuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024. Do hàng xuất khẩu của Việt Nam có hàm lượng nhập khẩu cao, tăng trưởng nhập khẩu cũng đạt 16,5% vào tháng 12/2024. Kết quả là cán cân thương mại của Việt Nam đạt thặng dư ở mức 24 tỷ US$ (5,0% GDP) đối với thương mại hàng hóa, tuy vẫn thấp hơn so với năm 2023 (28,4 tỷ US$).\n\nHình 1.5.\n\n[wb-taking-stock-2025-03_p38_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 38]\nCác hoạt động xuất khẩu phục hồi trong năm 2024 dự kiến sẽ chậm lại trong năm 2025 và tiếp tục giảm trong năm 2026 do dự báo tăng trưởng kinh tế chậm lại trong ngắn hạn ở Trung Quốc và Hoa Kỳ - là các đối tác thương mại lớn nhất của Việt Nam - cũng như viễn cảnh bất định về thương mại toàn cầu trong điều kiện dự kiến có sự chuyển dịch về chính sách thương mại.\n\n[wb-taking-stock-2025-03_p11_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 11]\nHÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I i\n\nTÓM LƯỢC TỔNG QUAN Kinh tế tăng tốc trong năm 2024 nhờ động lực xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam đạt 7,1% trong năm 2024, nhờ xuất khẩu phục hồi mạnh, cao hơn so với hầu hết các quốc gia trong khu vực. Nhu cầu bên ngoài tăng mạnh trở lại trong năm 2024 sau khi giảm sút trong năm 2023. Đầu tư và tiêu dùng cuối cùng cũng tăng mạnh đóng góp vào tăng trưởng, đạt lần lượt 6,6% và 7,2% trong năm 2024.\n\n[wb-taking-stock-2025-03_p20_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 20]\n10 I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\nKinh tế tăng tốc trong năm 2024 nhờ xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt 7,1%, nhờ xuất khẩu phục hồi mạnh, cao hơn so với các quốc gia trong khu vực. Tăng trưởng GDP trong năm 2024 đạt cao nhất trong số các quốc gia đang phát triển ở khu vực Đông Á, bao gồm các quốc gia ASEAN, cao hơn chỉ tiêu 6-6,5% được Chính phủ đề ra2 (Hình 1.1).",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p11_para_02",
+          "wb-taking-stock-2025-03_p22_para_01",
+          "wb-taking-stock-2025-03_p22_para_02",
+          "wb-taking-stock-2025-03_p38_para_05",
+          "wb-taking-stock-2025-03_p11_para_00",
+          "wb-taking-stock-2025-03_p20_para_00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "kim ngạch xuất khẩu sầu riêng Việt Nam Trung Quốc 2024",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p11_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 11,
+            "text": "Thương mại phục hồi mạnh mẽ trong năm 2024, do chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu năm 2024 tăng 15,5%, trái ngược hoàn toàn với mức giảm -2,5% trong năm 2023. Kim ngạch xuất khẩu hàng hóa đạt tăng trưởng 14% vào cuối năm 2024, nhờ xuất khẩu các mặt hàng điện tử tăng mạnh - nhất là máy tính. Xuất khẩu hàng hóa tăng cao trong các tháng từ tháng 1 đến tháng 8, sau đó ổn định lại trong các tháng từ tháng 9 đến tháng 12 của năm 2024.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Diễn biến kinh tế gần đây",
+              "printed_page": "i",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2590,
+              "normalized_chars": 2532,
+              "chunk_index": 2,
+              "char_length": 465,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p22_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 22,
+            "text": "Thương mại phục hồi mạnh trong năm 2024, nhờ chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu tăng 15,5% trong năm 2024, so với mức suy giảm -2,5 trong năm 2023 do thương mại toàn cầu giảm (Hình 1.6). Tăng trưởng xuất khẩu hàng hóa đạt 14% vào cuối năm 2024, do xuất khẩu hàng điện tử tăng mạnh - đặc biệt là máy tính (Hình 1.17). Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "12",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1532,
+              "normalized_chars": 1506,
+              "chunk_index": 1,
+              "char_length": 467,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p22_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 22,
+            "text": "Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024. Do hàng xuất khẩu của Việt Nam có hàm lượng nhập khẩu cao, tăng trưởng nhập khẩu cũng đạt 16,5% vào tháng 12/2024. Kết quả là cán cân thương mại của Việt Nam đạt thặng dư ở mức 24 tỷ US$ (5,0% GDP) đối với thương mại hàng hóa, tuy vẫn thấp hơn so với năm 2023 (28,4 tỷ US$).\n\nHình 1.5.",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "12",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 1532,
+              "normalized_chars": 1506,
+              "chunk_index": 2,
+              "char_length": 403,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p20_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 20,
+            "text": "10 I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\nKinh tế tăng tốc trong năm 2024 nhờ xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt 7,1%, nhờ xuất khẩu phục hồi mạnh, cao hơn so với các quốc gia trong khu vực. Tăng trưởng GDP trong năm 2024 đạt cao nhất trong số các quốc gia đang phát triển ở khu vực Đông Á, bao gồm các quốc gia ASEAN, cao hơn chỉ tiêu 6-6,5% được Chính phủ đề ra2 (Hình 1.1).",
+            "metadata": {
+              "section": "kinh_te_vi_mo",
+              "section_title": "Chương 1: Diễn biến và triển vọng kinh tế",
+              "sub_section": "1.1 Diễn biến kinh tế gần đây",
+              "printed_page": "10",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2341,
+              "normalized_chars": 2326,
+              "chunk_index": 0,
+              "char_length": 424,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p13_para_02",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 13,
+            "text": "Thương mại hàng hóa đạt thặng dư 10,6% GDP trong 9 tháng đầu năm 2024, tương đương mức 10,8% cùng kỳ năm 2023, sau khi xuất khẩu phục hồi. Thương mại dịch vụ bị thâm hụt lên đến 2,9% GDP trong 9 tháng đầu năm 2024, so với mức thâm hụt 2,1% cùng kỳ năm trước, do nhập khẩu dịch vụ gia tăng (ở mức 14,6 tỷ US$, tương đương 40% tổng kim ngạch nhập khẩu dịch vụ). Thu nhập ròng chuyển ra nước ngoài vẫn ổn định ở mức 2,3% GDP trong 9 tháng đầu năm 2024.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Diễn biến kinh tế gần đây",
+              "printed_page": "iii",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3305,
+              "normalized_chars": 3233,
+              "chunk_index": 2,
+              "char_length": 449,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p11_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 11]\nThương mại phục hồi mạnh mẽ trong năm 2024, do chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu năm 2024 tăng 15,5%, trái ngược hoàn toàn với mức giảm -2,5% trong năm 2023. Kim ngạch xuất khẩu hàng hóa đạt tăng trưởng 14% vào cuối năm 2024, nhờ xuất khẩu các mặt hàng điện tử tăng mạnh - nhất là máy tính. Xuất khẩu hàng hóa tăng cao trong các tháng từ tháng 1 đến tháng 8, sau đó ổn định lại trong các tháng từ tháng 9 đến tháng 12 của năm 2024.\n\n[wb-taking-stock-2025-03_p22_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 22]\nThương mại phục hồi mạnh trong năm 2024, nhờ chu kỳ đi lên của công nghệ trên toàn cầu. Tổng kim ngạch xuất khẩu tăng 15,5% trong năm 2024, so với mức suy giảm -2,5 trong năm 2023 do thương mại toàn cầu giảm (Hình 1.6). Tăng trưởng xuất khẩu hàng hóa đạt 14% vào cuối năm 2024, do xuất khẩu hàng điện tử tăng mạnh - đặc biệt là máy tính (Hình 1.17). Xuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024.\n\n[wb-taking-stock-2025-03_p22_para_02 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 22]\nXuất khẩu hàng hóa tăng trưởng mạnh trong 8 tháng đầu năm, sau đó ổn định lại từ tháng 9 đến tháng 12 trong năm 2024. Do hàng xuất khẩu của Việt Nam có hàm lượng nhập khẩu cao, tăng trưởng nhập khẩu cũng đạt 16,5% vào tháng 12/2024. Kết quả là cán cân thương mại của Việt Nam đạt thặng dư ở mức 24 tỷ US$ (5,0% GDP) đối với thương mại hàng hóa, tuy vẫn thấp hơn so với năm 2023 (28,4 tỷ US$).\n\nHình 1.5.\n\n[wb-taking-stock-2025-03_p38_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 38]\nCác hoạt động xuất khẩu phục hồi trong năm 2024 dự kiến sẽ chậm lại trong năm 2025 và tiếp tục giảm trong năm 2026 do dự báo tăng trưởng kinh tế chậm lại trong ngắn hạn ở Trung Quốc và Hoa Kỳ - là các đối tác thương mại lớn nhất của Việt Nam - cũng như viễn cảnh bất định về thương mại toàn cầu trong điều kiện dự kiến có sự chuyển dịch về chính sách thương mại.\n\n[wb-taking-stock-2025-03_p11_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 11]\nHÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I i\n\nTÓM LƯỢC TỔNG QUAN Kinh tế tăng tốc trong năm 2024 nhờ động lực xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam đạt 7,1% trong năm 2024, nhờ xuất khẩu phục hồi mạnh, cao hơn so với hầu hết các quốc gia trong khu vực. Nhu cầu bên ngoài tăng mạnh trở lại trong năm 2024 sau khi giảm sút trong năm 2023. Đầu tư và tiêu dùng cuối cùng cũng tăng mạnh đóng góp vào tăng trưởng, đạt lần lượt 6,6% và 7,2% trong năm 2024.\n\n[wb-taking-stock-2025-03_p20_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 20]\n10 I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\nKinh tế tăng tốc trong năm 2024 nhờ xuất khẩu phục hồi mạnh Tăng trưởng GDP theo giá so sánh của Việt Nam trong năm 2024 đạt 7,1%, nhờ xuất khẩu phục hồi mạnh, cao hơn so với các quốc gia trong khu vực. Tăng trưởng GDP trong năm 2024 đạt cao nhất trong số các quốc gia đang phát triển ở khu vực Đông Á, bao gồm các quốc gia ASEAN, cao hơn chỉ tiêu 6-6,5% được Chính phủ đề ra2 (Hình 1.1).",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p11_para_02",
+          "wb-taking-stock-2025-03_p22_para_01",
+          "wb-taking-stock-2025-03_p22_para_02",
+          "wb-taking-stock-2025-03_p38_para_05",
+          "wb-taking-stock-2025-03_p11_para_00",
+          "wb-taking-stock-2025-03_p20_para_00"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "search_calls": 4,
+    "elapsed_ms": 10952.71,
+    "cost_usd": 0.001112,
+    "prompt_tokens": 6884,
+    "completion_tokens": 132
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "question": "Mức trợ cấp trực tiếp bằng tiền mặt của Chính phủ Việt Nam dành cho mỗi người dân khi mua ô tô điện theo Nghị định ban hành năm 2025 là bao nhiêu triệu đồng?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "mức trợ cấp tiền mặt ô tô điện Chính phủ Việt Nam 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p60_para_05",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 60,
+            "text": "Sau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "50",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3258,
+              "normalized_chars": 3227,
+              "chunk_index": 5,
+              "char_length": 435,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p60_para_09",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 60,
+            "text": "Tất cả các phân khúc đều đòi hỏi Chính phủ phải hỗ trợ đáng kể dưới hình thức ưu đãi trong và ngoài chính sách tài khóa bên cạnh các chính sách quy định hỗ trợ minh bạch nhằm đảm bảo các nhà đầu tư tư nhân được tiếp cận tài chính. Đây là điều hết sức quan trọng đối với hạ tầng sạc, vì kinh nghiệm quốc tế cho thấy trợ giá của Chính phủ có thể hiệu quả gấp sáu lần so với trợ giá mua xe điện. Cuối cùng, lĩnh vực tái chế pin còn mới mẻ ở Việt Nam đồng nghĩa",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "50",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3258,
+              "normalized_chars": 3227,
+              "chunk_index": 9,
+              "char_length": 457,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p46_para_03",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 46,
+            "text": "Xây dựng mạng lưới sạc xe điện và khử các-bon cho điện lưới Trong giai đoạn 2025–2035, Chính phủ có thể đẩy nhanh phát triển mạng lưới sạc công cộng -hiện vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện. Thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện vẫn là đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí, trong điều kiện tỷ lệ cơ giới hóa đối với xe ô tô hiện vẫn đang còn thấp.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.2 Chuyển đổi sang xe điện bao hàm điều gì?",
+              "printed_page": "36",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2360,
+              "normalized_chars": 2342,
+              "chunk_index": 3,
+              "char_length": 435,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p44_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 44,
+            "text": "Để đáp ứng với những nhu cầu cấp bách của phát triển kinh tế và môi trường, Chính phủ đã đặt ra chỉ tiêu về phương tiện giao thông điện (xe điện) liên quan đến điện khí hóa và sản xuất phương tiện, hạ tầng sạc, đến năm 2050.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.1 Bối cảnh",
+              "printed_page": "34",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2244,
+              "normalized_chars": 2223,
+              "chunk_index": 1,
+              "char_length": 224,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p61_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 61,
+            "text": "HÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I 51\n\nBảng 2.7. Các hành động chính sách khuyến nghị để ngành điện Việt Nam đảm bảo sẵn sàng 2024 - 2025 2030 - 20402025 - 2030 2040 - 2050 Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN và Bộ TC Đưa nhu cầu về xe điện vào quy hoạch hệ thống điện Đưa tác động dự báo về sạc xe điện vào hệ thống điện trong đợt cập nhật QHĐ tiếp theo.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "51",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2129,
+              "normalized_chars": 2106,
+              "chunk_index": 0,
+              "char_length": 430,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p60_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nSau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).\n\n[wb-taking-stock-2025-03_p60_para_09 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nTất cả các phân khúc đều đòi hỏi Chính phủ phải hỗ trợ đáng kể dưới hình thức ưu đãi trong và ngoài chính sách tài khóa bên cạnh các chính sách quy định hỗ trợ minh bạch nhằm đảm bảo các nhà đầu tư tư nhân được tiếp cận tài chính. Đây là điều hết sức quan trọng đối với hạ tầng sạc, vì kinh nghiệm quốc tế cho thấy trợ giá của Chính phủ có thể hiệu quả gấp sáu lần so với trợ giá mua xe điện. Cuối cùng, lĩnh vực tái chế pin còn mới mẻ ở Việt Nam đồng nghĩa\n\n[wb-taking-stock-2025-03_p46_para_03 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 46]\nXây dựng mạng lưới sạc xe điện và khử các-bon cho điện lưới Trong giai đoạn 2025–2035, Chính phủ có thể đẩy nhanh phát triển mạng lưới sạc công cộng -hiện vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện. Thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện vẫn là đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí, trong điều kiện tỷ lệ cơ giới hóa đối với xe ô tô hiện vẫn đang còn thấp.\n\n[wb-taking-stock-2025-03_p44_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 44]\nĐể đáp ứng với những nhu cầu cấp bách của phát triển kinh tế và môi trường, Chính phủ đã đặt ra chỉ tiêu về phương tiện giao thông điện (xe điện) liên quan đến điện khí hóa và sản xuất phương tiện, hạ tầng sạc, đến năm 2050.\n\n[wb-taking-stock-2025-03_p61_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 61]\nHÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I 51\n\nBảng 2.7. Các hành động chính sách khuyến nghị để ngành điện Việt Nam đảm bảo sẵn sàng 2024 - 2025 2030 - 20402025 - 2030 2040 - 2050 Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN và Bộ TC Đưa nhu cầu về xe điện vào quy hoạch hệ thống điện Đưa tác động dự báo về sạc xe điện vào hệ thống điện trong đợt cập nhật QHĐ tiếp theo.",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p60_para_05",
+          "wb-taking-stock-2025-03_p60_para_09",
+          "wb-taking-stock-2025-03_p46_para_03",
+          "wb-taking-stock-2025-03_p44_para_01",
+          "wb-taking-stock-2025-03_p61_para_00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "trợ cấp tiền mặt ô tô điện Chính phủ Việt Nam 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p60_para_05",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 60,
+            "text": "Sau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "50",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3258,
+              "normalized_chars": 3227,
+              "chunk_index": 5,
+              "char_length": 435,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p44_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 44,
+            "text": "Để đáp ứng với những nhu cầu cấp bách của phát triển kinh tế và môi trường, Chính phủ đã đặt ra chỉ tiêu về phương tiện giao thông điện (xe điện) liên quan đến điện khí hóa và sản xuất phương tiện, hạ tầng sạc, đến năm 2050.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.1 Bối cảnh",
+              "printed_page": "34",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2244,
+              "normalized_chars": 2223,
+              "chunk_index": 1,
+              "char_length": 224,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p43_para_06",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 43,
+            "text": "Chuyển sang dùng xe điện cũng đem lại những cơ hội phát triển kinh tế lớn trên toàn bộ chuỗi giá trị. Để đạt chỉ tiêu sử dụng xe điện (EV) được Chính phủ đặt ra, doanh số bán ở Việt Nam cần tăng từ 500.000 xe trong năm 2022 lên khoảng 1,5 triệu xe vào năm 2030, và 7,3 triệu xe vào năm 2050.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.1 Bối cảnh",
+              "printed_page": "33",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2206,
+              "normalized_chars": 2191,
+              "chunk_index": 6,
+              "char_length": 291,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p18_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 18,
+            "text": "viii I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\ndự kiến sẽ tạo thêm đến 6,5 triệu việc làm mới trong toàn bộ chuỗi giá trị xe điện, tính cộng dồn đến năm 2050, trong đó có 61% ở lĩnh vực hạ tầng sạc xe điện.\n\nMột gói các khuyến nghị được xây dựng để giúp Chính phủ Việt Nam hoàn thành các chỉ tiêu về chuyển đổi sang xe điện.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Chuyên đề đặc biệt: Chuyển đổi sang xe điện",
+              "printed_page": "viii",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2115,
+              "normalized_chars": 2071,
+              "chunk_index": 0,
+              "char_length": 315,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p46_para_03",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 46,
+            "text": "Xây dựng mạng lưới sạc xe điện và khử các-bon cho điện lưới Trong giai đoạn 2025–2035, Chính phủ có thể đẩy nhanh phát triển mạng lưới sạc công cộng -hiện vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện. Thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện vẫn là đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí, trong điều kiện tỷ lệ cơ giới hóa đối với xe ô tô hiện vẫn đang còn thấp.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.2 Chuyển đổi sang xe điện bao hàm điều gì?",
+              "printed_page": "36",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2360,
+              "normalized_chars": 2342,
+              "chunk_index": 3,
+              "char_length": 435,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p60_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nSau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).\n\n[wb-taking-stock-2025-03_p60_para_09 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nTất cả các phân khúc đều đòi hỏi Chính phủ phải hỗ trợ đáng kể dưới hình thức ưu đãi trong và ngoài chính sách tài khóa bên cạnh các chính sách quy định hỗ trợ minh bạch nhằm đảm bảo các nhà đầu tư tư nhân được tiếp cận tài chính. Đây là điều hết sức quan trọng đối với hạ tầng sạc, vì kinh nghiệm quốc tế cho thấy trợ giá của Chính phủ có thể hiệu quả gấp sáu lần so với trợ giá mua xe điện. Cuối cùng, lĩnh vực tái chế pin còn mới mẻ ở Việt Nam đồng nghĩa\n\n[wb-taking-stock-2025-03_p46_para_03 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 46]\nXây dựng mạng lưới sạc xe điện và khử các-bon cho điện lưới Trong giai đoạn 2025–2035, Chính phủ có thể đẩy nhanh phát triển mạng lưới sạc công cộng -hiện vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện. Thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện vẫn là đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí, trong điều kiện tỷ lệ cơ giới hóa đối với xe ô tô hiện vẫn đang còn thấp.\n\n[wb-taking-stock-2025-03_p44_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 44]\nĐể đáp ứng với những nhu cầu cấp bách của phát triển kinh tế và môi trường, Chính phủ đã đặt ra chỉ tiêu về phương tiện giao thông điện (xe điện) liên quan đến điện khí hóa và sản xuất phương tiện, hạ tầng sạc, đến năm 2050.\n\n[wb-taking-stock-2025-03_p61_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 61]\nHÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I 51\n\nBảng 2.7. Các hành động chính sách khuyến nghị để ngành điện Việt Nam đảm bảo sẵn sàng 2024 - 2025 2030 - 20402025 - 2030 2040 - 2050 Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN và Bộ TC Đưa nhu cầu về xe điện vào quy hoạch hệ thống điện Đưa tác động dự báo về sạc xe điện vào hệ thống điện trong đợt cập nhật QHĐ tiếp theo.\n\n[wb-taking-stock-2025-03_p43_para_06 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 43]\nChuyển sang dùng xe điện cũng đem lại những cơ hội phát triển kinh tế lớn trên toàn bộ chuỗi giá trị. Để đạt chỉ tiêu sử dụng xe điện (EV) được Chính phủ đặt ra, doanh số bán ở Việt Nam cần tăng từ 500.000 xe trong năm 2022 lên khoảng 1,5 triệu xe vào năm 2030, và 7,3 triệu xe vào năm 2050.",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p60_para_05",
+          "wb-taking-stock-2025-03_p60_para_09",
+          "wb-taking-stock-2025-03_p46_para_03",
+          "wb-taking-stock-2025-03_p44_para_01",
+          "wb-taking-stock-2025-03_p61_para_00",
+          "wb-taking-stock-2025-03_p43_para_06"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "trợ cấp tiền mặt ô tô điện Chính phủ Việt Nam 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p60_para_05",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 60,
+            "text": "Sau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "50",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3258,
+              "normalized_chars": 3227,
+              "chunk_index": 5,
+              "char_length": 435,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p44_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 44,
+            "text": "Để đáp ứng với những nhu cầu cấp bách của phát triển kinh tế và môi trường, Chính phủ đã đặt ra chỉ tiêu về phương tiện giao thông điện (xe điện) liên quan đến điện khí hóa và sản xuất phương tiện, hạ tầng sạc, đến năm 2050.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.1 Bối cảnh",
+              "printed_page": "34",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2244,
+              "normalized_chars": 2223,
+              "chunk_index": 1,
+              "char_length": 224,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p43_para_06",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 43,
+            "text": "Chuyển sang dùng xe điện cũng đem lại những cơ hội phát triển kinh tế lớn trên toàn bộ chuỗi giá trị. Để đạt chỉ tiêu sử dụng xe điện (EV) được Chính phủ đặt ra, doanh số bán ở Việt Nam cần tăng từ 500.000 xe trong năm 2022 lên khoảng 1,5 triệu xe vào năm 2030, và 7,3 triệu xe vào năm 2050.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.1 Bối cảnh",
+              "printed_page": "33",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2206,
+              "normalized_chars": 2191,
+              "chunk_index": 6,
+              "char_length": 291,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p18_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 18,
+            "text": "viii I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\ndự kiến sẽ tạo thêm đến 6,5 triệu việc làm mới trong toàn bộ chuỗi giá trị xe điện, tính cộng dồn đến năm 2050, trong đó có 61% ở lĩnh vực hạ tầng sạc xe điện.\n\nMột gói các khuyến nghị được xây dựng để giúp Chính phủ Việt Nam hoàn thành các chỉ tiêu về chuyển đổi sang xe điện.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Chuyên đề đặc biệt: Chuyển đổi sang xe điện",
+              "printed_page": "viii",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2115,
+              "normalized_chars": 2071,
+              "chunk_index": 0,
+              "char_length": 315,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p61_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 61,
+            "text": "HÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I 51\n\nBảng 2.7. Các hành động chính sách khuyến nghị để ngành điện Việt Nam đảm bảo sẵn sàng 2024 - 2025 2030 - 20402025 - 2030 2040 - 2050 Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN và Bộ TC Đưa nhu cầu về xe điện vào quy hoạch hệ thống điện Đưa tác động dự báo về sạc xe điện vào hệ thống điện trong đợt cập nhật QHĐ tiếp theo.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "51",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2129,
+              "normalized_chars": 2106,
+              "chunk_index": 0,
+              "char_length": 430,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p60_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nSau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).\n\n[wb-taking-stock-2025-03_p60_para_09 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nTất cả các phân khúc đều đòi hỏi Chính phủ phải hỗ trợ đáng kể dưới hình thức ưu đãi trong và ngoài chính sách tài khóa bên cạnh các chính sách quy định hỗ trợ minh bạch nhằm đảm bảo các nhà đầu tư tư nhân được tiếp cận tài chính. Đây là điều hết sức quan trọng đối với hạ tầng sạc, vì kinh nghiệm quốc tế cho thấy trợ giá của Chính phủ có thể hiệu quả gấp sáu lần so với trợ giá mua xe điện. Cuối cùng, lĩnh vực tái chế pin còn mới mẻ ở Việt Nam đồng nghĩa\n\n[wb-taking-stock-2025-03_p46_para_03 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 46]\nXây dựng mạng lưới sạc xe điện và khử các-bon cho điện lưới Trong giai đoạn 2025–2035, Chính phủ có thể đẩy nhanh phát triển mạng lưới sạc công cộng -hiện vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện. Thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện vẫn là đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí, trong điều kiện tỷ lệ cơ giới hóa đối với xe ô tô hiện vẫn đang còn thấp.\n\n[wb-taking-stock-2025-03_p44_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 44]\nĐể đáp ứng với những nhu cầu cấp bách của phát triển kinh tế và môi trường, Chính phủ đã đặt ra chỉ tiêu về phương tiện giao thông điện (xe điện) liên quan đến điện khí hóa và sản xuất phương tiện, hạ tầng sạc, đến năm 2050.\n\n[wb-taking-stock-2025-03_p61_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 61]\nHÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I 51\n\nBảng 2.7. Các hành động chính sách khuyến nghị để ngành điện Việt Nam đảm bảo sẵn sàng 2024 - 2025 2030 - 20402025 - 2030 2040 - 2050 Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN và Bộ TC Đưa nhu cầu về xe điện vào quy hoạch hệ thống điện Đưa tác động dự báo về sạc xe điện vào hệ thống điện trong đợt cập nhật QHĐ tiếp theo.\n\n[wb-taking-stock-2025-03_p43_para_06 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 43]\nChuyển sang dùng xe điện cũng đem lại những cơ hội phát triển kinh tế lớn trên toàn bộ chuỗi giá trị. Để đạt chỉ tiêu sử dụng xe điện (EV) được Chính phủ đặt ra, doanh số bán ở Việt Nam cần tăng từ 500.000 xe trong năm 2022 lên khoảng 1,5 triệu xe vào năm 2030, và 7,3 triệu xe vào năm 2050.",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p60_para_05",
+          "wb-taking-stock-2025-03_p60_para_09",
+          "wb-taking-stock-2025-03_p46_para_03",
+          "wb-taking-stock-2025-03_p44_para_01",
+          "wb-taking-stock-2025-03_p61_para_00",
+          "wb-taking-stock-2025-03_p43_para_06"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "trợ cấp tiền mặt ô tô điện Chính phủ Việt Nam 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03_p60_para_05",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 60,
+            "text": "Sau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "50",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 3258,
+              "normalized_chars": 3227,
+              "chunk_index": 5,
+              "char_length": 435,
+              "chunking": "by_paragraph"
+            },
+            "score": 10.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p44_para_01",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 44,
+            "text": "Để đáp ứng với những nhu cầu cấp bách của phát triển kinh tế và môi trường, Chính phủ đã đặt ra chỉ tiêu về phương tiện giao thông điện (xe điện) liên quan đến điện khí hóa và sản xuất phương tiện, hạ tầng sạc, đến năm 2050.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.1 Bối cảnh",
+              "printed_page": "34",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2244,
+              "normalized_chars": 2223,
+              "chunk_index": 1,
+              "char_length": 224,
+              "chunking": "by_paragraph"
+            },
+            "score": 9.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p43_para_06",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 43,
+            "text": "Chuyển sang dùng xe điện cũng đem lại những cơ hội phát triển kinh tế lớn trên toàn bộ chuỗi giá trị. Để đạt chỉ tiêu sử dụng xe điện (EV) được Chính phủ đặt ra, doanh số bán ở Việt Nam cần tăng từ 500.000 xe trong năm 2022 lên khoảng 1,5 triệu xe vào năm 2030, và 7,3 triệu xe vào năm 2050.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.1 Bối cảnh",
+              "printed_page": "33",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2206,
+              "normalized_chars": 2191,
+              "chunk_index": 6,
+              "char_length": 291,
+              "chunking": "by_paragraph"
+            },
+            "score": 8.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p18_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 18,
+            "text": "viii I BÁO CÁO ĐIỂM LẠI THÁNG 3/2025\n\ndự kiến sẽ tạo thêm đến 6,5 triệu việc làm mới trong toàn bộ chuỗi giá trị xe điện, tính cộng dồn đến năm 2050, trong đó có 61% ở lĩnh vực hạ tầng sạc xe điện.\n\nMột gói các khuyến nghị được xây dựng để giúp Chính phủ Việt Nam hoàn thành các chỉ tiêu về chuyển đổi sang xe điện.",
+            "metadata": {
+              "section": "tom_luoc",
+              "section_title": "Tóm lược tổng quan",
+              "sub_section": "Chuyên đề đặc biệt: Chuyển đổi sang xe điện",
+              "printed_page": "viii",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2115,
+              "normalized_chars": 2071,
+              "chunk_index": 0,
+              "char_length": 315,
+              "chunking": "by_paragraph"
+            },
+            "score": 7.0,
+            "strategy": "rerank"
+          },
+          {
+            "id": "wb-taking-stock-2025-03_p61_para_00",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "data/TAKING STOCK March 2025_VNM_FINAL.pdf",
+            "page": 61,
+            "text": "HÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I 51\n\nBảng 2.7. Các hành động chính sách khuyến nghị để ngành điện Việt Nam đảm bảo sẵn sàng 2024 - 2025 2030 - 20402025 - 2030 2040 - 2050 Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN và Bộ TC Đưa nhu cầu về xe điện vào quy hoạch hệ thống điện Đưa tác động dự báo về sạc xe điện vào hệ thống điện trong đợt cập nhật QHĐ tiếp theo.",
+            "metadata": {
+              "section": "chuyen_doi_xe_dien",
+              "section_title": "Chương 2: Chuyển đổi sang xe điện",
+              "sub_section": "2.7 Khuyến nghị chính sách",
+              "printed_page": "51",
+              "year": 2025,
+              "language": "vi",
+              "document_type": "economic_report",
+              "raw_chars": 2129,
+              "normalized_chars": 2106,
+              "chunk_index": 0,
+              "char_length": 430,
+              "chunking": "by_paragraph"
+            },
+            "score": 6.0,
+            "strategy": "rerank"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03_p60_para_05 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nSau năm 2030, chú trọng triển khai trợ giá của Chính phủ nhằm đem lại lãi suất ưu đãi cho các khoản vay thương mại để mua xe tải chạy điện và xe buýt nhỏ chạy điện.\n\n• Hạ tầng sạc: Trong giai đoạn 2025–2035, Chính phủ nền đẩy nhanh phát triển mạng lưới sạc công cộng. Trong giai đoạn 2025-2027, các mạng lưới sạc công cộng nên được ưu tiên tại năm thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ).\n\n[wb-taking-stock-2025-03_p60_para_09 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 60]\nTất cả các phân khúc đều đòi hỏi Chính phủ phải hỗ trợ đáng kể dưới hình thức ưu đãi trong và ngoài chính sách tài khóa bên cạnh các chính sách quy định hỗ trợ minh bạch nhằm đảm bảo các nhà đầu tư tư nhân được tiếp cận tài chính. Đây là điều hết sức quan trọng đối với hạ tầng sạc, vì kinh nghiệm quốc tế cho thấy trợ giá của Chính phủ có thể hiệu quả gấp sáu lần so với trợ giá mua xe điện. Cuối cùng, lĩnh vực tái chế pin còn mới mẻ ở Việt Nam đồng nghĩa\n\n[wb-taking-stock-2025-03_p46_para_03 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 46]\nXây dựng mạng lưới sạc xe điện và khử các-bon cho điện lưới Trong giai đoạn 2025–2035, Chính phủ có thể đẩy nhanh phát triển mạng lưới sạc công cộng -hiện vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện. Thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện vẫn là đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí, trong điều kiện tỷ lệ cơ giới hóa đối với xe ô tô hiện vẫn đang còn thấp.\n\n[wb-taking-stock-2025-03_p44_para_01 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 44]\nĐể đáp ứng với những nhu cầu cấp bách của phát triển kinh tế và môi trường, Chính phủ đã đặt ra chỉ tiêu về phương tiện giao thông điện (xe điện) liên quan đến điện khí hóa và sản xuất phương tiện, hạ tầng sạc, đến năm 2050.\n\n[wb-taking-stock-2025-03_p61_para_00 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 61]\nHÀNH TRÌNH BỨT PHÁ: CHUYỂN ĐỔI SANG XE ĐIỆN TẠI VIỆT NAM I 51\n\nBảng 2.7. Các hành động chính sách khuyến nghị để ngành điện Việt Nam đảm bảo sẵn sàng 2024 - 2025 2030 - 20402025 - 2030 2040 - 2050 Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN Chủ trì: Bộ CT | Hỗ trợ: EVN và Bộ TC Đưa nhu cầu về xe điện vào quy hoạch hệ thống điện Đưa tác động dự báo về sạc xe điện vào hệ thống điện trong đợt cập nhật QHĐ tiếp theo.\n\n[wb-taking-stock-2025-03_p43_para_06 | data/TAKING STOCK March 2025_VNM_FINAL.pdf | page 43]\nChuyển sang dùng xe điện cũng đem lại những cơ hội phát triển kinh tế lớn trên toàn bộ chuỗi giá trị. Để đạt chỉ tiêu sử dụng xe điện (EV) được Chính phủ đặt ra, doanh số bán ở Việt Nam cần tăng từ 500.000 xe trong năm 2022 lên khoảng 1,5 triệu xe vào năm 2030, và 7,3 triệu xe vào năm 2050.",
+        "context_ids": [
+          "wb-taking-stock-2025-03_p60_para_05",
+          "wb-taking-stock-2025-03_p60_para_09",
+          "wb-taking-stock-2025-03_p46_para_03",
+          "wb-taking-stock-2025-03_p44_para_01",
+          "wb-taking-stock-2025-03_p61_para_00",
+          "wb-taking-stock-2025-03_p43_para_06"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "search_calls": 4,
+    "elapsed_ms": 12982.36,
+    "cost_usd": 0.001059,
+    "prompt_tokens": 6537,
+    "completion_tokens": 131
+  }
+]

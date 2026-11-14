@@ -1,0 +1,71 @@
+[
+  {
+    "query_id": "q16",
+    "expected_answer": "Tỷ lệ thâm dụng điện năm 2024 tăng lên 590 kWh trên 1.000 US$ (từ 579 kWh năm 2023, cao nhất kể từ năm 2013 theo Chương 1); kim loại cơ bản, kim loại màu, cao su và nhựa tăng trưởng lần lượt 9,3%, 16,3% và 23,4%.",
+    "agent_answer": "Theo phân tích tại Chương 1, cường độ tiêu thụ điện trên mỗi 1.000 USD GDP năm 2024 tăng lên, tuy nhiên tài liệu không cung cấp thông tin cụ thể về mức tăng kWh so với năm nào. Các ngành kim loại cơ bản, kim loại màu, cao su - nhựa có mức tăng trưởng lần lượt là 9,3%, 16,3% và 23,4% trong năm 2024, cao hơn so với năm 2023 và tăng trưởng sản xuất công nghiệp hoặc toàn bộ nền kinh tế (7,8% và 7,1% tương ứng) [wb-taking-stock-2025-03_p36_para_04].",
+    "citations": [
+      "wb-taking-stock-2025-03_p36_para_04"
+    ],
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "TODO: đối chiếu từng citation với context gốc trước khi chốt điểm"
+  },
+  {
+    "query_id": "q17",
+    "expected_answer": "Giai đoạn 2024-2030 cần đầu tư 6-9 tỷ US$ cho ngành điện; giai đoạn 2031-2050 theo kịch bản ADS cần đầu tư cộng dồn 280 tỷ US$ (trong đó riêng đầu tư phát sinh về công suất lưới điện lên đến 9 tỷ US$).",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "citation_support": [],
+    "answer_grade": 0,
+    "notes": "TODO: đối chiếu từng citation với context gốc trước khi chốt điểm"
+  },
+  {
+    "query_id": "q18",
+    "expected_answer": "Nếu cơ cấu nguồn điện lưới giữ như năm 2022, chuyển sang xe điện vẫn giúp giảm phát thải ròng 2,2 triệu tấn CO2eq vào năm 2050; nếu hoàn thành xanh hóa lưới điện theo QHĐ8, mức giảm phát thải ròng đạt 5,3 triệu tấn CO2eq vào năm 2050.",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "citation_support": [],
+    "answer_grade": 0,
+    "notes": "TODO: đối chiếu từng citation với context gốc trước khi chốt điểm"
+  },
+  {
+    "query_id": "q19",
+    "expected_answer": "Với giá dầu thô 80 US$/thùng, chi tiêu cộng dồn tiết kiệm được đến năm 2050 là 360 tỷ US$ theo kịch bản SPS và 498 tỷ US$ theo kịch bản ADS.",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "citation_support": [],
+    "answer_grade": 0,
+    "notes": "TODO: đối chiếu từng citation với context gốc trước khi chốt điểm"
+  },
+  {
+    "query_id": "q20",
+    "expected_answer": "Giai đoạn 2025-2027 ưu tiên tại 5 thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, TP. Hồ Chí Minh và Cần Thơ); kinh nghiệm quốc tế cho thấy trợ giá của Chính phủ cho hạ tầng sạc có thể hiệu quả gấp 6 lần so với trợ giá mua xe điện.",
+    "agent_answer": "Trong giai đoạn 2025-2027, lộ trình phát triển mạng lưới sạc công cộng ưu tiên tại năm thành phố loại đặc biệt là Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ. Chính phủ cần hỗ trợ tài chính cho hạ tầng sạc để đẩy nhanh phát triển mạng lưới sạc công cộng trong giai đoạn 2025-2035. [wb-taking-stock-2025-03_p60_para_05]",
+    "citations": [
+      "wb-taking-stock-2025-03_p60_para_05"
+    ],
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "TODO: đối chiếu từng citation với context gốc trước khi chốt điểm"
+  },
+  {
+    "query_id": "q23",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "TODO: kiểm tra agent thực sự từ chối và không suy đoán"
+  },
+  {
+    "query_id": "q24",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "TODO: kiểm tra agent thực sự từ chối và không suy đoán"
+  }
+]

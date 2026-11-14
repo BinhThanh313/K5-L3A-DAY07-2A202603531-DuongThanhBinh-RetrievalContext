@@ -1,0 +1,89 @@
+[
+  {
+    "query_id": "q16",
+    "expected_answer": "Tỷ lệ thâm dụng điện năm 2024 tăng lên 590 kWh trên 1.000 US$ (từ 579 kWh năm 2023, cao nhất kể từ năm 2013 theo Chương 1); kim loại cơ bản, kim loại màu, cao su và nhựa tăng trưởng lần lượt 9,3%, 16,3% và 23,4%.",
+    "agent_answer": "Theo phân tích tại Chương 1, cường độ tiêu thụ điện trên mỗi 1.000 USD GDP năm 2024 tăng lên 590 kWh so với mức 579 kWh năm 2023, đây là tỷ lệ cao nhất kể từ năm 2013 [wb-taking-stock-2025-03_p35_para_05]. Các ngành kim loại cơ bản, kim loại màu, cao su - nhựa có tốc độ tăng trưởng lần lượt là 9,3%, 16,3% và 23,4% trong năm 2024 [wb-taking-stock-2025-03_p36_para_04].",
+    "citations": [
+      "wb-taking-stock-2025-03_p35_para_05",
+      "wb-taking-stock-2025-03_p36_para_04"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Trả lời đúng, đủ số liệu và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q17",
+    "expected_answer": "Giai đoạn 2024-2030 cần đầu tư 6-9 tỷ US$ cho ngành điện; giai đoạn 2031-2050 theo kịch bản ADS cần đầu tư cộng dồn 280 tỷ US$ (trong đó riêng đầu tư phát sinh về công suất lưới điện lên đến 9 tỷ US$).",
+    "agent_answer": "Để đáp ứng mục tiêu chuyển đổi xe điện, Việt Nam cần đầu tư từ 6 đến 9 tỷ USD cho ngành điện trong giai đoạn 2024-2030. Cộng dồn trong giai đoạn 2031-2050, tổng nhu cầu đầu tư là 101 tỷ USD theo kịch bản ADS. [wb-taking-stock-2025-03_p52_para_03] [wb-taking-stock-2025-03_p53_para_02]",
+    "citations": [
+      "wb-taking-stock-2025-03_p52_para_03",
+      "wb-taking-stock-2025-03_p53_para_02"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 1,
+    "notes": "Đúng giai đoạn 2024-2030 (6-9 tỷ USD), nhưng ghi nhầm cộng dồn 2031-2050 thành 101 tỷ USD thay vì 280 tỷ USD (ADS) và thiếu 9 tỷ USD công suất lưới."
+  },
+  {
+    "query_id": "q18",
+    "expected_answer": "Nếu cơ cấu nguồn điện lưới giữ như năm 2022, chuyển sang xe điện vẫn giúp giảm phát thải ròng 2,2 triệu tấn CO2eq vào năm 2050; nếu hoàn thành xanh hóa lưới điện theo QHĐ8, mức giảm phát thải ròng đạt 5,3 triệu tấn CO2eq vào năm 2050.",
+    "agent_answer": "Nếu cơ cấu nguồn điện lưới giữ nguyên ở mức năm 2022, chuyển đổi sang xe điện có thể đem lại mức giảm phát thải ròng khoảng 2,2 triệu tấn CO2eq vào năm 2050. Ngược lại, nếu hoàn thành xanh hóa lưới điện theo QHĐ8, mức giảm phát thải ròng có thể đạt 5,3 triệu tấn CO2eq vào năm 2050. Điều này cho thấy rằng việc chuyển đổi sang xe điện có hiệu suất năng lượng cao hơn sẽ giúp giảm phát thải, nhưng mức giảm sẽ khác nhau tùy thuộc vào việc có hoàn thành xanh hóa lưới điện hay không [wb-taking-stock-2025-03_p55_para_02].",
+    "citations": [
+      "wb-taking-stock-2025-03_p55_para_02"
+    ],
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "notes": "Đạt: Trả lời đúng, đủ số liệu và citation hỗ trợ chính xác."
+  },
+  {
+    "query_id": "q19",
+    "expected_answer": "Với giá dầu thô 80 US$/thùng, chi tiêu cộng dồn tiết kiệm được đến năm 2050 là 360 tỷ US$ theo kịch bản SPS và 498 tỷ US$ theo kịch bản ADS.",
+    "agent_answer": "Việc chuyển đổi sang xe điện đến năm 2050 giúp Việt Nam tiết kiệm cộng dồn khoảng 4.502 thùng dầu thô theo kịch bản SPS và 6.224 thùng dầu thô theo kịch bản ADS, nếu giả định giá dầu thô quốc tế ở mức 80 USD/thùng. [wb-taking-stock-2025-03_p56_para_03]",
+    "citations": [
+      "wb-taking-stock-2025-03_p56_para_03"
+    ],
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1,
+    "notes": "Nêu số lượng thùng dầu tiết kiệm nhưng thiếu số tiền tiết kiệm 360 tỷ USD (SPS) và 498 tỷ USD (ADS)."
+  },
+  {
+    "query_id": "q20",
+    "expected_answer": "Giai đoạn 2025-2027 ưu tiên tại 5 thành phố loại đặc biệt (Hà Nội, Hải Phòng, Đà Nẵng, TP. Hồ Chí Minh và Cần Thơ); kinh nghiệm quốc tế cho thấy trợ giá của Chính phủ cho hạ tầng sạc có thể hiệu quả gấp 6 lần so với trợ giá mua xe điện.",
+    "agent_answer": "Theo khuyến nghị chính sách ở Chương 2, lộ trình phát triển mạng lưới sạc công cộng giai đoạn 2025-2027 ưu tiên tại 5 thành phố loại đặc biệt là Hà Nội, Hải Phòng, Đà Nẵng, thành phố Hồ Chí Minh và Cần Thơ. Chính phủ cần hỗ trợ tài chính cho hạ tầng sạc vì đây vẫn là trở ngại lớn để tăng sự hấp dẫn của xe ô tô điện, và việc đảm bảo triển khai mạng lưới các trạm sạc công cộng tối ưu hiệu suất chi phí là thách thức lớn nhất để tạo môi trường thuận lợi cho xe ô tô điện [wb-taking-stock-2025-03_p60_para_05] [wb-taking-stock-2025-03_p46_para_03].",
+    "citations": [
+      "wb-taking-stock-2025-03_p60_para_05",
+      "wb-taking-stock-2025-03_p46_para_03"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 1,
+    "notes": "Đúng 5 thành phố loại đặc biệt (2025-2027), thiếu thông tin hiệu quả gấp 6 lần so với trợ giá mua xe điện."
+  },
+  {
+    "query_id": "q23",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Đạt: Từ chối đúng câu thiếu bằng chứng."
+  },
+  {
+    "query_id": "q24",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Đạt: Từ chối đúng câu thiếu bằng chứng."
+  }
+]
